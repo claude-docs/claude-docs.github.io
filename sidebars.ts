@@ -22,6 +22,8 @@ const sidebars: SidebarsConfig = {
         'cli/commands',
         'cli/slash-commands',
         'cli/configuration',
+        'cli/advanced',
+        'cli/prompting',
       ],
     },
     {
@@ -33,6 +35,9 @@ const sidebars: SidebarsConfig = {
         'mcp/architecture',
         'mcp/servers',
         'mcp/configuration',
+        'mcp/building-servers',
+        'mcp/advanced-patterns',
+        'mcp/recipes',
       ],
     },
     {
@@ -65,6 +70,8 @@ const sidebars: SidebarsConfig = {
         'hooks/overview',
         'hooks/events',
         'hooks/examples',
+        'hooks/cookbook',
+        'hooks/advanced',
       ],
     },
     {
@@ -75,6 +82,8 @@ const sidebars: SidebarsConfig = {
         'skills/overview',
         'skills/creating-skills',
         'skills/custom-commands',
+        'skills/advanced',
+        'skills/library',
       ],
     },
     {
@@ -82,11 +91,71 @@ const sidebars: SidebarsConfig = {
       label: 'Guides',
       collapsed: true,
       items: [
-        'guides/best-practices',
-        'guides/context-management',
-        'guides/cost-optimization',
-        'guides/multi-agent',
-        'guides/ci-cd',
+        {
+          type: 'category',
+          label: 'Core Guides',
+          collapsed: false,
+          items: [
+            'guides/best-practices',
+            'guides/productivity-tips',
+            'guides/context-management',
+            'guides/cost-optimization',
+            'guides/claude-md-mastery',
+            'guides/project-templates',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Workflows & Automation',
+          collapsed: true,
+          items: [
+            'guides/workflow-patterns',
+            'guides/automation-recipes',
+            'guides/scripting',
+            'guides/ci-cd',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Multi-Agent & Parallel',
+          collapsed: true,
+          items: [
+            'guides/multi-agent',
+            'guides/multi-agent-patterns',
+            'guides/parallel-development',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Security & Enterprise',
+          collapsed: true,
+          items: [
+            'guides/security-hardening',
+            'guides/enterprise-setup',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Development',
+          collapsed: true,
+          items: [
+            'guides/git-integration',
+            'guides/testing-strategies',
+            'guides/documentation-generation',
+            'guides/debugging',
+            'guides/real-world-examples',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Language Guides',
+          collapsed: true,
+          items: [
+            'guides/typescript-guide',
+            'guides/python-guide',
+            'guides/react-guide',
+          ],
+        },
       ],
     },
     {
@@ -97,6 +166,7 @@ const sidebars: SidebarsConfig = {
         'reference/models',
         'reference/permissions',
         'reference/troubleshooting',
+        'guides/troubleshooting-advanced',
         'reference/faq',
       ],
     },
