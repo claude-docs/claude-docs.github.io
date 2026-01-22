@@ -14,7 +14,8 @@ function HeroSection() {
         <div className={styles.heroGrid} />
       </div>
       <div className="container">
-        <div className={styles.heroContent}>
+        <div className={styles.heroInner}>
+          <div className={styles.heroContent}>
           <div className={styles.heroBadge}>
             <span className={styles.badgeDot} />
             Community Documentation
@@ -85,6 +86,7 @@ function HeroSection() {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </header>
@@ -237,7 +239,7 @@ function CodeExampleSection() {
   return (
     <section className={styles.codeExample}>
       <div className="container">
-        <div className={styles.codeExampleGrid}>
+        <div className={styles.codeExampleInner}>
           <div className={styles.codeExampleContent}>
             <span className={styles.sectionLabel}>Quick Start</span>
             <Heading as="h2" className={styles.sectionTitle}>
