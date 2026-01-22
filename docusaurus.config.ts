@@ -46,9 +46,29 @@ const config: Config = {
     image: 'img/social-card.png',
 
     metadata: [
-      {name: 'keywords', content: 'claude code, claude cli, anthropic, ai coding, mcp, model context protocol, claude agent sdk'},
-      {name: 'description', content: 'Documentation for the Claude Code ecosystem - CLI, MCP servers, Agent SDK, and more'},
+      // Basic SEO
+      {name: 'keywords', content: 'claude code, claude cli, anthropic, ai coding, mcp, model context protocol, claude agent sdk, ai assistant, code generation'},
+      {name: 'description', content: 'Documentation for the Claude Code ecosystem - CLI, MCP servers, Agent SDK, IDE integrations, and more. The complete guide to AI-assisted coding.'},
+      {name: 'author', content: 'Claude Code Docs Community'},
+
+      // Open Graph
       {property: 'og:type', content: 'website'},
+      {property: 'og:site_name', content: 'Claude Code Docs'},
+      {property: 'og:title', content: 'Claude Code Docs - AI-Assisted Coding Guide'},
+      {property: 'og:description', content: 'The complete guide to AI-assisted coding with Claude. CLI reference, MCP servers, Agent SDK, IDE integrations, and more.'},
+      {property: 'og:image', content: 'https://claude-docs.github.io/img/social-card.png'},
+      {property: 'og:image:width', content: '1200'},
+      {property: 'og:image:height', content: '630'},
+      {property: 'og:image:alt', content: 'Claude Code Docs - The complete guide to AI-assisted coding with Claude'},
+      {property: 'og:url', content: 'https://claude-docs.github.io'},
+      {property: 'og:locale', content: 'en_US'},
+
+      // Twitter Card
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:title', content: 'Claude Code Docs - AI-Assisted Coding Guide'},
+      {name: 'twitter:description', content: 'The complete guide to AI-assisted coding with Claude. CLI, MCP, SDK, IDE integrations, and more.'},
+      {name: 'twitter:image', content: 'https://claude-docs.github.io/img/social-card.png'},
+      {name: 'twitter:image:alt', content: 'Claude Code Docs'},
     ],
 
     colorMode: {

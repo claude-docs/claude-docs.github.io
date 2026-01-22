@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D97706"/>
+      <stop offset="50%" style="stop-color:#F59E0B"/>
+      <stop offset="100%" style="stop-color:#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#92400E"/>
+      <stop offset="100%" style="stop-color:#B45309"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg-gradient)"/>
+
+  <!-- Subtle pattern -->
+  <g opacity="0.1">
+    <circle cx="100" cy="100" r="200" fill="#fff"/>
+    <circle cx="1100" cy="530" r="250" fill="#fff"/>
+    <circle cx="900" cy="50" r="150" fill="#fff"/>
+  </g>
+
+  <!-- Logo box -->
+  <rect x="80" y="200" width="120" height="120" rx="24" fill="url(#logo-gradient)"/>
+  <text x="140" y="280" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="56" font-weight="700" fill="#FEF3C7" text-anchor="middle">CC</text>
+
+  <!-- Title -->
+  <text x="230" y="250" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="72" font-weight="700" fill="#1C1917">Claude Code Docs</text>
+
+  <!-- Tagline -->
+  <text x="230" y="310" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="32" fill="#292524">The complete guide to AI-assisted coding with Claude</text>
+
+  <!-- Features -->
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="24" fill="#44403C">
+    <text x="100" y="420">CLI Reference</text>
+    <text x="100" y="460">MCP Servers</text>
+    <text x="350" y="420">Agent SDK</text>
+    <text x="350" y="460">IDE Integrations</text>
+    <text x="600" y="420">Hooks System</text>
+    <text x="600" y="460">Skills &amp; Commands</text>
+    <text x="850" y="420">Best Practices</text>
+    <text x="850" y="460">Community Tools</text>
+  </g>
+
+  <!-- Dots for features -->
+  <g fill="#78350F">
+    <circle cx="85" cy="414" r="6"/>
+    <circle cx="85" cy="454" r="6"/>
+    <circle cx="335" cy="414" r="6"/>
+    <circle cx="335" cy="454" r="6"/>
+    <circle cx="585" cy="414" r="6"/>
+    <circle cx="585" cy="454" r="6"/>
+    <circle cx="835" cy="414" r="6"/>
+    <circle cx="835" cy="454" r="6"/>
+  </g>
+
+  <!-- URL -->
+  <text x="600" y="580" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="28" fill="#1C1917" text-anchor="middle" opacity="0.7">claude-docs.github.io</text>
+</svg>
