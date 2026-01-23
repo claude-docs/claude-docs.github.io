@@ -28,18 +28,16 @@ Model Context Protocol (MCP) is an open standard that lets Claude Code connect t
 - **Call APIs** - Interact with GitHub, Slack, Jira, and custom services
 - **Run specialized tools** - Execute code analysis, linting, testing frameworks
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                      Claude Code                             │
-└─────────────────────────────────────────────────────────────┘
-                            │
-            ┌───────────────┼───────────────┐
-            │               │               │
-            ▼               ▼               ▼
-     ┌──────────┐    ┌──────────┐    ┌──────────┐
-     │ Database │    │  GitHub  │    │   File   │
-     │  Server  │    │  Server  │    │  System  │
-     └──────────┘    └──────────┘    └──────────┘
+```mermaid
+flowchart TD
+    A[Claude Code] --> B[Database Server]
+    A --> C[GitHub Server]
+    A --> D[File System]
+
+    style A fill:#e0e7ff,stroke:#6366f1
+    style B fill:#dbeafe,stroke:#3b82f6
+    style C fill:#dbeafe,stroke:#3b82f6
+    style D fill:#dbeafe,stroke:#3b82f6
 ```
 
 ---

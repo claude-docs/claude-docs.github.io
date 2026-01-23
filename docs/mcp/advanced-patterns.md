@@ -14,19 +14,22 @@ Production-ready patterns for building robust, scalable MCP integrations.
 
 Run multiple specialized servers that work together:
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                     Claude Code                          │
-└─────────────┬──────────────┬──────────────┬─────────────┘
-              │              │              │
-              ▼              ▼              ▼
-       ┌──────────┐   ┌──────────┐   ┌──────────┐
-       │ Database │   │   API    │   │  File    │
-       │  Server  │   │  Server  │   │  Server  │
-       └────┬─────┘   └────┬─────┘   └────┬─────┘
-            │              │              │
-            ▼              ▼              ▼
-       PostgreSQL      REST APIs      Filesystem
+```mermaid
+flowchart TD
+    A[Claude Code] --> B[Database Server]
+    A --> C[API Server]
+    A --> D[File Server]
+    B --> E[(PostgreSQL)]
+    C --> F[REST APIs]
+    D --> G[Filesystem]
+
+    style A fill:#e0e7ff,stroke:#6366f1
+    style B fill:#dbeafe,stroke:#3b82f6
+    style C fill:#dbeafe,stroke:#3b82f6
+    style D fill:#dbeafe,stroke:#3b82f6
+    style E fill:#d1fae5,stroke:#10b981
+    style F fill:#d1fae5,stroke:#10b981
+    style G fill:#d1fae5,stroke:#10b981
 ```
 
 Configuration:

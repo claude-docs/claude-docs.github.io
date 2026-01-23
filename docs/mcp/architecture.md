@@ -92,31 +92,28 @@ Claude Code declares what it supports:
 
 ### Initialization
 
-```
-┌────────┐                    ┌────────┐
-│ Client │                    │ Server │
-└────┬───┘                    └────┬───┘
-     │                             │
-     │ ──── initialize ──────────► │
-     │                             │
-     │ ◄─── capabilities ───────── │
-     │                             │
-     │ ──── initialized ─────────► │
-     │                             │
-     │ ◄─── tools/list ──────────  │
-     │                             │
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant S as Server
+
+    C->>S: initialize
+    S->>C: capabilities
+    C->>S: initialized
+    S->>C: tools/list
 ```
 
 ### Normal Operation
 
-```
-     │ ──── tools/call ──────────► │
-     │                             │
-     │ ◄─── result ──────────────  │
-     │                             │
-     │ ──── resources/read ──────► │
-     │                             │
-     │ ◄─── content ────────────── │
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant S as Server
+
+    C->>S: tools/call
+    S->>C: result
+    C->>S: resources/read
+    S->>C: content
 ```
 
 ### Shutdown

@@ -34,11 +34,11 @@ function HeroSection() {
                 <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </Link>
-            <Link className={styles.secondaryButton} to="/cli/overview">
+            <Link className={styles.secondaryButton} to="/tutorials/overview">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path d="M6 7L9 10L6 13M11 13H14M4 3H16C16.5523 3 17 3.44772 17 4V16C17 16.5523 16.5523 17 16 17H4C3.44772 17 3 16.5523 3 16V4C3 3.44772 3.44772 3 4 3Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
-              <span>CLI Reference</span>
+              <span>Power User Tutorials</span>
             </Link>
           </div>
           <div className={styles.heroStats}>
@@ -310,6 +310,89 @@ function CodeExampleSection() {
   );
 }
 
+const tutorials = [
+  {
+    title: 'Bulk Processing & Automation',
+    description: 'Process hundreds of files with headless mode. Learn -p flag, output formats, and batch scripts.',
+    link: '/tutorials/bulk-processing',
+    time: '15 min',
+    icon: '📦',
+  },
+  {
+    title: 'Parallel Development',
+    description: 'Run multiple Claude agents with git worktrees. No more conflicts between agents.',
+    link: '/tutorials/parallel-agents',
+    time: '20 min',
+    icon: '🔀',
+  },
+  {
+    title: 'Custom Slash Commands',
+    description: 'Create reusable commands for your team. $ARGUMENTS, file references, and sharing.',
+    link: '/tutorials/custom-commands',
+    time: '10 min',
+    icon: '⚡',
+  },
+  {
+    title: 'Automated Code Review',
+    description: 'Multi-agent review architecture. GitHub Actions integration with quality gates.',
+    link: '/tutorials/automated-review',
+    time: '15 min',
+    icon: '🔍',
+  },
+  {
+    title: 'Essential MCP Servers',
+    description: 'Connect Claude to databases, GitHub, filesystems, and more external tools.',
+    link: '/tutorials/mcp-setup',
+    time: '15 min',
+    icon: '🔌',
+  },
+  {
+    title: 'Headless CI/CD',
+    description: 'Integrate Claude into GitHub Actions, GitLab CI, and Jenkins pipelines.',
+    link: '/tutorials/headless-cicd',
+    time: '20 min',
+    icon: '🚀',
+  },
+];
+
+function TutorialsSection() {
+  return (
+    <section className={styles.tutorials}>
+      <div className="container">
+        <div className={styles.sectionHeader}>
+          <span className={styles.sectionLabel}>Tutorials</span>
+          <Heading as="h2" className={styles.sectionTitle}>
+            Level up with hands-on guides
+          </Heading>
+          <p className={styles.sectionSubtitle}>
+            Self-contained tutorials that teach you new skills. Walk away with something you can use immediately.
+          </p>
+        </div>
+        <div className={styles.tutorialsGrid}>
+          {tutorials.map((tutorial, idx) => (
+            <Link key={idx} to={tutorial.link} className={styles.tutorialCard}>
+              <div className={styles.tutorialIcon}>{tutorial.icon}</div>
+              <div className={styles.tutorialContent}>
+                <Heading as="h4" className={styles.tutorialTitle}>{tutorial.title}</Heading>
+                <p className={styles.tutorialDescription}>{tutorial.description}</p>
+                <span className={styles.tutorialTime}>{tutorial.time}</span>
+              </div>
+            </Link>
+          ))}
+        </div>
+        <div className={styles.tutorialsMore}>
+          <Link to="/tutorials/overview" className={styles.primaryButton}>
+            <span>View All Tutorials</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function ResourcesSection() {
   return (
     <section className={styles.resources}>
@@ -421,6 +504,7 @@ export default function Home(): ReactNode {
       <main>
         <FeaturesSection />
         <CodeExampleSection />
+        <TutorialsSection />
         <GuidesSection />
         <ResourcesSection />
         <CTASection />

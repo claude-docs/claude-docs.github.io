@@ -55,22 +55,23 @@ claude [options] [prompt]
 
 ## Session Flow
 
-```
-┌─────────────────────────────────────────┐
-│  1. Start: claude                       │
-├─────────────────────────────────────────┤
-│  2. Load CLAUDE.md and settings         │
-├─────────────────────────────────────────┤
-│  3. Connect MCP servers                 │
-├─────────────────────────────────────────┤
-│  4. Interactive conversation            │
-│     ├── User input                      │
-│     ├── Claude processes                │
-│     ├── Tools execute                   │
-│     └── Response shown                  │
-├─────────────────────────────────────────┤
-│  5. Exit or continue                    │
-└─────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    A[1. Start: claude] --> B[2. Load CLAUDE.md and settings]
+    B --> C[3. Connect MCP servers]
+    C --> D[4. Interactive conversation]
+    D --> D1[User input]
+    D1 --> D2[Claude processes]
+    D2 --> D3[Tools execute]
+    D3 --> D4[Response shown]
+    D4 --> D1
+    D --> E[5. Exit or continue]
+
+    style A fill:#e0e7ff,stroke:#6366f1
+    style B fill:#dbeafe,stroke:#3b82f6
+    style C fill:#dbeafe,stroke:#3b82f6
+    style D fill:#fef3c7,stroke:#f59e0b
+    style E fill:#d1fae5,stroke:#10b981
 ```
 
 ## Context and Memory

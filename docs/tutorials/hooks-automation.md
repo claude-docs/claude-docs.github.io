@@ -30,30 +30,17 @@ Hooks are shell commands that run automatically when Claude Code performs specif
 - **Log actions** for audit trails
 - **Validate changes** before they're applied
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                   Claude edits file.js                       │
-└─────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────┐
-│              Pre-Edit Hook (optional)                        │
-│              - Validate permissions                          │
-│              - Check file locks                              │
-└─────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────┐
-│                    Edit Applied                              │
-└─────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────┐
-│              Post-Edit Hook                                  │
-│              - Run Prettier                                  │
-│              - Run ESLint --fix                              │
-│              - Notify Slack                                  │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    A[Claude edits file.js] --> B
+    B[Pre-Edit Hook<br/><small>• Validate permissions<br/>• Check file locks</small>] --> C
+    C[Edit Applied] --> D
+    D[Post-Edit Hook<br/><small>• Run Prettier<br/>• Run ESLint --fix<br/>• Notify Slack</small>]
+
+    style A fill:#e0e7ff,stroke:#6366f1
+    style B fill:#fef3c7,stroke:#f59e0b
+    style C fill:#d1fae5,stroke:#10b981
+    style D fill:#fef3c7,stroke:#f59e0b
 ```
 
 ---

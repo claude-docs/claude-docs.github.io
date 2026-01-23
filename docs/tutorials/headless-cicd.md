@@ -29,20 +29,18 @@ Claude Code in your pipeline can:
 - **Update documentation** - Keep docs in sync with code
 - **Perform security audits** - Scan for vulnerabilities on every push
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    Push to Branch                            │
-└─────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────┐
-│                   CI Pipeline Starts                         │
-│                                                              │
-│  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────────────┐ │
-│  │  Build  │→ │  Test   │→ │  Claude │→ │  Deploy/Report  │ │
-│  │         │  │         │  │  Review │  │                 │ │
-│  └─────────┘  └─────────┘  └─────────┘  └─────────────────┘ │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart LR
+    A[Push to Branch] --> B[Build]
+    B --> C[Test]
+    C --> D[Claude Review]
+    D --> E[Deploy / Report]
+
+    style A fill:#e0e7ff,stroke:#6366f1
+    style B fill:#dbeafe,stroke:#3b82f6
+    style C fill:#dbeafe,stroke:#3b82f6
+    style D fill:#fef3c7,stroke:#f59e0b
+    style E fill:#d1fae5,stroke:#10b981
 ```
 
 ---

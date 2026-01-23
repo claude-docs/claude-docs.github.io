@@ -23,29 +23,27 @@ Build an automated code review system that uses multiple Claude agents to catch 
 
 Claude Code's code review plugin uses a powerful multi-agent architecture:
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    PR Changes                                │
-└─────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────┬─────────────┬─────────────┬─────────────────┐
-│  Agent 1    │  Agent 2    │  Agent 3    │  Agent 4        │
-│  Security   │  Bugs       │  Style      │  CLAUDE.md      │
-│  Review     │  Review     │  Review     │  Compliance     │
-└─────────────┴─────────────┴─────────────┴─────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────┐
-│              Validation Subagents                            │
-│  (Verify each issue is real, not a false positive)          │
-└─────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────┐
-│              Final Review Report                             │
-│  (Only high-confidence issues, with line numbers)           │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    A[PR Changes] --> B1[Agent 1<br/>Security Review]
+    A --> B2[Agent 2<br/>Bugs Review]
+    A --> B3[Agent 3<br/>Style Review]
+    A --> B4[Agent 4<br/>CLAUDE.md Compliance]
+
+    B1 --> C[Validation Subagents<br/><small>Verify each issue is real</small>]
+    B2 --> C
+    B3 --> C
+    B4 --> C
+
+    C --> D[Final Review Report<br/><small>High-confidence issues with line numbers</small>]
+
+    style A fill:#e0e7ff,stroke:#6366f1
+    style B1 fill:#fee2e2,stroke:#ef4444
+    style B2 fill:#fef3c7,stroke:#f59e0b
+    style B3 fill:#dbeafe,stroke:#3b82f6
+    style B4 fill:#f3e8ff,stroke:#a855f7
+    style C fill:#fef3c7,stroke:#f59e0b
+    style D fill:#d1fae5,stroke:#10b981
 ```
 
 ---

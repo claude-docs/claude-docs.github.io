@@ -592,6 +592,111 @@
 }
 
 /* ============================================
+   TUTORIALS SECTION
+   ============================================ */
+
+.tutorials {
+  padding: 5rem 0;
+  background: linear-gradient(180deg, #FFFBEB 0%, #FEF3C7 100%);
+}
+
+[data-theme='dark'] .tutorials {
+  background: linear-gradient(180deg, #292524 0%, #1C1917 100%);
+}
+
+.tutorialsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.tutorialCard {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: white;
+  border: 1px solid #E7E5E4;
+  border-radius: 12px;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+[data-theme='dark'] .tutorialCard {
+  background: #292524;
+  border-color: #3F3F46;
+}
+
+.tutorialCard:hover {
+  transform: translateY(-2px);
+  border-color: #D97706;
+  box-shadow: 0 8px 24px rgba(217, 119, 6, 0.12);
+}
+
+[data-theme='dark'] .tutorialCard:hover {
+  border-color: #FBBF24;
+  box-shadow: 0 8px 24px rgba(251, 191, 36, 0.12);
+}
+
+.tutorialIcon {
+  font-size: 2rem;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(217, 119, 6, 0.1);
+  border-radius: 10px;
+}
+
+[data-theme='dark'] .tutorialIcon {
+  background: rgba(251, 191, 36, 0.1);
+}
+
+.tutorialContent {
+  flex: 1;
+  min-width: 0;
+}
+
+.tutorialTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1C1917;
+  margin: 0 0 0.375rem;
+}
+
+[data-theme='dark'] .tutorialTitle {
+  color: #FAFAF9;
+}
+
+.tutorialDescription {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #57534E;
+  margin: 0 0 0.5rem;
+}
+
+[data-theme='dark'] .tutorialDescription {
+  color: #A8A29E;
+}
+
+.tutorialTime {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #B45309;
+}
+
+[data-theme='dark'] .tutorialTime {
+  color: #FBBF24;
+}
+
+.tutorialsMore {
+  text-align: center;
+}
+
+/* ============================================
    GUIDES SECTION
    ============================================ */
 
@@ -912,6 +1017,10 @@
     text-align: left;
   }
 
+  .tutorialsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .guidesGrid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -964,6 +1073,19 @@
 
   .featureGrid {
     grid-template-columns: 1fr;
+  }
+
+  .tutorialsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .tutorialCard {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tutorialIcon {
+    margin: 0 auto 0.75rem;
   }
 
   .guidesGrid {

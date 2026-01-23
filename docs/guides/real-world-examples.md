@@ -933,30 +933,32 @@ You need to extract a feature from a monolith into a separate microservice.
 
 ### Service Architecture
 
-```
-┌─────────────────┐     Events      ┌────────────────────┐
-│    Monolith     │────────────────>│ Notification       │
-│                 │                 │ Service            │
-│  ┌───────────┐  │                 │  ┌──────────────┐  │
-│  │ Notif.    │  │  HTTP API       │  │ Event        │  │
-│  │ Client    │──────────────────>│  │ Consumer     │  │
-│  └───────────┘  │                 │  └──────────────┘  │
-└─────────────────┘                 │  ┌──────────────┐  │
-                                    │  │ Notification │  │
-                                    │  │ Workers      │  │
-                                    │  └──────────────┘  │
-                                    │  ┌──────────────┐  │
-                                    │  │ Provider     │  │
-                                    │  │ Adapters     │  │
-                                    │  └──────────────┘  │
-                                    └────────────────────┘
-                                             │
-                      ┌──────────────────────┼──────────────────────┐
-                      ▼                      ▼                      ▼
-               ┌──────────┐           ┌──────────┐           ┌──────────┐
-               │  Email   │           │   SMS    │           │   Push   │
-               │ Provider │           │ Provider │           │ Provider │
-               └──────────┘           └──────────┘           └──────────┘
+```mermaid
+flowchart TD
+    subgraph Monolith
+        NC[Notif. Client]
+    end
+
+    subgraph NS[Notification Service]
+        EC[Event Consumer]
+        NW[Notification Workers]
+        PA[Provider Adapters]
+    end
+
+    Monolith -->|Events| NS
+    NC -->|HTTP API| EC
+    EC --> NW
+    NW --> PA
+
+    PA --> Email[Email Provider]
+    PA --> SMS[SMS Provider]
+    PA --> Push[Push Provider]
+
+    style Monolith fill:#e0e7ff,stroke:#6366f1
+    style NS fill:#dbeafe,stroke:#3b82f6
+    style Email fill:#d1fae5,stroke:#10b981
+    style SMS fill:#d1fae5,stroke:#10b981
+    style Push fill:#d1fae5,stroke:#10b981
 ```
 
 ---

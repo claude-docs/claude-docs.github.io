@@ -20,18 +20,14 @@ MCP provides a standardized way for AI applications to:
 
 MCP uses a client-server architecture:
 
-```
-┌─────────────────┐     JSON-RPC     ┌─────────────────┐
-│   Claude Code   │◄────────────────►│   MCP Server    │
-│   (MCP Client)  │                  │   (Tool Provider)│
-└─────────────────┘                  └─────────────────┘
-                                            │
-                                            ▼
-                                     ┌─────────────────┐
-                                     │  External       │
-                                     │  Resource       │
-                                     │  (DB, API, etc.)│
-                                     └─────────────────┘
+```mermaid
+flowchart LR
+    A[Claude Code<br/><small>MCP Client</small>] <-->|JSON-RPC| B[MCP Server<br/><small>Tool Provider</small>]
+    B --> C[External Resource<br/><small>DB, API, etc.</small>]
+
+    style A fill:#e0e7ff,stroke:#6366f1
+    style B fill:#dbeafe,stroke:#3b82f6
+    style C fill:#f3e8ff,stroke:#a855f7
 ```
 
 ### Key Components
