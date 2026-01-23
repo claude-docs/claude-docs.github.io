@@ -20,6 +20,7 @@ Each tutorial walks you through a specific Claude Code capability from start to 
 | [Hooks & Automation](/tutorials/hooks-automation) | 15 min | Auto-format, lint, and notify |
 | [Headless CI/CD](/tutorials/headless-cicd) | 20 min | Integrate Claude into pipelines |
 | [Session Management](/tutorials/session-mastery) | 10 min | Resume, organize, and optimize sessions |
+| [Local Models with Ollama](/tutorials/ollama-local-models) | 10 min | Run Claude Code free with local models |
 
 ## Prerequisites
 

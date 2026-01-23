@@ -57,6 +57,7 @@ Resources for learning and mastering Claude Code.
 
 #### Model Providers
 - [Ollama + Claude Code](https://ollama.com/blog/claude) - Run Claude Code with local open-source models via Ollama
+- [Local Models Tutorial](/tutorials/ollama-local-models) - Step-by-step guide to setting up Ollama with Claude Code
 
 ## Community
 

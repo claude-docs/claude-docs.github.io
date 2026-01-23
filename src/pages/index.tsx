@@ -353,6 +353,13 @@ const tutorials = [
     time: '20 min',
     icon: '🚀',
   },
+  {
+    title: 'Local Models with Ollama',
+    description: 'Run Claude Code free with local open-source models. No API costs.',
+    link: '/tutorials/ollama-local-models',
+    time: '10 min',
+    icon: '🏠',
+  },
 ];
 
 function TutorialsSection() {

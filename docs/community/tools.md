@@ -110,6 +110,30 @@ Autonomous Claude Code with persistent GNU Screen sessions:
 
 ## Model Routing
 
+### Ollama
+
+Run Claude Code with free local open-source models:
+
+```bash
+# Install Ollama
+curl -fsSL https://ollama.com/install.sh | sh
+
+# Configure Claude Code to use Ollama
+export ANTHROPIC_AUTH_TOKEN=ollama
+export ANTHROPIC_BASE_URL=http://localhost:11434
+
+# Run with a local model
+claude --model qwen3-coder
+```
+
+Features:
+- No API costs - run unlimited queries
+- Private - code never leaves your machine
+- Offline capable
+- Supports qwen3-coder, codellama, deepseek-coder, and cloud models
+
+[Blog Post](https://ollama.com/blog/claude) | [Tutorial](/tutorials/ollama-local-models)
+
 ### claude-code-router
 
 Route Claude Code requests to alternative AI providers:
