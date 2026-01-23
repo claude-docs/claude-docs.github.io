@@ -104,6 +104,11 @@ const config: Config = {
           position: 'left',
         },
         {
+          to: '/tutorials/overview',
+          label: 'Tutorials',
+          position: 'left',
+        },
+        {
           to: '/cli/overview',
           label: 'CLI',
           position: 'left',
@@ -154,6 +159,7 @@ const config: Config = {
           title: 'Learn',
           items: [
             {label: 'Getting Started', to: '/getting-started/introduction'},
+            {label: 'Tutorials', to: '/tutorials/overview'},
             {label: 'CLI Reference', to: '/cli/overview'},
             {label: 'MCP Guide', to: '/mcp/overview'},
           ],
