@@ -15,6 +15,22 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Tutorials',
+      collapsed: false,
+      items: [
+        'tutorials/overview',
+        'tutorials/bulk-processing',
+        'tutorials/parallel-agents',
+        'tutorials/custom-commands',
+        'tutorials/automated-review',
+        'tutorials/mcp-setup',
+        'tutorials/hooks-automation',
+        'tutorials/headless-cicd',
+        'tutorials/session-mastery',
+      ],
+    },
+    {
+      type: 'category',
       label: 'CLI Reference',
       collapsed: true,
       items: [
