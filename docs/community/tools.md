@@ -206,6 +206,41 @@ Production-ready system with 108 specialized agents:
 
 ---
 
+## Skills Directories
+
+### skills.sh
+
+Vercel's open skills directory with leaderboard and easy installation:
+
+```bash
+npx skills add vercel-labs/react-best-practices
+```
+
+Popular skills include React best practices (32K+ installs), web design guidelines, and framework-specific patterns.
+
+**Features:**
+- Agent-agnostic (Claude Code, Cursor, Copilot, Codex)
+- Open SKILL.md standard
+- Leaderboard by install count
+
+**Security warnings:**
+- Skills are executable instructions, not just documentation - [audit before installing](https://www.aikido.dev/blog/agent-skills-spreading-hallucinated-npx-commands)
+- Rankings come from Vercel's own telemetry (Vercel skills dominate leaderboard)
+- No built-in version management or update mechanism
+- Installation paths vary by agent - removal can be unclear
+
+[Website](https://skills.sh/) | [GitHub](https://github.com/vercel-labs/agent-skills)
+
+### Alternative Directories
+
+| Directory | Description |
+|-----------|-------------|
+| [anthropics/skills](https://github.com/anthropics/skills) | Official Anthropic skills repository |
+| [SkillsMP](https://skillsmp.com/) | Community marketplace with 71K+ skills |
+| [OpenSkills](https://github.com/numman-ali/openskills) | Universal loader for multiple agents |
+
+---
+
 ## Skills & Subagents
 
 ### Awesome Claude Code Subagents
