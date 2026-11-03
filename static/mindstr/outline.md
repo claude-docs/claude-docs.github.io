@@ -982,7 +982,7 @@
     - [Executive Summary](https://claude-docs.github.io/skills/library#executive-summary)
     - [Critical Findings](https://claude-docs.github.io/skills/library#critical-findings)
       - [SEC-001: SQL Injection](https://claude-docs.github.io/skills/library#sec-001-sql-injection)
-- [Guides · 0](./guides.jsonld)
+- [Guides · 6](./guides.jsonld)
   - [Core Guides](./core-guides.jsonld)
     - [Best Practices](./guides-best-practices.jsonld)
       - [Prompting](https://claude-docs.github.io/guides/best-practices#prompting)
