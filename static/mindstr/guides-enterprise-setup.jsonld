@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Enterprise Setup",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#bucekk",
+      "name": "Enterprise CLAUDE.md Configuration",
+      "x": -227,
+      "y": -82,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#enterprise-claudemd-configuration",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#6k8hhq",
+      "name": "Organization-Wide CLAUDE.md",
+      "x": -496,
+      "y": -90,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#organization-wide-claudemd",
+      "bgColor": "#daeeff",
+      "parent": "#bucekk"
+    },
+    {
+      "@id": "#2b8n83",
+      "name": "Project-Level CLAUDE.md Extension",
+      "x": -504,
+      "y": -260,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#project-level-claudemd-extension",
+      "bgColor": "#daeeff",
+      "parent": "#bucekk"
+    },
+    {
+      "@id": "#tng5ix",
+      "name": "Centralized Permission Policies",
+      "x": -58,
+      "y": -207,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#centralized-permission-policies",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#gx9dm5",
+      "name": "Enterprise Permission Configuration",
+      "x": -242,
+      "y": -372,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#enterprise-permission-configuration",
+      "bgColor": "#efe6ff",
+      "parent": "#tng5ix"
+    },
+    {
+      "@id": "#eiz2g9",
+      "name": "Policy Distribution",
+      "x": -119,
+      "y": -491,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#policy-distribution",
+      "bgColor": "#efe6ff",
+      "parent": "#tng5ix"
+    },
+    {
+      "@id": "#g8vmfm",
+      "name": "Policy Enforcement via Hooks",
+      "x": 33,
+      "y": -424,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#policy-enforcement-via-hooks",
+      "bgColor": "#efe6ff",
+      "parent": "#tng5ix"
+    },
+    {
+      "@id": "#vuvhfb",
+      "name": "SSO Integration",
+      "x": 207,
+      "y": -119,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#sso-integration",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#pn94r5",
+      "name": "SAML Configuration",
+      "x": 234,
+      "y": -368,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#saml-configuration",
+      "bgColor": "#ffe2ed",
+      "parent": "#vuvhfb"
+    },
+    {
+      "@id": "#mavy9d",
+      "name": "OIDC Configuration",
+      "x": 409,
+      "y": -369,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#oidc-configuration",
+      "bgColor": "#ffe2ed",
+      "parent": "#vuvhfb"
+    },
+    {
+      "@id": "#bwvmf5",
+      "name": "SSO-Based Permission Mapping",
+      "x": 423,
+      "y": -226,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#sso-based-permission-mapping",
+      "bgColor": "#ffe2ed",
+      "parent": "#vuvhfb"
+    },
+    {
+      "@id": "#85thsg",
+      "name": "Enterprise Identity Provider Setup",
+      "x": 576,
+      "y": -109,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#enterprise-identity-provider-setup",
+      "bgColor": "#ffe2ed",
+      "parent": "#vuvhfb"
+    },
+    {
+      "@id": "#invuuk",
+      "name": "API Key Management",
+      "x": 202,
+      "y": 125,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#api-key-management",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#u3sajb",
+      "name": "Centralized Key Management",
+      "x": 477,
+      "y": 128,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#centralized-key-management",
+      "bgColor": "#ffe4d9",
+      "parent": "#invuuk"
+    },
+    {
+      "@id": "#dexbxq",
+      "name": "Key Distribution via Secret Manager",
+      "x": 472,
+      "y": 300,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#key-distribution-via-secret-manager",
+      "bgColor": "#ffe4d9",
+      "parent": "#invuuk"
+    },
+    {
+      "@id": "#u3t925",
+      "name": "Key Rotation Automation",
+      "x": 285,
+      "y": 349,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#key-rotation-automation",
+      "bgColor": "#ffe4d9",
+      "parent": "#invuuk"
+    },
+    {
+      "@id": "#zed326",
+      "name": "Usage Monitoring and Quotas",
+      "x": 4,
+      "y": 212,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#usage-monitoring-and-quotas",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#225x7g",
+      "name": "Token Usage Tracking",
+      "x": 103,
+      "y": 416,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#token-usage-tracking",
+      "bgColor": "#f2ecd2",
+      "parent": "#zed326"
+    },
+    {
+      "@id": "#5v2iwr",
+      "name": "Usage Dashboard",
+      "x": -4,
+      "y": 501,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#usage-dashboard",
+      "bgColor": "#f2ecd2",
+      "parent": "#zed326"
+    },
+    {
+      "@id": "#krs5mw",
+      "name": "Cost Allocation",
+      "x": -98,
+      "y": 417,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#cost-allocation",
+      "bgColor": "#f2ecd2",
+      "parent": "#zed326"
+    },
+    {
+      "@id": "#apt85m",
+      "name": "Team Onboarding",
+      "x": -180,
+      "y": 148,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#team-onboarding",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#i7gzar",
+      "name": "Onboarding Checklist",
+      "x": -227,
+      "y": 364,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#onboarding-checklist",
+      "bgColor": "#ddf2de",
+      "parent": "#apt85m"
+    },
+    {
+      "@id": "#dqf5sa",
+      "name": "Team Configuration Template",
+      "x": -445,
+      "y": 345,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#team-configuration-template",
+      "bgColor": "#ddf2de",
+      "parent": "#apt85m"
+    },
+    {
+      "@id": "#efyysj",
+      "name": "Training Materials",
+      "x": -439,
+      "y": 203,
+      "link": "https://claude-docs.github.io/guides/enterprise-setup#training-materials",
+      "bgColor": "#ddf2de",
+      "parent": "#apt85m"
+    },
+    {
+      "@id": "#s6tfxm",
+      "name": "← Security & Enterprise",
+      "x": -247,
+      "y": 33,
+      "link": "./security-enterprise.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 4,
+      "end": 5
+    },
+    {
+      "start": 4,
+      "end": 6
+    },
+    {
+      "start": 4,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 8,
+      "end": 9
+    },
+    {
+      "start": 8,
+      "end": 10
+    },
+    {
+      "start": 8,
+      "end": 11
+    },
+    {
+      "start": 8,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 13,
+      "end": 14
+    },
+    {
+      "start": 13,
+      "end": 15
+    },
+    {
+      "start": 13,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    },
+    {
+      "start": 17,
+      "end": 18
+    },
+    {
+      "start": 17,
+      "end": 19
+    },
+    {
+      "start": 17,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 21,
+      "end": 22
+    },
+    {
+      "start": 21,
+      "end": 23
+    },
+    {
+      "start": 21,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

@@ -1,0 +1,337 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Headless CI/CD Integration",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#er3xwg",
+      "name": "Why Use Claude in CI/CD?",
+      "x": -281,
+      "y": -39,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#why-use-claude-in-cicd",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#3p4wn2",
+      "name": "Prerequisites",
+      "x": -201,
+      "y": -126,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#prerequisites",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#f356md",
+      "name": "Get Your API Key",
+      "x": -432,
+      "y": -213,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#1-get-your-api-key",
+      "bgColor": "#efe6ff",
+      "parent": "#3p4wn2"
+    },
+    {
+      "@id": "#c9pfmk",
+      "name": "Store as Secret",
+      "x": -433,
+      "y": -341,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#2-store-as-secret",
+      "bgColor": "#efe6ff",
+      "parent": "#3p4wn2"
+    },
+    {
+      "@id": "#metvfr",
+      "name": "GitHub Actions Workflows",
+      "x": 15,
+      "y": -212,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#github-actions-workflows",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#rnyi3y",
+      "name": "Basic PR Review",
+      "x": -217,
+      "y": -383,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#basic-pr-review",
+      "bgColor": "#ffe2ed",
+      "parent": "#metvfr"
+    },
+    {
+      "@id": "#ph8a5e",
+      "name": "Security Audit on Push",
+      "x": -115,
+      "y": -492,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#security-audit-on-push",
+      "bgColor": "#ffe2ed",
+      "parent": "#metvfr"
+    },
+    {
+      "@id": "#uncmtp",
+      "name": "Auto-Generate Changelog",
+      "x": 50,
+      "y": -410,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#auto-generate-changelog",
+      "bgColor": "#ffe2ed",
+      "parent": "#metvfr"
+    },
+    {
+      "@id": "#3vjzm2",
+      "name": "Quality Gate with Structured Output",
+      "x": 264,
+      "y": -455,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#quality-gate-with-structured-output",
+      "bgColor": "#ffe2ed",
+      "parent": "#metvfr"
+    },
+    {
+      "@id": "#6wz95i",
+      "name": "GitLab CI Configuration",
+      "x": 207,
+      "y": -119,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#gitlab-ci-configuration",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#mkijzp",
+      "name": "Jenkins Pipeline",
+      "x": 240,
+      "y": -65,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#jenkins-pipeline",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wm3fr8",
+      "name": "CircleCI Configuration",
+      "x": 273,
+      "y": 5,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#circleci-configuration",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#xx6ai9",
+      "name": "Best Practices",
+      "x": 140,
+      "y": 176,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#best-practices",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#t5gcp9",
+      "name": "Use Structured Output for Gates",
+      "x": 435,
+      "y": 209,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#1-use-structured-output-for-gates",
+      "bgColor": "#d1f3f4",
+      "parent": "#xx6ai9"
+    },
+    {
+      "@id": "#wdgxta",
+      "name": "Handle Rate Limits",
+      "x": 406,
+      "y": 371,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#2-handle-rate-limits",
+      "bgColor": "#d1f3f4",
+      "parent": "#xx6ai9"
+    },
+    {
+      "@id": "#4pcagq",
+      "name": "Cache Node Modules",
+      "x": 231,
+      "y": 375,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#3-cache-node-modules",
+      "bgColor": "#d1f3f4",
+      "parent": "#xx6ai9"
+    },
+    {
+      "@id": "#5b4mbz",
+      "name": "Limit Scope",
+      "x": 153,
+      "y": 484,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#4-limit-scope",
+      "bgColor": "#d1f3f4",
+      "parent": "#xx6ai9"
+    },
+    {
+      "@id": "#6kbx7u",
+      "name": "Set Timeouts",
+      "x": 25,
+      "y": 424,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#5-set-timeouts",
+      "bgColor": "#d1f3f4",
+      "parent": "#xx6ai9"
+    },
+    {
+      "@id": "#9bysfh",
+      "name": "Debugging CI Issues",
+      "x": -145,
+      "y": 173,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#debugging-ci-issues",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cyd9xx",
+      "name": "Enable Verbose Output",
+      "x": -185,
+      "y": 393,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#enable-verbose-output",
+      "bgColor": "#daeeff",
+      "parent": "#9bysfh"
+    },
+    {
+      "@id": "#bvsynb",
+      "name": "Check API Key",
+      "x": -354,
+      "y": 403,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#check-api-key",
+      "bgColor": "#daeeff",
+      "parent": "#9bysfh"
+    },
+    {
+      "@id": "#xintwj",
+      "name": "Test Locally First",
+      "x": -381,
+      "y": 275,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#test-locally-first",
+      "bgColor": "#daeeff",
+      "parent": "#9bysfh"
+    },
+    {
+      "@id": "#yhbdjy",
+      "name": "Quick Reference",
+      "x": -232,
+      "y": 79,
+      "link": "https://claude-docs.github.io/tutorials/headless-cicd#quick-reference",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#hgctui",
+      "name": "← Tutorials",
+      "x": -248,
+      "y": 27,
+      "link": "./tutorials.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 5,
+      "end": 8
+    },
+    {
+      "start": 5,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 13,
+      "end": 14
+    },
+    {
+      "start": 13,
+      "end": 15
+    },
+    {
+      "start": 13,
+      "end": 16
+    },
+    {
+      "start": 13,
+      "end": 17
+    },
+    {
+      "start": 13,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 19,
+      "end": 20
+    },
+    {
+      "start": 19,
+      "end": 21
+    },
+    {
+      "start": 19,
+      "end": 22
+    },
+    {
+      "start": 0,
+      "end": 23
+    },
+    {
+      "start": 0,
+      "end": 24
+    }
+  ],
+  "selectedNode": 0
+}

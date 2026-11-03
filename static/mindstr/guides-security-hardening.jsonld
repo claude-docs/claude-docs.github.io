@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Security Hardening",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/guides/security-hardening",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#agzf86",
+      "name": "Permission Model Deep Dive",
+      "x": -183,
+      "y": -145,
+      "link": "https://claude-docs.github.io/guides/security-hardening#permission-model-deep-dive",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wiyfmm",
+      "name": "Understanding the Permission Architecture",
+      "x": -475,
+      "y": -132,
+      "link": "https://claude-docs.github.io/guides/security-hardening#understanding-the-permission-architecture",
+      "bgColor": "#daeeff",
+      "parent": "#agzf86"
+    },
+    {
+      "@id": "#vcs2dv",
+      "name": "Permission Evaluation Flow",
+      "x": -471,
+      "y": -296,
+      "link": "https://claude-docs.github.io/guides/security-hardening#permission-evaluation-flow",
+      "bgColor": "#daeeff",
+      "parent": "#agzf86"
+    },
+    {
+      "@id": "#35gh2a",
+      "name": "Least Privilege Configuration",
+      "x": -301,
+      "y": -342,
+      "link": "https://claude-docs.github.io/guides/security-hardening#least-privilege-configuration",
+      "bgColor": "#daeeff",
+      "parent": "#agzf86"
+    },
+    {
+      "@id": "#48h7pt",
+      "name": "Role-Based Permission Templates",
+      "x": -201,
+      "y": -472,
+      "link": "https://claude-docs.github.io/guides/security-hardening#role-based-permission-templates",
+      "bgColor": "#daeeff",
+      "parent": "#agzf86"
+    },
+    {
+      "@id": "#wi983d",
+      "name": "Sandboxing Configuration",
+      "x": 136,
+      "y": -178,
+      "link": "https://claude-docs.github.io/guides/security-hardening#sandboxing-configuration",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#djut8k",
+      "name": "Enable Full Sandbox Mode",
+      "x": 77,
+      "y": -414,
+      "link": "https://claude-docs.github.io/guides/security-hardening#enable-full-sandbox-mode",
+      "bgColor": "#efe6ff",
+      "parent": "#wi983d"
+    },
+    {
+      "@id": "#d7yukb",
+      "name": "Sandbox Configuration Options",
+      "x": 243,
+      "y": -460,
+      "link": "https://claude-docs.github.io/guides/security-hardening#sandbox-configuration-options",
+      "bgColor": "#efe6ff",
+      "parent": "#wi983d"
+    },
+    {
+      "@id": "#32mmrj",
+      "name": "Platform-Specific Sandboxing",
+      "x": 327,
+      "y": -322,
+      "link": "https://claude-docs.github.io/guides/security-hardening#platform-specific-sandboxing",
+      "bgColor": "#efe6ff",
+      "parent": "#wi983d"
+    },
+    {
+      "@id": "#m9qsz3",
+      "name": "Container-Based Sandboxing",
+      "x": 492,
+      "y": -277,
+      "link": "https://claude-docs.github.io/guides/security-hardening#container-based-sandboxing",
+      "bgColor": "#efe6ff",
+      "parent": "#wi983d"
+    },
+    {
+      "@id": "#fj8ivy",
+      "name": "Network Isolation",
+      "x": 249,
+      "y": 19,
+      "link": "https://claude-docs.github.io/guides/security-hardening#network-isolation",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qqvq4u",
+      "name": "Disable Network Access",
+      "x": 493,
+      "y": -69,
+      "link": "https://claude-docs.github.io/guides/security-hardening#disable-network-access",
+      "bgColor": "#ffe2ed",
+      "parent": "#fj8ivy"
+    },
+    {
+      "@id": "#y9d5vp",
+      "name": "Allow Specific Domains Only",
+      "x": 588,
+      "y": 46,
+      "link": "https://claude-docs.github.io/guides/security-hardening#allow-specific-domains-only",
+      "bgColor": "#ffe2ed",
+      "parent": "#fj8ivy"
+    },
+    {
+      "@id": "#te5sc3",
+      "name": "Firewall Configuration",
+      "x": 471,
+      "y": 143,
+      "link": "https://claude-docs.github.io/guides/security-hardening#firewall-configuration",
+      "bgColor": "#ffe2ed",
+      "parent": "#fj8ivy"
+    },
+    {
+      "@id": "#g7ngdf",
+      "name": "File System Restrictions",
+      "x": 161,
+      "y": 163,
+      "link": "https://claude-docs.github.io/guides/security-hardening#file-system-restrictions",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#49bd3u",
+      "name": "Comprehensive File Deny Rules",
+      "x": 372,
+      "y": 284,
+      "link": "https://claude-docs.github.io/guides/security-hardening#comprehensive-file-deny-rules",
+      "bgColor": "#ffe4d9",
+      "parent": "#g7ngdf"
+    },
+    {
+      "@id": "#hmhj3b",
+      "name": "Directory-Level Restrictions",
+      "x": 310,
+      "y": 427,
+      "link": "https://claude-docs.github.io/guides/security-hardening#directory-level-restrictions",
+      "bgColor": "#ffe4d9",
+      "parent": "#g7ngdf"
+    },
+    {
+      "@id": "#a5c76z",
+      "name": "Secret Management",
+      "x": -74,
+      "y": 203,
+      "link": "https://claude-docs.github.io/guides/security-hardening#secret-management",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#8cewtw",
+      "name": "Never Expose Secrets",
+      "x": 72,
+      "y": 421,
+      "link": "https://claude-docs.github.io/guides/security-hardening#never-expose-secrets",
+      "bgColor": "#f2ecd2",
+      "parent": "#a5c76z"
+    },
+    {
+      "@id": "#whjrpk",
+      "name": "Using Environment Variables Securely",
+      "x": -81,
+      "y": 497,
+      "link": "https://claude-docs.github.io/guides/security-hardening#using-environment-variables-securely",
+      "bgColor": "#f2ecd2",
+      "parent": "#a5c76z"
+    },
+    {
+      "@id": "#frqniv",
+      "name": "Secret Detection in Pre-Commit Hooks",
+      "x": -235,
+      "y": 398,
+      "link": "https://claude-docs.github.io/guides/security-hardening#secret-detection-in-pre-commit-hooks",
+      "bgColor": "#f2ecd2",
+      "parent": "#a5c76z"
+    },
+    {
+      "@id": "#8gwkwa",
+      "name": "Vault Integration",
+      "x": -406,
+      "y": 352,
+      "link": "https://claude-docs.github.io/guides/security-hardening#vault-integration",
+      "bgColor": "#f2ecd2",
+      "parent": "#a5c76z"
+    },
+    {
+      "@id": "#3u9g29",
+      "name": "Audit Logging Setup",
+      "x": -225,
+      "y": 92,
+      "link": "https://claude-docs.github.io/guides/security-hardening#audit-logging-setup",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#pkwdma",
+      "name": "Comprehensive Audit Logging",
+      "x": -450,
+      "y": 185,
+      "link": "https://claude-docs.github.io/guides/security-hardening#comprehensive-audit-logging",
+      "bgColor": "#ddf2de",
+      "parent": "#3u9g29"
+    },
+    {
+      "@id": "#jyutj7",
+      "name": "← Security & Enterprise",
+      "x": -247,
+      "y": 30,
+      "link": "./security-enterprise.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 1,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 6,
+      "end": 7
+    },
+    {
+      "start": 6,
+      "end": 8
+    },
+    {
+      "start": 6,
+      "end": 9
+    },
+    {
+      "start": 6,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 11,
+      "end": 12
+    },
+    {
+      "start": 11,
+      "end": 13
+    },
+    {
+      "start": 11,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 15,
+      "end": 16
+    },
+    {
+      "start": 15,
+      "end": 17
+    },
+    {
+      "start": 0,
+      "end": 18
+    },
+    {
+      "start": 18,
+      "end": 19
+    },
+    {
+      "start": 18,
+      "end": 20
+    },
+    {
+      "start": 18,
+      "end": 21
+    },
+    {
+      "start": 18,
+      "end": 22
+    },
+    {
+      "start": 0,
+      "end": 23
+    },
+    {
+      "start": 23,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

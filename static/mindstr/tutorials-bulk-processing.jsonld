@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Bulk Processing & Automation",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#sf37xb",
+      "name": "Understanding Headless Mode",
+      "x": -242,
+      "y": -64,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#understanding-headless-mode",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#fuhjpf",
+      "name": "The -p Flag",
+      "x": -494,
+      "y": -64,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#the--p-print-flag",
+      "bgColor": "#daeeff",
+      "parent": "#sf37xb"
+    },
+    {
+      "@id": "#dry8wx",
+      "name": "Basic Example",
+      "x": -550,
+      "y": -181,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#basic-example",
+      "bgColor": "#daeeff",
+      "parent": "#sf37xb"
+    },
+    {
+      "@id": "#rmckuv",
+      "name": "Your First Bulk Operation",
+      "x": -112,
+      "y": -190,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#your-first-bulk-operation",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#6cicry",
+      "name": "Step 1: Find Files to Process",
+      "x": -348,
+      "y": -305,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#step-1-find-files-to-process",
+      "bgColor": "#efe6ff",
+      "parent": "#rmckuv"
+    },
+    {
+      "@id": "#7c28q6",
+      "name": "Step 2: Process Each File",
+      "x": -239,
+      "y": -465,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#step-2-process-each-file",
+      "bgColor": "#efe6ff",
+      "parent": "#rmckuv"
+    },
+    {
+      "@id": "#4qbh3e",
+      "name": "Step 3: Save Results",
+      "x": -56,
+      "y": -419,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#step-3-save-results",
+      "bgColor": "#efe6ff",
+      "parent": "#rmckuv"
+    },
+    {
+      "@id": "#m3xps2",
+      "name": "Output Formats for Scripting",
+      "x": 167,
+      "y": -158,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#output-formats-for-scripting",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#yxjf84",
+      "name": "Plain Text",
+      "x": 160,
+      "y": -403,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#plain-text-default",
+      "bgColor": "#ffe2ed",
+      "parent": "#m3xps2"
+    },
+    {
+      "@id": "#mrv4db",
+      "name": "JSON Output",
+      "x": 306,
+      "y": -429,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#json-output",
+      "bgColor": "#ffe2ed",
+      "parent": "#m3xps2"
+    },
+    {
+      "@id": "#i6483q",
+      "name": "Streaming JSON",
+      "x": 346,
+      "y": -307,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#streaming-json",
+      "bgColor": "#ffe2ed",
+      "parent": "#m3xps2"
+    },
+    {
+      "@id": "#kmcrgd",
+      "name": "Structured Output with Schema",
+      "x": 515,
+      "y": -245,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#structured-output-with-schema",
+      "bgColor": "#ffe2ed",
+      "parent": "#m3xps2"
+    },
+    {
+      "@id": "#ktiw89",
+      "name": "Bulk Review Processing",
+      "x": 236,
+      "y": 71,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#bulk-review-processing",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#c74y5q",
+      "name": "Review All Changed Files",
+      "x": 500,
+      "y": 11,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#review-all-changed-files",
+      "bgColor": "#ffe4d9",
+      "parent": "#ktiw89"
+    },
+    {
+      "@id": "#374kep",
+      "name": "Bulk Security Audit",
+      "x": 560,
+      "y": 157,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#bulk-security-audit",
+      "bgColor": "#ffe4d9",
+      "parent": "#ktiw89"
+    },
+    {
+      "@id": "#ba2cgp",
+      "name": "Bulk Documentation Generator",
+      "x": 403,
+      "y": 251,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#bulk-documentation-generator",
+      "bgColor": "#ffe4d9",
+      "parent": "#ktiw89"
+    },
+    {
+      "@id": "#h7ym9k",
+      "name": "Tool Permissions in Bulk Mode",
+      "x": 47,
+      "y": 209,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#tool-permissions-in-bulk-mode",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ius84b",
+      "name": "Basic Tool Access",
+      "x": 225,
+      "y": 379,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#basic-tool-access",
+      "bgColor": "#f2ecd2",
+      "parent": "#h7ym9k"
+    },
+    {
+      "@id": "#583aqh",
+      "name": "Prefix Matching with",
+      "x": 121,
+      "y": 491,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#prefix-matching-with",
+      "bgColor": "#f2ecd2",
+      "parent": "#h7ym9k"
+    },
+    {
+      "@id": "#sbf4ee",
+      "name": "Full Automation Mode",
+      "x": -35,
+      "y": 424,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#full-automation-mode",
+      "bgColor": "#f2ecd2",
+      "parent": "#h7ym9k"
+    },
+    {
+      "@id": "#t6q67m",
+      "name": "Real-World Bulk Workflows",
+      "x": -179,
+      "y": 148,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#real-world-bulk-workflows",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#abq85r",
+      "name": "Migration Helper",
+      "x": -224,
+      "y": 376,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#1-migration-helper",
+      "bgColor": "#ddf2de",
+      "parent": "#t6q67m"
+    },
+    {
+      "@id": "#sy2ncx",
+      "name": "Test Coverage Booster",
+      "x": -403,
+      "y": 369,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#2-test-coverage-booster",
+      "bgColor": "#ddf2de",
+      "parent": "#t6q67m"
+    },
+    {
+      "@id": "#fertai",
+      "name": "Dependency Update Analyzer",
+      "x": -436,
+      "y": 209,
+      "link": "https://claude-docs.github.io/tutorials/bulk-processing#3-dependency-update-analyzer",
+      "bgColor": "#ddf2de",
+      "parent": "#t6q67m"
+    },
+    {
+      "@id": "#9u36xp",
+      "name": "← Tutorials",
+      "x": -248,
+      "y": 28,
+      "link": "./tutorials.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 4,
+      "end": 5
+    },
+    {
+      "start": 4,
+      "end": 6
+    },
+    {
+      "start": 4,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 8,
+      "end": 9
+    },
+    {
+      "start": 8,
+      "end": 10
+    },
+    {
+      "start": 8,
+      "end": 11
+    },
+    {
+      "start": 8,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 13,
+      "end": 14
+    },
+    {
+      "start": 13,
+      "end": 15
+    },
+    {
+      "start": 13,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    },
+    {
+      "start": 17,
+      "end": 18
+    },
+    {
+      "start": 17,
+      "end": 19
+    },
+    {
+      "start": 17,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 21,
+      "end": 22
+    },
+    {
+      "start": 21,
+      "end": 23
+    },
+    {
+      "start": 21,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

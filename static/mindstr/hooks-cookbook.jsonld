@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Hooks Cookbook",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/hooks/cookbook",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#5kr5a2",
+      "name": "Auto-Formatting",
+      "x": -170,
+      "y": -156,
+      "link": "https://claude-docs.github.io/hooks/cookbook#auto-formatting",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#h8q6vb",
+      "name": "Prettier for JavaScript/TypeScript",
+      "x": -472,
+      "y": -141,
+      "link": "https://claude-docs.github.io/hooks/cookbook#1-prettier-for-javascripttypescript",
+      "bgColor": "#daeeff",
+      "parent": "#5kr5a2"
+    },
+    {
+      "@id": "#mrdm83",
+      "name": "Black for Python",
+      "x": -467,
+      "y": -307,
+      "link": "https://claude-docs.github.io/hooks/cookbook#2-black-for-python",
+      "bgColor": "#daeeff",
+      "parent": "#5kr5a2"
+    },
+    {
+      "@id": "#ikfnks",
+      "name": "gofmt for Go",
+      "x": -320,
+      "y": -326,
+      "link": "https://claude-docs.github.io/hooks/cookbook#3-gofmt-for-go",
+      "bgColor": "#daeeff",
+      "parent": "#5kr5a2"
+    },
+    {
+      "@id": "#bpp6gq",
+      "name": "rustfmt for Rust",
+      "x": -287,
+      "y": -445,
+      "link": "https://claude-docs.github.io/hooks/cookbook#4-rustfmt-for-rust",
+      "bgColor": "#daeeff",
+      "parent": "#5kr5a2"
+    },
+    {
+      "@id": "#smrrfn",
+      "name": "Multi-Language Formatter",
+      "x": -97,
+      "y": -416,
+      "link": "https://claude-docs.github.io/hooks/cookbook#5-multi-language-formatter",
+      "bgColor": "#daeeff",
+      "parent": "#5kr5a2"
+    },
+    {
+      "@id": "#u9ytiq",
+      "name": "Linting",
+      "x": 120,
+      "y": -186,
+      "link": "https://claude-docs.github.io/hooks/cookbook#linting",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#7zygv8",
+      "name": "ESLint Auto-fix",
+      "x": 114,
+      "y": -412,
+      "link": "https://claude-docs.github.io/hooks/cookbook#6-eslint-auto-fix",
+      "bgColor": "#efe6ff",
+      "parent": "#u9ytiq"
+    },
+    {
+      "@id": "#vixu2n",
+      "name": "Pylint for Python",
+      "x": 274,
+      "y": -446,
+      "link": "https://claude-docs.github.io/hooks/cookbook#7-pylint-for-python",
+      "bgColor": "#efe6ff",
+      "parent": "#u9ytiq"
+    },
+    {
+      "@id": "#8vejzr",
+      "name": "golangci-lint for Go",
+      "x": 331,
+      "y": -318,
+      "link": "https://claude-docs.github.io/hooks/cookbook#8-golangci-lint-for-go",
+      "bgColor": "#efe6ff",
+      "parent": "#u9ytiq"
+    },
+    {
+      "@id": "#2wpawm",
+      "name": "Testing",
+      "x": 246,
+      "y": -38,
+      "link": "https://claude-docs.github.io/hooks/cookbook#testing",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vhrqun",
+      "name": "Auto-run Related Tests",
+      "x": 455,
+      "y": -176,
+      "link": "https://claude-docs.github.io/hooks/cookbook#9-auto-run-related-tests-jest",
+      "bgColor": "#ffe2ed",
+      "parent": "#2wpawm"
+    },
+    {
+      "@id": "#u8fjrm",
+      "name": "Auto-run Related Tests",
+      "x": 584,
+      "y": -69,
+      "link": "https://claude-docs.github.io/hooks/cookbook#10-auto-run-related-tests-pytest",
+      "bgColor": "#ffe2ed",
+      "parent": "#2wpawm"
+    },
+    {
+      "@id": "#k8pnp6",
+      "name": "Go Test Runner",
+      "x": 497,
+      "y": 47,
+      "link": "https://claude-docs.github.io/hooks/cookbook#11-go-test-runner",
+      "bgColor": "#ffe2ed",
+      "parent": "#2wpawm"
+    },
+    {
+      "@id": "#p7yi8y",
+      "name": "Git Hooks Integration",
+      "x": 175,
+      "y": 152,
+      "link": "https://claude-docs.github.io/hooks/cookbook#git-hooks-integration",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#mu3vnx",
+      "name": "Auto-Stage Changes",
+      "x": 440,
+      "y": 202,
+      "link": "https://claude-docs.github.io/hooks/cookbook#12-auto-stage-changes",
+      "bgColor": "#ffe4d9",
+      "parent": "#p7yi8y"
+    },
+    {
+      "@id": "#yshrhk",
+      "name": "Pre-commit Integration",
+      "x": 449,
+      "y": 346,
+      "link": "https://claude-docs.github.io/hooks/cookbook#13-pre-commit-integration",
+      "bgColor": "#ffe4d9",
+      "parent": "#p7yi8y"
+    },
+    {
+      "@id": "#mmbzgb",
+      "name": "Commit Message Validation",
+      "x": 231,
+      "y": 372,
+      "link": "https://claude-docs.github.io/hooks/cookbook#14-commit-message-validation",
+      "bgColor": "#ffe4d9",
+      "parent": "#p7yi8y"
+    },
+    {
+      "@id": "#pfyzxs",
+      "name": "Notification Systems",
+      "x": -90,
+      "y": 198,
+      "link": "https://claude-docs.github.io/hooks/cookbook#notification-systems",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ezzp3f",
+      "name": "Slack Notifications",
+      "x": 18,
+      "y": 425,
+      "link": "https://claude-docs.github.io/hooks/cookbook#15-slack-notifications",
+      "bgColor": "#f2ecd2",
+      "parent": "#pfyzxs"
+    },
+    {
+      "@id": "#vpe5jw",
+      "name": "Discord Notifications",
+      "x": -134,
+      "y": 488,
+      "link": "https://claude-docs.github.io/hooks/cookbook#16-discord-notifications",
+      "bgColor": "#f2ecd2",
+      "parent": "#pfyzxs"
+    },
+    {
+      "@id": "#iista7",
+      "name": "Email Notifications",
+      "x": -224,
+      "y": 374,
+      "link": "https://claude-docs.github.io/hooks/cookbook#17-email-notifications",
+      "bgColor": "#f2ecd2",
+      "parent": "#pfyzxs"
+    },
+    {
+      "@id": "#7tqy9e",
+      "name": "Desktop Notifications",
+      "x": -415,
+      "y": 362,
+      "link": "https://claude-docs.github.io/hooks/cookbook#18-desktop-notifications",
+      "bgColor": "#f2ecd2",
+      "parent": "#pfyzxs"
+    },
+    {
+      "@id": "#im7js4",
+      "name": "Logging and Auditing",
+      "x": -229,
+      "y": 85,
+      "link": "https://claude-docs.github.io/hooks/cookbook#logging-and-auditing",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#p55sa6",
+      "name": "← Hooks System",
+      "x": -248,
+      "y": 27,
+      "link": "./hooks-system.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 1,
+      "end": 5
+    },
+    {
+      "start": 1,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 7,
+      "end": 8
+    },
+    {
+      "start": 7,
+      "end": 9
+    },
+    {
+      "start": 7,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 11,
+      "end": 12
+    },
+    {
+      "start": 11,
+      "end": 13
+    },
+    {
+      "start": 11,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 15,
+      "end": 16
+    },
+    {
+      "start": 15,
+      "end": 17
+    },
+    {
+      "start": 15,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 19,
+      "end": 20
+    },
+    {
+      "start": 19,
+      "end": 21
+    },
+    {
+      "start": 19,
+      "end": 22
+    },
+    {
+      "start": 19,
+      "end": 23
+    },
+    {
+      "start": 0,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

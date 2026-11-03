@@ -1,0 +1,116 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Power User Tutorials",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/tutorials/overview",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#wzv4c3",
+      "name": "What You'll Learn",
+      "x": -220,
+      "y": -101,
+      "link": "https://claude-docs.github.io/tutorials/overview#what-youll-learn",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#7fnz2s",
+      "name": "Prerequisites",
+      "x": -33,
+      "y": -211,
+      "link": "https://claude-docs.github.io/tutorials/overview#prerequisites",
+      "bgColor": "#e0c4f6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#p89exh",
+      "name": "How to Use These Tutorials",
+      "x": 211,
+      "y": -113,
+      "link": "https://claude-docs.github.io/tutorials/overview#how-to-use-these-tutorials",
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#urtpxv",
+      "name": "Quick Wins",
+      "x": 199,
+      "y": 129,
+      "link": "https://claude-docs.github.io/tutorials/overview#quick-wins",
+      "bgColor": "#f1c99c",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4dg5c4",
+      "name": "5-Minute Power-Ups",
+      "x": 397,
+      "y": 258,
+      "link": "https://claude-docs.github.io/tutorials/overview#5-minute-power-ups",
+      "bgColor": "#fbe8d3",
+      "parent": "#urtpxv"
+    },
+    {
+      "@id": "#kwm3he",
+      "name": "Community Resources",
+      "x": -35,
+      "y": 210,
+      "link": "https://claude-docs.github.io/tutorials/overview#community-resources",
+      "bgColor": "#c1dba8",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qvd9cw",
+      "name": "← Tutorials",
+      "x": -226,
+      "y": 91,
+      "link": "./tutorials.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 4,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    }
+  ],
+  "selectedNode": 0
+}

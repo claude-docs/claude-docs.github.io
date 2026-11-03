@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Core Guides",
+      "x": 0,
+      "y": 0,
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#2j4ca7",
+      "name": "Best Practices",
+      "x": -229,
+      "y": -85,
+      "link": "./guides-best-practices.jsonld",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#r2hw89",
+      "name": "Productivity Tips",
+      "x": -71,
+      "y": -204,
+      "link": "./guides-productivity-tips.jsonld",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#va8sd8",
+      "name": "Context Management",
+      "x": 152,
+      "y": -169,
+      "link": "./guides-context-management.jsonld",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#uxepdk",
+      "name": "Cost Optimization",
+      "x": 250,
+      "y": 4,
+      "link": "./guides-cost-optimization.jsonld",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#yan66s",
+      "name": "CLAUDE.md Mastery",
+      "x": 148,
+      "y": 172,
+      "link": "./guides-claude-md-mastery.jsonld",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#iak73k",
+      "name": "Project Templates",
+      "x": -71,
+      "y": 204,
+      "link": "./guides-project-templates.jsonld",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cdkk64",
+      "name": "← Guides",
+      "x": -229,
+      "y": 85,
+      "link": "./guides.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    }
+  ],
+  "selectedNode": 0
+}

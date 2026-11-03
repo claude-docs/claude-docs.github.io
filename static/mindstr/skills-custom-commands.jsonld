@@ -1,0 +1,324 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Custom Commands",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/skills/custom-commands",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#mwaxry",
+      "name": "Overview",
+      "x": -247,
+      "y": -31,
+      "link": "https://claude-docs.github.io/skills/custom-commands#overview",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#z8judn",
+      "name": "Command Location",
+      "x": -204,
+      "y": -123,
+      "link": "https://claude-docs.github.io/skills/custom-commands#command-location",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#e9tfin",
+      "name": "Project Commands",
+      "x": -444,
+      "y": -195,
+      "link": "https://claude-docs.github.io/skills/custom-commands#project-commands",
+      "bgColor": "#efe6ff",
+      "parent": "#z8judn"
+    },
+    {
+      "@id": "#w56zhr",
+      "name": "Personal Commands",
+      "x": -433,
+      "y": -341,
+      "link": "https://claude-docs.github.io/skills/custom-commands#personal-commands",
+      "bgColor": "#efe6ff",
+      "parent": "#z8judn"
+    },
+    {
+      "@id": "#wahhz5",
+      "name": "Creating Commands",
+      "x": -28,
+      "y": -211,
+      "link": "https://claude-docs.github.io/skills/custom-commands#creating-commands",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#t63udb",
+      "name": "Basic Command",
+      "x": -207,
+      "y": -387,
+      "link": "https://claude-docs.github.io/skills/custom-commands#basic-command",
+      "bgColor": "#ffe2ed",
+      "parent": "#wahhz5"
+    },
+    {
+      "@id": "#uejjqf",
+      "name": "Using Parameters",
+      "x": -100,
+      "y": -494,
+      "link": "https://claude-docs.github.io/skills/custom-commands#using-parameters",
+      "bgColor": "#ffe2ed",
+      "parent": "#wahhz5"
+    },
+    {
+      "@id": "#vbj3uf",
+      "name": "Multi-Parameter Commands",
+      "x": 71,
+      "y": -421,
+      "link": "https://claude-docs.github.io/skills/custom-commands#multi-parameter-commands",
+      "bgColor": "#ffe2ed",
+      "parent": "#wahhz5"
+    },
+    {
+      "@id": "#mdrkcw",
+      "name": "Command Naming",
+      "x": 132,
+      "y": -181,
+      "link": "https://claude-docs.github.io/skills/custom-commands#command-naming",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#jc7q9p",
+      "name": "Examples",
+      "x": 248,
+      "y": -28,
+      "link": "https://claude-docs.github.io/skills/custom-commands#examples",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#8vdzgd",
+      "name": "Code Review",
+      "x": 405,
+      "y": -249,
+      "link": "https://claude-docs.github.io/skills/custom-commands#code-review",
+      "bgColor": "#f2ecd2",
+      "parent": "#jc7q9p"
+    },
+    {
+      "@id": "#5jwgsg",
+      "name": "Test Generation",
+      "x": 548,
+      "y": -185,
+      "link": "https://claude-docs.github.io/skills/custom-commands#test-generation",
+      "bgColor": "#f2ecd2",
+      "parent": "#jc7q9p"
+    },
+    {
+      "@id": "#tc4wnh",
+      "name": "Documentation",
+      "x": 496,
+      "y": -54,
+      "link": "https://claude-docs.github.io/skills/custom-commands#documentation",
+      "bgColor": "#f2ecd2",
+      "parent": "#jc7q9p"
+    },
+    {
+      "@id": "#m3wqpa",
+      "name": "Git Workflows",
+      "x": 586,
+      "y": 60,
+      "link": "https://claude-docs.github.io/skills/custom-commands#git-workflows",
+      "bgColor": "#f2ecd2",
+      "parent": "#jc7q9p"
+    },
+    {
+      "@id": "#ragrmk",
+      "name": "Refactoring",
+      "x": 467,
+      "y": 152,
+      "link": "https://claude-docs.github.io/skills/custom-commands#refactoring",
+      "bgColor": "#f2ecd2",
+      "parent": "#jc7q9p"
+    },
+    {
+      "@id": "#n2sm32",
+      "name": "Advanced Usage",
+      "x": 88,
+      "y": 199,
+      "link": "https://claude-docs.github.io/skills/custom-commands#advanced-usage",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#s7m6fy",
+      "name": "Conditional Instructions",
+      "x": 316,
+      "y": 329,
+      "link": "https://claude-docs.github.io/skills/custom-commands#conditional-instructions",
+      "bgColor": "#ddf2de",
+      "parent": "#n2sm32"
+    },
+    {
+      "@id": "#rt8c5m",
+      "name": "Multi-Step Workflows",
+      "x": 200,
+      "y": 472,
+      "link": "https://claude-docs.github.io/skills/custom-commands#multi-step-workflows",
+      "bgColor": "#ddf2de",
+      "parent": "#n2sm32"
+    },
+    {
+      "@id": "#z7c9s8",
+      "name": "Integration with Hooks",
+      "x": 10,
+      "y": 425,
+      "link": "https://claude-docs.github.io/skills/custom-commands#integration-with-hooks",
+      "bgColor": "#ddf2de",
+      "parent": "#n2sm32"
+    },
+    {
+      "@id": "#dj24gd",
+      "name": "Viewing Commands",
+      "x": -98,
+      "y": 203,
+      "link": "https://claude-docs.github.io/skills/custom-commands#viewing-commands",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#i466dv",
+      "name": "Best Practices",
+      "x": -162,
+      "y": 159,
+      "link": "https://claude-docs.github.io/skills/custom-commands#best-practices",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#nwg6mc",
+      "name": "Migrating to Skills",
+      "x": -215,
+      "y": 109,
+      "link": "https://claude-docs.github.io/skills/custom-commands#migrating-to-skills",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#raxty2",
+      "name": "← Skills & Commands",
+      "x": -246,
+      "y": 38,
+      "link": "./skills-commands.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 5,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 10,
+      "end": 13
+    },
+    {
+      "start": 10,
+      "end": 14
+    },
+    {
+      "start": 10,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 16,
+      "end": 17
+    },
+    {
+      "start": 16,
+      "end": 18
+    },
+    {
+      "start": 16,
+      "end": 19
+    },
+    {
+      "start": 0,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 0,
+      "end": 22
+    },
+    {
+      "start": 0,
+      "end": 23
+    }
+  ],
+  "selectedNode": 0
+}

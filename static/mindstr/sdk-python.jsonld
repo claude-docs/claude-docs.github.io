@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Python SDK",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/sdk/python",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#hkakqp",
+      "name": "Installation",
+      "x": -247,
+      "y": -32,
+      "link": "https://claude-docs.github.io/sdk/python#installation",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cmc5g4",
+      "name": "Basic Usage",
+      "x": -201,
+      "y": -126,
+      "link": "https://claude-docs.github.io/sdk/python#basic-usage",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#h64kxg",
+      "name": "Simple Agent",
+      "x": -442,
+      "y": -198,
+      "link": "https://claude-docs.github.io/sdk/python#simple-agent",
+      "bgColor": "#efe6ff",
+      "parent": "#cmc5g4"
+    },
+    {
+      "@id": "#3mw9e8",
+      "name": "With Configuration",
+      "x": -427,
+      "y": -346,
+      "link": "https://claude-docs.github.io/sdk/python#with-configuration",
+      "bgColor": "#efe6ff",
+      "parent": "#cmc5g4"
+    },
+    {
+      "@id": "#3yvsbg",
+      "name": "Agent Methods",
+      "x": -37,
+      "y": -210,
+      "link": "https://claude-docs.github.io/sdk/python#agent-methods",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ijvikk",
+      "name": "run",
+      "x": -197,
+      "y": -391,
+      "link": "https://claude-docs.github.io/sdk/python#run",
+      "bgColor": "#ffe2ed",
+      "parent": "#3yvsbg"
+    },
+    {
+      "@id": "#4dijv5",
+      "name": "stream",
+      "x": -88,
+      "y": -496,
+      "link": "https://claude-docs.github.io/sdk/python#stream",
+      "bgColor": "#ffe2ed",
+      "parent": "#3yvsbg"
+    },
+    {
+      "@id": "#ievj7v",
+      "name": "chat",
+      "x": 53,
+      "y": -423,
+      "link": "https://claude-docs.github.io/sdk/python#chat",
+      "bgColor": "#ffe2ed",
+      "parent": "#3yvsbg"
+    },
+    {
+      "@id": "#ak9asq",
+      "name": "Tool Control",
+      "x": 173,
+      "y": -153,
+      "link": "https://claude-docs.github.io/sdk/python#tool-control",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#8vzryr",
+      "name": "Allowing Tools",
+      "x": 243,
+      "y": -371,
+      "link": "https://claude-docs.github.io/sdk/python#allowing-tools",
+      "bgColor": "#ffe4d9",
+      "parent": "#ak9asq"
+    },
+    {
+      "@id": "#wsjdx6",
+      "name": "Denying Tools",
+      "x": 408,
+      "y": -362,
+      "link": "https://claude-docs.github.io/sdk/python#denying-tools",
+      "bgColor": "#ffe4d9",
+      "parent": "#ak9asq"
+    },
+    {
+      "@id": "#ukqvr4",
+      "name": "Custom Tools",
+      "x": 426,
+      "y": -223,
+      "link": "https://claude-docs.github.io/sdk/python#custom-tools",
+      "bgColor": "#ffe4d9",
+      "parent": "#ak9asq"
+    },
+    {
+      "@id": "#ixkv7h",
+      "name": "Sandboxing",
+      "x": 247,
+      "y": 32,
+      "link": "https://claude-docs.github.io/sdk/python#sandboxing",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#yq8nzx",
+      "name": "Basic Sandbox",
+      "x": 495,
+      "y": -60,
+      "link": "https://claude-docs.github.io/sdk/python#basic-sandbox",
+      "bgColor": "#f2ecd2",
+      "parent": "#ixkv7h"
+    },
+    {
+      "@id": "#rh653j",
+      "name": "Network Restrictions",
+      "x": 584,
+      "y": 74,
+      "link": "https://claude-docs.github.io/sdk/python#network-restrictions",
+      "bgColor": "#f2ecd2",
+      "parent": "#ixkv7h"
+    },
+    {
+      "@id": "#9h4kpt",
+      "name": "Resource Limits",
+      "x": 452,
+      "y": 181,
+      "link": "https://claude-docs.github.io/sdk/python#resource-limits",
+      "bgColor": "#f2ecd2",
+      "parent": "#ixkv7h"
+    },
+    {
+      "@id": "#7vtshd",
+      "name": "Error Handling",
+      "x": 174,
+      "y": 142,
+      "link": "https://claude-docs.github.io/sdk/python#error-handling",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#zp376s",
+      "name": "Async Support",
+      "x": 127,
+      "y": 186,
+      "link": "https://claude-docs.github.io/sdk/python#async-support",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#fttzmy",
+      "name": "Context Management",
+      "x": 34,
+      "y": 241,
+      "link": "https://claude-docs.github.io/sdk/python#context-management",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#xdbbqx",
+      "name": "Output Parsing",
+      "x": -15,
+      "y": 195,
+      "link": "https://claude-docs.github.io/sdk/python#output-parsing",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#bdpfdm",
+      "name": "Callbacks",
+      "x": -142,
+      "y": 186,
+      "link": "https://claude-docs.github.io/sdk/python#callbacks",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#jxrv7z",
+      "name": "Examples",
+      "x": -205,
+      "y": 122,
+      "link": "https://claude-docs.github.io/sdk/python#examples",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#eg4hex",
+      "name": "Code Review Bot",
+      "x": -369,
+      "y": 286,
+      "link": "https://claude-docs.github.io/sdk/python#code-review-bot",
+      "bgColor": "#ffe4d9",
+      "parent": "#jxrv7z"
+    },
+    {
+      "@id": "#i9n2qa",
+      "name": "Test Generator",
+      "x": -523,
+      "y": 232,
+      "link": "https://claude-docs.github.io/sdk/python#test-generator",
+      "bgColor": "#ffe4d9",
+      "parent": "#jxrv7z"
+    },
+    {
+      "@id": "#wvr5de",
+      "name": "← Agent SDK",
+      "x": -247,
+      "y": 32,
+      "link": "./agent-sdk.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 5,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 9,
+      "end": 10
+    },
+    {
+      "start": 9,
+      "end": 11
+    },
+    {
+      "start": 9,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 13,
+      "end": 14
+    },
+    {
+      "start": 13,
+      "end": 15
+    },
+    {
+      "start": 13,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    },
+    {
+      "start": 0,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 0,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 0,
+      "end": 22
+    },
+    {
+      "start": 22,
+      "end": 23
+    },
+    {
+      "start": 22,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

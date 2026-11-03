@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Advanced CLI Techniques",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/cli/advanced",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#wtpnjp",
+      "name": "Power User Flags",
+      "x": -225,
+      "y": -93,
+      "link": "https://claude-docs.github.io/cli/advanced#power-user-flags",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#7cw6cg",
+      "name": "Flag Combinations",
+      "x": -490,
+      "y": -83,
+      "link": "https://claude-docs.github.io/cli/advanced#flag-combinations",
+      "bgColor": "#daeeff",
+      "parent": "#wtpnjp"
+    },
+    {
+      "@id": "#a54nev",
+      "name": "Output Format Control",
+      "x": -527,
+      "y": -225,
+      "link": "https://claude-docs.github.io/cli/advanced#output-format-control",
+      "bgColor": "#daeeff",
+      "parent": "#wtpnjp"
+    },
+    {
+      "@id": "#qhb5iq",
+      "name": "Turn Limits",
+      "x": -376,
+      "y": -281,
+      "link": "https://claude-docs.github.io/cli/advanced#turn-limits",
+      "bgColor": "#daeeff",
+      "parent": "#wtpnjp"
+    },
+    {
+      "@id": "#nvqaxu",
+      "name": "Piping and Chaining",
+      "x": -65,
+      "y": -205,
+      "link": "https://claude-docs.github.io/cli/advanced#piping-and-chaining",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#9n2fi8",
+      "name": "Input Piping",
+      "x": -236,
+      "y": -375,
+      "link": "https://claude-docs.github.io/cli/advanced#input-piping",
+      "bgColor": "#efe6ff",
+      "parent": "#nvqaxu"
+    },
+    {
+      "@id": "#27czbt",
+      "name": "Output Piping",
+      "x": -158,
+      "y": -483,
+      "link": "https://claude-docs.github.io/cli/advanced#output-piping",
+      "bgColor": "#efe6ff",
+      "parent": "#nvqaxu"
+    },
+    {
+      "@id": "#eqxhbv",
+      "name": "Command Chaining",
+      "x": -21,
+      "y": -425,
+      "link": "https://claude-docs.github.io/cli/advanced#command-chaining",
+      "bgColor": "#efe6ff",
+      "parent": "#nvqaxu"
+    },
+    {
+      "@id": "#m3zt7z",
+      "name": "JSON Output Parsing with jq",
+      "x": 179,
+      "y": -148,
+      "link": "https://claude-docs.github.io/cli/advanced#json-output-parsing-with-jq",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#xzgaz8",
+      "name": "Basic Extraction",
+      "x": 174,
+      "y": -397,
+      "link": "https://claude-docs.github.io/cli/advanced#basic-extraction",
+      "bgColor": "#ffe2ed",
+      "parent": "#m3zt7z"
+    },
+    {
+      "@id": "#brfb5w",
+      "name": "Complex Queries",
+      "x": 332,
+      "y": -415,
+      "link": "https://claude-docs.github.io/cli/advanced#complex-queries",
+      "bgColor": "#ffe2ed",
+      "parent": "#m3zt7z"
+    },
+    {
+      "@id": "#45xtcc",
+      "name": "Structured Data Processing",
+      "x": 385,
+      "y": -271,
+      "link": "https://claude-docs.github.io/cli/advanced#structured-data-processing",
+      "bgColor": "#ffe2ed",
+      "parent": "#m3zt7z"
+    },
+    {
+      "@id": "#ybwvcb",
+      "name": "Error Handling with jq",
+      "x": 551,
+      "y": -180,
+      "link": "https://claude-docs.github.io/cli/advanced#error-handling-with-jq",
+      "bgColor": "#ffe2ed",
+      "parent": "#m3zt7z"
+    },
+    {
+      "@id": "#i9qywf",
+      "name": "Headless Automation Patterns",
+      "x": 225,
+      "y": 92,
+      "link": "https://claude-docs.github.io/cli/advanced#headless-automation-patterns",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#iyzq7q",
+      "name": "Script Template",
+      "x": 498,
+      "y": 39,
+      "link": "https://claude-docs.github.io/cli/advanced#script-template",
+      "bgColor": "#ffe4d9",
+      "parent": "#i9qywf"
+    },
+    {
+      "@id": "#bke9zd",
+      "name": "Batch Processing",
+      "x": 560,
+      "y": 159,
+      "link": "https://claude-docs.github.io/cli/advanced#batch-processing",
+      "bgColor": "#ffe4d9",
+      "parent": "#i9qywf"
+    },
+    {
+      "@id": "#fuxupn",
+      "name": "Parallel Execution",
+      "x": 421,
+      "y": 229,
+      "link": "https://claude-docs.github.io/cli/advanced#parallel-execution",
+      "bgColor": "#ffe4d9",
+      "parent": "#i9qywf"
+    },
+    {
+      "@id": "#5m2ws9",
+      "name": "Retry Logic",
+      "x": 407,
+      "y": 363,
+      "link": "https://claude-docs.github.io/cli/advanced#retry-logic",
+      "bgColor": "#ffe4d9",
+      "parent": "#i9qywf"
+    },
+    {
+      "@id": "#bbimsx",
+      "name": "Session Management Tricks",
+      "x": -38,
+      "y": 210,
+      "link": "https://claude-docs.github.io/cli/advanced#session-management-tricks",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#drrwuk",
+      "name": "Continue Previous Sessions",
+      "x": 135,
+      "y": 409,
+      "link": "https://claude-docs.github.io/cli/advanced#continue-previous-sessions",
+      "bgColor": "#f2ecd2",
+      "parent": "#bbimsx"
+    },
+    {
+      "@id": "#nsm2yi",
+      "name": "Session Inspection",
+      "x": -16,
+      "y": 501,
+      "link": "https://claude-docs.github.io/cli/advanced#session-inspection",
+      "bgColor": "#f2ecd2",
+      "parent": "#bbimsx"
+    },
+    {
+      "@id": "#2xe78q",
+      "name": "Multi-Session Workflows",
+      "x": -142,
+      "y": 404,
+      "link": "https://claude-docs.github.io/cli/advanced#multi-session-workflows",
+      "bgColor": "#f2ecd2",
+      "parent": "#bbimsx"
+    },
+    {
+      "@id": "#jgw4tz",
+      "name": "Context Preservation",
+      "x": -345,
+      "y": 411,
+      "link": "https://claude-docs.github.io/cli/advanced#context-preservation",
+      "bgColor": "#f2ecd2",
+      "parent": "#bbimsx"
+    },
+    {
+      "@id": "#bekswu",
+      "name": "Environment Variable Mastery",
+      "x": -221,
+      "y": 99,
+      "link": "https://claude-docs.github.io/cli/advanced#environment-variable-mastery",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#pxrawa",
+      "name": "← CLI Reference",
+      "x": -248,
+      "y": 28,
+      "link": "./cli-reference.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 5,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 9,
+      "end": 10
+    },
+    {
+      "start": 9,
+      "end": 11
+    },
+    {
+      "start": 9,
+      "end": 12
+    },
+    {
+      "start": 9,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 14,
+      "end": 15
+    },
+    {
+      "start": 14,
+      "end": 16
+    },
+    {
+      "start": 14,
+      "end": 17
+    },
+    {
+      "start": 14,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 19,
+      "end": 20
+    },
+    {
+      "start": 19,
+      "end": 21
+    },
+    {
+      "start": 19,
+      "end": 22
+    },
+    {
+      "start": 19,
+      "end": 23
+    },
+    {
+      "start": 0,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

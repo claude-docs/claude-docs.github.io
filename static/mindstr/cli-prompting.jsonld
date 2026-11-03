@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Prompt Engineering",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/cli/prompting",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#gsrdqa",
+      "name": "Effective Prompt Structures",
+      "x": -209,
+      "y": -117,
+      "link": "https://claude-docs.github.io/cli/prompting#effective-prompt-structures",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ttvgv4",
+      "name": "The Context-Task-Format Pattern",
+      "x": -479,
+      "y": -121,
+      "link": "https://claude-docs.github.io/cli/prompting#the-context-task-format-pattern",
+      "bgColor": "#daeeff",
+      "parent": "#gsrdqa"
+    },
+    {
+      "@id": "#g5xqe3",
+      "name": "Imperative vs Descriptive",
+      "x": -471,
+      "y": -301,
+      "link": "https://claude-docs.github.io/cli/prompting#imperative-vs-descriptive",
+      "bgColor": "#daeeff",
+      "parent": "#gsrdqa"
+    },
+    {
+      "@id": "#cvkstp",
+      "name": "Scope Specification",
+      "x": -294,
+      "y": -345,
+      "link": "https://claude-docs.github.io/cli/prompting#scope-specification",
+      "bgColor": "#daeeff",
+      "parent": "#gsrdqa"
+    },
+    {
+      "@id": "#jw6hux",
+      "name": "Context Priming Techniques",
+      "x": 54,
+      "y": -207,
+      "link": "https://claude-docs.github.io/cli/prompting#context-priming-techniques",
+      "bgColor": "#e0c4f6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ueruwd",
+      "name": "Project Context Priming",
+      "x": -76,
+      "y": -420,
+      "link": "https://claude-docs.github.io/cli/prompting#project-context-priming",
+      "bgColor": "#f2e5fd",
+      "parent": "#jw6hux"
+    },
+    {
+      "@id": "#j52mw6",
+      "name": "File Context Priming",
+      "x": 80,
+      "y": -497,
+      "link": "https://claude-docs.github.io/cli/prompting#file-context-priming",
+      "bgColor": "#f2e5fd",
+      "parent": "#jw6hux"
+    },
+    {
+      "@id": "#gu5n3w",
+      "name": "Constraint Priming",
+      "x": 188,
+      "y": -392,
+      "link": "https://claude-docs.github.io/cli/prompting#constraint-priming",
+      "bgColor": "#f2e5fd",
+      "parent": "#jw6hux"
+    },
+    {
+      "@id": "#mukqya",
+      "name": "Pattern Priming",
+      "x": 352,
+      "y": -404,
+      "link": "https://claude-docs.github.io/cli/prompting#pattern-priming",
+      "bgColor": "#f2e5fd",
+      "parent": "#jw6hux"
+    },
+    {
+      "@id": "#rdjmhy",
+      "name": "Multi-Step Instruction Patterns",
+      "x": 268,
+      "y": -29,
+      "link": "https://claude-docs.github.io/cli/prompting#multi-step-instruction-patterns",
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#nbjpha",
+      "name": "Sequential Steps",
+      "x": 434,
+      "y": -211,
+      "link": "https://claude-docs.github.io/cli/prompting#sequential-steps",
+      "bgColor": "#ffe2e6",
+      "parent": "#rdjmhy"
+    },
+    {
+      "@id": "#aypwsg",
+      "name": "Conditional Steps",
+      "x": 566,
+      "y": -140,
+      "link": "https://claude-docs.github.io/cli/prompting#conditional-steps",
+      "bgColor": "#ffe2e6",
+      "parent": "#rdjmhy"
+    },
+    {
+      "@id": "#h94qk3",
+      "name": "Iterative Refinement",
+      "x": 500,
+      "y": -12,
+      "link": "https://claude-docs.github.io/cli/prompting#iterative-refinement",
+      "bgColor": "#ffe2e6",
+      "parent": "#rdjmhy"
+    },
+    {
+      "@id": "#tupb65",
+      "name": "Checkpoint Pattern",
+      "x": 574,
+      "y": 117,
+      "link": "https://claude-docs.github.io/cli/prompting#checkpoint-pattern",
+      "bgColor": "#ffe2e6",
+      "parent": "#rdjmhy"
+    },
+    {
+      "@id": "#5xqpjs",
+      "name": "Code-Specific Prompting",
+      "x": 128,
+      "y": 183,
+      "link": "https://claude-docs.github.io/cli/prompting#code-specific-prompting",
+      "bgColor": "#f1c99c",
+      "parent": "#this"
+    },
+    {
+      "@id": "#k258qh",
+      "name": "Function Generation",
+      "x": 389,
+      "y": 267,
+      "link": "https://claude-docs.github.io/cli/prompting#function-generation",
+      "bgColor": "#fbe8d3",
+      "parent": "#5xqpjs"
+    },
+    {
+      "@id": "#3nbxqz",
+      "name": "Type Generation",
+      "x": 362,
+      "y": 399,
+      "link": "https://claude-docs.github.io/cli/prompting#type-generation",
+      "bgColor": "#fbe8d3",
+      "parent": "#5xqpjs"
+    },
+    {
+      "@id": "#6qa3f3",
+      "name": "Test Generation",
+      "x": 208,
+      "y": 386,
+      "link": "https://claude-docs.github.io/cli/prompting#test-generation",
+      "bgColor": "#fbe8d3",
+      "parent": "#5xqpjs"
+    },
+    {
+      "@id": "#7yk22v",
+      "name": "Migration Generation",
+      "x": 110,
+      "y": 493,
+      "link": "https://claude-docs.github.io/cli/prompting#migration-generation",
+      "bgColor": "#fbe8d3",
+      "parent": "#5xqpjs"
+    },
+    {
+      "@id": "#mczqgg",
+      "name": "Debugging Prompts",
+      "x": -156,
+      "y": 166,
+      "link": "https://claude-docs.github.io/cli/prompting#debugging-prompts",
+      "bgColor": "#c1dba8",
+      "parent": "#this"
+    },
+    {
+      "@id": "#rp2kdh",
+      "name": "Error Analysis",
+      "x": -115,
+      "y": 412,
+      "link": "https://claude-docs.github.io/cli/prompting#error-analysis",
+      "bgColor": "#e3f0d8",
+      "parent": "#mczqgg"
+    },
+    {
+      "@id": "#6c8mfm",
+      "name": "Trace-Based Debugging",
+      "x": -288,
+      "y": 440,
+      "link": "https://claude-docs.github.io/cli/prompting#trace-based-debugging",
+      "bgColor": "#e3f0d8",
+      "parent": "#mczqgg"
+    },
+    {
+      "@id": "#uhqyuf",
+      "name": "Performance Debugging",
+      "x": -353,
+      "y": 301,
+      "link": "https://claude-docs.github.io/cli/prompting#performance-debugging",
+      "bgColor": "#e3f0d8",
+      "parent": "#mczqgg"
+    },
+    {
+      "@id": "#gkdxt6",
+      "name": "Memory Leak Detection",
+      "x": -517,
+      "y": 242,
+      "link": "https://claude-docs.github.io/cli/prompting#memory-leak-detection",
+      "bgColor": "#e3f0d8",
+      "parent": "#mczqgg"
+    },
+    {
+      "@id": "#ujfctz",
+      "name": "← CLI Reference",
+      "x": -248,
+      "y": 28,
+      "link": "./cli-reference.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 5,
+      "end": 8
+    },
+    {
+      "start": 5,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 10,
+      "end": 13
+    },
+    {
+      "start": 10,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 15,
+      "end": 16
+    },
+    {
+      "start": 15,
+      "end": 17
+    },
+    {
+      "start": 15,
+      "end": 18
+    },
+    {
+      "start": 15,
+      "end": 19
+    },
+    {
+      "start": 0,
+      "end": 20
+    },
+    {
+      "start": 20,
+      "end": 21
+    },
+    {
+      "start": 20,
+      "end": 22
+    },
+    {
+      "start": 20,
+      "end": 23
+    },
+    {
+      "start": 20,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

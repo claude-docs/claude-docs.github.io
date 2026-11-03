@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "CLAUDE.md Mastery",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#a5qzu2",
+      "name": "File Hierarchy",
+      "x": -188,
+      "y": -140,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#file-hierarchy",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#h7i2v2",
+      "name": "Load Order",
+      "x": -486,
+      "y": -98,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#load-order-lowest-to-highest-priority",
+      "bgColor": "#daeeff",
+      "parent": "#a5qzu2"
+    },
+    {
+      "@id": "#92zyxr",
+      "name": "Enterprise Level",
+      "x": -524,
+      "y": -231,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#enterprise-level",
+      "bgColor": "#daeeff",
+      "parent": "#a5qzu2"
+    },
+    {
+      "@id": "#vmbe6s",
+      "name": "User Level",
+      "x": -375,
+      "y": -281,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#user-level",
+      "bgColor": "#daeeff",
+      "parent": "#a5qzu2"
+    },
+    {
+      "@id": "#xgxe9a",
+      "name": "Project Level",
+      "x": -338,
+      "y": -411,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#project-level",
+      "bgColor": "#daeeff",
+      "parent": "#a5qzu2"
+    },
+    {
+      "@id": "#gi9ic6",
+      "name": "Directory Level",
+      "x": -181,
+      "y": -396,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#directory-level",
+      "bgColor": "#daeeff",
+      "parent": "#a5qzu2"
+    },
+    {
+      "@id": "#fcswkn",
+      "name": "Structure and Organization",
+      "x": 59,
+      "y": -207,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#structure-and-organization",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#uiq39f",
+      "name": "Recommended Sections",
+      "x": 37,
+      "y": -421,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#recommended-sections",
+      "bgColor": "#efe6ff",
+      "parent": "#fcswkn"
+    },
+    {
+      "@id": "#yv9ggy",
+      "name": "Section Best Practices",
+      "x": 223,
+      "y": -465,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#section-best-practices",
+      "bgColor": "#efe6ff",
+      "parent": "#fcswkn"
+    },
+    {
+      "@id": "#gvy3ts",
+      "name": "Dynamic Content with #",
+      "x": 215,
+      "y": -109,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#dynamic-content-with",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#u52nxi",
+      "name": "Basic Usage",
+      "x": 357,
+      "y": -298,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#basic-usage",
+      "bgColor": "#ffe2ed",
+      "parent": "#gvy3ts"
+    },
+    {
+      "@id": "#gqf27m",
+      "name": "Advanced Usage",
+      "x": 506,
+      "y": -257,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#advanced-usage",
+      "bgColor": "#ffe2ed",
+      "parent": "#gvy3ts"
+    },
+    {
+      "@id": "#b5aq25",
+      "name": "When to Use #",
+      "x": 477,
+      "y": -126,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#when-to-use",
+      "bgColor": "#ffe2ed",
+      "parent": "#gvy3ts"
+    },
+    {
+      "@id": "#pmmk7u",
+      "name": "Best Practices by Project Type",
+      "x": 209,
+      "y": 116,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#best-practices-by-project-type",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vyu7hu",
+      "name": "For Solo Projects",
+      "x": 496,
+      "y": 54,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#for-solo-projects",
+      "bgColor": "#ffe4d9",
+      "parent": "#pmmk7u"
+    },
+    {
+      "@id": "#8dfucg",
+      "name": "For Team Projects",
+      "x": 545,
+      "y": 192,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#for-team-projects",
+      "bgColor": "#ffe4d9",
+      "parent": "#pmmk7u"
+    },
+    {
+      "@id": "#em4fgk",
+      "name": "For Open Source Projects",
+      "x": 383,
+      "y": 274,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#for-open-source-projects",
+      "bgColor": "#ffe4d9",
+      "parent": "#pmmk7u"
+    },
+    {
+      "@id": "#94c29c",
+      "name": "For Client Projects",
+      "x": 310,
+      "y": 427,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#for-client-projects",
+      "bgColor": "#ffe4d9",
+      "parent": "#pmmk7u"
+    },
+    {
+      "@id": "#q5s64p",
+      "name": "Memory Management",
+      "x": -76,
+      "y": 202,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#memory-management",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#5m9ysx",
+      "name": "Keeping CLAUDE.md Lean",
+      "x": 19,
+      "y": 425,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#keeping-claudemd-lean",
+      "bgColor": "#f2ecd2",
+      "parent": "#q5s64p"
+    },
+    {
+      "@id": "#zhx52d",
+      "name": "Periodic Cleanup",
+      "x": -146,
+      "y": 486,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#periodic-cleanup",
+      "bgColor": "#f2ecd2",
+      "parent": "#q5s64p"
+    },
+    {
+      "@id": "#y9485z",
+      "name": "Using Skills for Complex Context",
+      "x": -282,
+      "y": 351,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#using-skills-for-complex-context",
+      "bgColor": "#f2ecd2",
+      "parent": "#q5s64p"
+    },
+    {
+      "@id": "#v2q9jg",
+      "name": "When to Update vs When to Use Skills",
+      "x": -223,
+      "y": 96,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#when-to-update-vs-when-to-use-skills",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#yfeius",
+      "name": "Update CLAUDE.md When",
+      "x": -446,
+      "y": 192,
+      "link": "https://claude-docs.github.io/guides/claude-md-mastery#update-claudemd-when",
+      "bgColor": "#ddf2de",
+      "parent": "#v2q9jg"
+    },
+    {
+      "@id": "#c68jdy",
+      "name": "← Core Guides",
+      "x": -248,
+      "y": 30,
+      "link": "./core-guides.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 1,
+      "end": 5
+    },
+    {
+      "start": 1,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 7,
+      "end": 8
+    },
+    {
+      "start": 7,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 10,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 14,
+      "end": 15
+    },
+    {
+      "start": 14,
+      "end": 16
+    },
+    {
+      "start": 14,
+      "end": 17
+    },
+    {
+      "start": 14,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 19,
+      "end": 20
+    },
+    {
+      "start": 19,
+      "end": 21
+    },
+    {
+      "start": 19,
+      "end": 22
+    },
+    {
+      "start": 0,
+      "end": 23
+    },
+    {
+      "start": 23,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

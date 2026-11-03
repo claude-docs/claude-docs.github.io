@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Real-World Examples",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/guides/real-world-examples",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#etjen8",
+      "name": "Building a REST API from Scratch",
+      "x": -215,
+      "y": -108,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#building-a-rest-api-from-scratch",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#5inp9e",
+      "name": "Scenario",
+      "x": -490,
+      "y": -86,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#scenario",
+      "bgColor": "#daeeff",
+      "parent": "#etjen8"
+    },
+    {
+      "@id": "#ntyx95",
+      "name": "Step-by-Step Process",
+      "x": -525,
+      "y": -228,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#step-by-step-process",
+      "bgColor": "#daeeff",
+      "parent": "#etjen8"
+    },
+    {
+      "@id": "#2tit4t",
+      "name": "Final Directory Structure",
+      "x": -347,
+      "y": -306,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#final-directory-structure",
+      "bgColor": "#daeeff",
+      "parent": "#etjen8"
+    },
+    {
+      "@id": "#qkiw4x",
+      "name": "Adding Authentication to an Existing App",
+      "x": -6,
+      "y": -212,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#adding-authentication-to-an-existing-app",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#6svgw8",
+      "name": "Scenario",
+      "x": -151,
+      "y": -405,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#scenario",
+      "bgColor": "#efe6ff",
+      "parent": "#qkiw4x"
+    },
+    {
+      "@id": "#zymcc3",
+      "name": "Step-by-Step Process",
+      "x": -23,
+      "y": -501,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#step-by-step-process",
+      "bgColor": "#efe6ff",
+      "parent": "#qkiw4x"
+    },
+    {
+      "@id": "#eh5m3g",
+      "name": "Key Files Created",
+      "x": 121,
+      "y": -412,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#key-files-created",
+      "bgColor": "#efe6ff",
+      "parent": "#qkiw4x"
+    },
+    {
+      "@id": "#qf8mj6",
+      "name": "Database Schema Migration",
+      "x": 208,
+      "y": -118,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#database-schema-migration",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qphniu",
+      "name": "Scenario",
+      "x": 305,
+      "y": -337,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#scenario",
+      "bgColor": "#ffe2ed",
+      "parent": "#qf8mj6"
+    },
+    {
+      "@id": "#upec3y",
+      "name": "Step-by-Step Process",
+      "x": 471,
+      "y": -302,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#step-by-step-process",
+      "bgColor": "#ffe2ed",
+      "parent": "#qf8mj6"
+    },
+    {
+      "@id": "#san2rb",
+      "name": "Example Migration Output",
+      "x": 474,
+      "y": -134,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#example-migration-output",
+      "bgColor": "#ffe2ed",
+      "parent": "#qf8mj6"
+    },
+    {
+      "@id": "#fjhqtk",
+      "name": "Frontend Component Library Creation",
+      "x": 229,
+      "y": 86,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#frontend-component-library-creation",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#xqcgzc",
+      "name": "Scenario",
+      "x": 496,
+      "y": 56,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#scenario",
+      "bgColor": "#ffe4d9",
+      "parent": "#fjhqtk"
+    },
+    {
+      "@id": "#8cnj84",
+      "name": "Step-by-Step Process",
+      "x": 543,
+      "y": 195,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#step-by-step-process",
+      "bgColor": "#ffe4d9",
+      "parent": "#fjhqtk"
+    },
+    {
+      "@id": "#uye86n",
+      "name": "Component Example",
+      "x": 388,
+      "y": 268,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#component-example",
+      "bgColor": "#ffe4d9",
+      "parent": "#fjhqtk"
+    },
+    {
+      "@id": "#58g98j",
+      "name": "CLI Tool Development",
+      "x": 48,
+      "y": 209,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#cli-tool-development",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#9cuu7z",
+      "name": "Scenario",
+      "x": 232,
+      "y": 376,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#scenario",
+      "bgColor": "#f2ecd2",
+      "parent": "#58g98j"
+    },
+    {
+      "@id": "#87uszx",
+      "name": "Step-by-Step Process",
+      "x": 125,
+      "y": 490,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#step-by-step-process",
+      "bgColor": "#f2ecd2",
+      "parent": "#58g98j"
+    },
+    {
+      "@id": "#5dkjsi",
+      "name": "CLI Example Output",
+      "x": -37,
+      "y": 424,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#cli-example-output",
+      "bgColor": "#f2ecd2",
+      "parent": "#58g98j"
+    },
+    {
+      "@id": "#hmkkzr",
+      "name": "Test Suite Improvement",
+      "x": -178,
+      "y": 150,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#test-suite-improvement",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#u3qkx6",
+      "name": "Scenario",
+      "x": -235,
+      "y": 375,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#scenario",
+      "bgColor": "#ddf2de",
+      "parent": "#hmkkzr"
+    },
+    {
+      "@id": "#9yrdh5",
+      "name": "Step-by-Step Process",
+      "x": -406,
+      "y": 364,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#step-by-step-process",
+      "bgColor": "#ddf2de",
+      "parent": "#hmkkzr"
+    },
+    {
+      "@id": "#x8gxez",
+      "name": "Test Factory Example",
+      "x": -436,
+      "y": 208,
+      "link": "https://claude-docs.github.io/guides/real-world-examples#test-factory-example",
+      "bgColor": "#ddf2de",
+      "parent": "#hmkkzr"
+    },
+    {
+      "@id": "#cjkiia",
+      "name": "← Development",
+      "x": -248,
+      "y": 30,
+      "link": "./development.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 5,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 9,
+      "end": 10
+    },
+    {
+      "start": 9,
+      "end": 11
+    },
+    {
+      "start": 9,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 13,
+      "end": 14
+    },
+    {
+      "start": 13,
+      "end": 15
+    },
+    {
+      "start": 13,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    },
+    {
+      "start": 17,
+      "end": 18
+    },
+    {
+      "start": 17,
+      "end": 19
+    },
+    {
+      "start": 17,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 21,
+      "end": 22
+    },
+    {
+      "start": 21,
+      "end": 23
+    },
+    {
+      "start": 21,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

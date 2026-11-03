@@ -1,0 +1,272 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "CLI Overview",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/cli/overview",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#f65d8e",
+      "name": "Basic Usage",
+      "x": -204,
+      "y": -123,
+      "link": "https://claude-docs.github.io/cli/overview#basic-usage",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ncsetq",
+      "name": "Interactive Mode",
+      "x": -481,
+      "y": -117,
+      "link": "https://claude-docs.github.io/cli/overview#interactive-mode",
+      "bgColor": "#daeeff",
+      "parent": "#f65d8e"
+    },
+    {
+      "@id": "#b9nzdc",
+      "name": "One-Shot Mode",
+      "x": -478,
+      "y": -294,
+      "link": "https://claude-docs.github.io/cli/overview#one-shot-mode",
+      "bgColor": "#daeeff",
+      "parent": "#f65d8e"
+    },
+    {
+      "@id": "#k8wdpx",
+      "name": "Headless Mode",
+      "x": -285,
+      "y": -349,
+      "link": "https://claude-docs.github.io/cli/overview#headless-mode",
+      "bgColor": "#daeeff",
+      "parent": "#f65d8e"
+    },
+    {
+      "@id": "#a9fnph",
+      "name": "Command Structure",
+      "x": -67,
+      "y": -210,
+      "link": "https://claude-docs.github.io/cli/overview#command-structure",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#yyu7jz",
+      "name": "Common Options",
+      "x": -68,
+      "y": -421,
+      "link": "https://claude-docs.github.io/cli/overview#common-options",
+      "bgColor": "#efe6ff",
+      "parent": "#a9fnph"
+    },
+    {
+      "@id": "#wkrebf",
+      "name": "Session Flow",
+      "x": 82,
+      "y": -205,
+      "link": "https://claude-docs.github.io/cli/overview#session-flow",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#bu5bte",
+      "name": "Context and Memory",
+      "x": 225,
+      "y": -93,
+      "link": "https://claude-docs.github.io/cli/overview#context-and-memory",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4hakzu",
+      "name": "Session Context",
+      "x": 338,
+      "y": -313,
+      "link": "https://claude-docs.github.io/cli/overview#session-context",
+      "bgColor": "#ffe4d9",
+      "parent": "#bu5bte"
+    },
+    {
+      "@id": "#yhcpjw",
+      "name": "CLAUDE.md Memory",
+      "x": 524,
+      "y": -230,
+      "link": "https://claude-docs.github.io/cli/overview#claudemd-memory",
+      "bgColor": "#ffe4d9",
+      "parent": "#bu5bte"
+    },
+    {
+      "@id": "#m7mgcv",
+      "name": "Context Management",
+      "x": 497,
+      "y": -43,
+      "link": "https://claude-docs.github.io/cli/overview#context-management",
+      "bgColor": "#ffe4d9",
+      "parent": "#bu5bte"
+    },
+    {
+      "@id": "#gekznt",
+      "name": "Working Directory",
+      "x": 228,
+      "y": 88,
+      "link": "https://claude-docs.github.io/cli/overview#working-directory",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#beqq5j",
+      "name": "Model Selection",
+      "x": 164,
+      "y": 160,
+      "link": "https://claude-docs.github.io/cli/overview#model-selection",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#6r28st",
+      "name": "Output Modes",
+      "x": -23,
+      "y": 212,
+      "link": "https://claude-docs.github.io/cli/overview#output-modes",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#d5e2jv",
+      "name": "Interactive",
+      "x": 122,
+      "y": 412,
+      "link": "https://claude-docs.github.io/cli/overview#interactive-default",
+      "bgColor": "#d1f3f4",
+      "parent": "#6r28st"
+    },
+    {
+      "@id": "#3g77sx",
+      "name": "JSON Mode",
+      "x": -53,
+      "y": 499,
+      "link": "https://claude-docs.github.io/cli/overview#json-mode",
+      "bgColor": "#d1f3f4",
+      "parent": "#6r28st"
+    },
+    {
+      "@id": "#ucs9ug",
+      "name": "Stream Mode",
+      "x": -208,
+      "y": 387,
+      "link": "https://claude-docs.github.io/cli/overview#stream-mode",
+      "bgColor": "#d1f3f4",
+      "parent": "#6r28st"
+    },
+    {
+      "@id": "#tse2je",
+      "name": "Integration Points",
+      "x": -200,
+      "y": 127,
+      "link": "https://claude-docs.github.io/cli/overview#integration-points",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cvh8ee",
+      "name": "← CLI Reference",
+      "x": -245,
+      "y": 43,
+      "link": "./cli-reference.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 8,
+      "end": 9
+    },
+    {
+      "start": 8,
+      "end": 10
+    },
+    {
+      "start": 8,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 14,
+      "end": 15
+    },
+    {
+      "start": 14,
+      "end": 16
+    },
+    {
+      "start": 14,
+      "end": 17
+    },
+    {
+      "start": 0,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    }
+  ],
+  "selectedNode": 0
+}

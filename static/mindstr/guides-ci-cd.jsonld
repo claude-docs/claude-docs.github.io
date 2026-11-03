@@ -1,0 +1,259 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "CI/CD Integration",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/guides/ci-cd",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#tdtcdn",
+      "name": "GitHub Actions",
+      "x": -186,
+      "y": -142,
+      "link": "https://claude-docs.github.io/guides/ci-cd#github-actions",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#84ejb5",
+      "name": "Code Review on PR",
+      "x": -476,
+      "y": -129,
+      "link": "https://claude-docs.github.io/guides/ci-cd#code-review-on-pr",
+      "bgColor": "#daeeff",
+      "parent": "#tdtcdn"
+    },
+    {
+      "@id": "#2d68im",
+      "name": "Test Generation",
+      "x": -461,
+      "y": -313,
+      "link": "https://claude-docs.github.io/guides/ci-cd#test-generation",
+      "bgColor": "#daeeff",
+      "parent": "#tdtcdn"
+    },
+    {
+      "@id": "#rys6ph",
+      "name": "Documentation Generation",
+      "x": -227,
+      "y": -379,
+      "link": "https://claude-docs.github.io/guides/ci-cd#documentation-generation",
+      "bgColor": "#daeeff",
+      "parent": "#tdtcdn"
+    },
+    {
+      "@id": "#jfcpjj",
+      "name": "GitLab CI",
+      "x": 11,
+      "y": -211,
+      "link": "https://claude-docs.github.io/guides/ci-cd#gitlab-ci",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#jtvycf",
+      "name": "Code Review",
+      "x": 51,
+      "y": -423,
+      "link": "https://claude-docs.github.io/guides/ci-cd#code-review",
+      "bgColor": "#efe6ff",
+      "parent": "#jfcpjj"
+    },
+    {
+      "@id": "#erjcb4",
+      "name": "Azure DevOps",
+      "x": 130,
+      "y": -185,
+      "link": "https://claude-docs.github.io/guides/ci-cd#azure-devops",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#g9mkvu",
+      "name": "Jenkins",
+      "x": 199,
+      "y": -129,
+      "link": "https://claude-docs.github.io/guides/ci-cd#jenkins",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#c8igbh",
+      "name": "Headless Mode",
+      "x": 243,
+      "y": -52,
+      "link": "https://claude-docs.github.io/guides/ci-cd#headless-mode",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#rv4ipt",
+      "name": "Security",
+      "x": 227,
+      "y": 90,
+      "link": "https://claude-docs.github.io/guides/ci-cd#security",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#svxypu",
+      "name": "API Key Management",
+      "x": 486,
+      "y": 99,
+      "link": "https://claude-docs.github.io/guides/ci-cd#api-key-management",
+      "bgColor": "#ddf2de",
+      "parent": "#rv4ipt"
+    },
+    {
+      "@id": "#gyyw4i",
+      "name": "Permission Scoping",
+      "x": 475,
+      "y": 298,
+      "link": "https://claude-docs.github.io/guides/ci-cd#permission-scoping",
+      "bgColor": "#ddf2de",
+      "parent": "#rv4ipt"
+    },
+    {
+      "@id": "#cgeu24",
+      "name": "Best Practices",
+      "x": 12,
+      "y": 212,
+      "link": "https://claude-docs.github.io/guides/ci-cd#best-practices",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wyvwkv",
+      "name": "Cost Control",
+      "x": 190,
+      "y": 393,
+      "link": "https://claude-docs.github.io/guides/ci-cd#cost-control",
+      "bgColor": "#d1f3f4",
+      "parent": "#cgeu24"
+    },
+    {
+      "@id": "#agzsi8",
+      "name": "Error Handling",
+      "x": 28,
+      "y": 501,
+      "link": "https://claude-docs.github.io/guides/ci-cd#error-handling",
+      "bgColor": "#d1f3f4",
+      "parent": "#cgeu24"
+    },
+    {
+      "@id": "#pxr9w9",
+      "name": "Timeouts",
+      "x": -145,
+      "y": 407,
+      "link": "https://claude-docs.github.io/guides/ci-cd#timeouts",
+      "bgColor": "#d1f3f4",
+      "parent": "#cgeu24"
+    },
+    {
+      "@id": "#a2vrf9",
+      "name": "Use Cases",
+      "x": -174,
+      "y": 153,
+      "link": "https://claude-docs.github.io/guides/ci-cd#use-cases",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#yry4un",
+      "name": "← Workflows & Automation",
+      "x": -239,
+      "y": 63,
+      "link": "./workflows-automation.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 13,
+      "end": 14
+    },
+    {
+      "start": 13,
+      "end": 15
+    },
+    {
+      "start": 13,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    },
+    {
+      "start": 0,
+      "end": 18
+    }
+  ],
+  "selectedNode": 0
+}

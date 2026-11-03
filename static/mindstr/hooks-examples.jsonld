@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Hook Examples",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/hooks/examples",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#dakc74",
+      "name": "Code Formatting",
+      "x": -184,
+      "y": -144,
+      "link": "https://claude-docs.github.io/hooks/examples#code-formatting",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qj69rc",
+      "name": "Prettier for JavaScript/TypeScript",
+      "x": -468,
+      "y": -150,
+      "link": "https://claude-docs.github.io/hooks/examples#prettier-for-javascripttypescript",
+      "bgColor": "#daeeff",
+      "parent": "#dakc74"
+    },
+    {
+      "@id": "#frxya7",
+      "name": "Black for Python",
+      "x": -438,
+      "y": -336,
+      "link": "https://claude-docs.github.io/hooks/examples#black-for-python",
+      "bgColor": "#daeeff",
+      "parent": "#dakc74"
+    },
+    {
+      "@id": "#ejuftf",
+      "name": "gofmt for Go",
+      "x": -275,
+      "y": -355,
+      "link": "https://claude-docs.github.io/hooks/examples#gofmt-for-go",
+      "bgColor": "#daeeff",
+      "parent": "#dakc74"
+    },
+    {
+      "@id": "#dzex9b",
+      "name": "rustfmt for Rust",
+      "x": -191,
+      "y": -475,
+      "link": "https://claude-docs.github.io/hooks/examples#rustfmt-for-rust",
+      "bgColor": "#daeeff",
+      "parent": "#dakc74"
+    },
+    {
+      "@id": "#hbg45x",
+      "name": "Linting",
+      "x": 68,
+      "y": -204,
+      "link": "https://claude-docs.github.io/hooks/examples#linting",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#68p697",
+      "name": "ESLint Auto-fix",
+      "x": 49,
+      "y": -423,
+      "link": "https://claude-docs.github.io/hooks/examples#eslint-auto-fix",
+      "bgColor": "#efe6ff",
+      "parent": "#hbg45x"
+    },
+    {
+      "@id": "#fqgcwx",
+      "name": "Run Tests After Changes",
+      "x": 232,
+      "y": -462,
+      "link": "https://claude-docs.github.io/hooks/examples#run-tests-after-changes",
+      "bgColor": "#efe6ff",
+      "parent": "#hbg45x"
+    },
+    {
+      "@id": "#29fnhd",
+      "name": "Notifications",
+      "x": 220,
+      "y": -101,
+      "link": "https://claude-docs.github.io/hooks/examples#notifications",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#v7itah",
+      "name": "Desktop Notification on Complete",
+      "x": 402,
+      "y": -253,
+      "link": "https://claude-docs.github.io/hooks/examples#desktop-notification-on-complete",
+      "bgColor": "#ffe2ed",
+      "parent": "#29fnhd"
+    },
+    {
+      "@id": "#xa32i4",
+      "name": "Slack Notification",
+      "x": 569,
+      "y": -132,
+      "link": "https://claude-docs.github.io/hooks/examples#slack-notification",
+      "bgColor": "#ffe2ed",
+      "parent": "#29fnhd"
+    },
+    {
+      "@id": "#jr9j9p",
+      "name": "Security",
+      "x": 240,
+      "y": 60,
+      "link": "https://claude-docs.github.io/hooks/examples#security",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4tr2n9",
+      "name": "Block Sensitive Files",
+      "x": 493,
+      "y": 70,
+      "link": "https://claude-docs.github.io/hooks/examples#block-sensitive-files",
+      "bgColor": "#ffe4d9",
+      "parent": "#jr9j9p"
+    },
+    {
+      "@id": "#xmtvxe",
+      "name": "Audit Logging",
+      "x": 531,
+      "y": 218,
+      "link": "https://claude-docs.github.io/hooks/examples#audit-logging",
+      "bgColor": "#ffe4d9",
+      "parent": "#jr9j9p"
+    },
+    {
+      "@id": "#u3q4yu",
+      "name": "Git Integration",
+      "x": 145,
+      "y": 170,
+      "link": "https://claude-docs.github.io/hooks/examples#git-integration",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#rper7b",
+      "name": "Auto-Stage Changes",
+      "x": 340,
+      "y": 311,
+      "link": "https://claude-docs.github.io/hooks/examples#auto-stage-changes",
+      "bgColor": "#f2ecd2",
+      "parent": "#u3q4yu"
+    },
+    {
+      "@id": "#e9x7xt",
+      "name": "Pre-commit Check",
+      "x": 270,
+      "y": 446,
+      "link": "https://claude-docs.github.io/hooks/examples#pre-commit-check",
+      "bgColor": "#f2ecd2",
+      "parent": "#u3q4yu"
+    },
+    {
+      "@id": "#w6ibp7",
+      "name": "Development Workflow",
+      "x": -11,
+      "y": 214,
+      "link": "https://claude-docs.github.io/hooks/examples#development-workflow",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#umf25h",
+      "name": "Restart Dev Server",
+      "x": 47,
+      "y": 423,
+      "link": "https://claude-docs.github.io/hooks/examples#restart-dev-server",
+      "bgColor": "#ddf2de",
+      "parent": "#w6ibp7"
+    },
+    {
+      "@id": "#ziqaes",
+      "name": "Rebuild on Change",
+      "x": -109,
+      "y": 493,
+      "link": "https://claude-docs.github.io/hooks/examples#rebuild-on-change",
+      "bgColor": "#ddf2de",
+      "parent": "#w6ibp7"
+    },
+    {
+      "@id": "#mpt24a",
+      "name": "Context Management",
+      "x": -156,
+      "y": 166,
+      "link": "https://claude-docs.github.io/hooks/examples#context-management",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#eu4mwv",
+      "name": "Prompt Logging",
+      "x": -260,
+      "y": 363,
+      "link": "https://claude-docs.github.io/hooks/examples#prompt-logging",
+      "bgColor": "#d1f3f4",
+      "parent": "#mpt24a"
+    },
+    {
+      "@id": "#xeqwmb",
+      "name": "Session Summary",
+      "x": -421,
+      "y": 351,
+      "link": "https://claude-docs.github.io/hooks/examples#session-summary",
+      "bgColor": "#d1f3f4",
+      "parent": "#mpt24a"
+    },
+    {
+      "@id": "#veupur",
+      "name": "Multi-Step Hooks",
+      "x": -225,
+      "y": 92,
+      "link": "https://claude-docs.github.io/hooks/examples#multi-step-hooks",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4e33t4",
+      "name": "← Hooks System",
+      "x": -247,
+      "y": 31,
+      "link": "./hooks-system.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 1,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 6,
+      "end": 7
+    },
+    {
+      "start": 6,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 9,
+      "end": 10
+    },
+    {
+      "start": 9,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 12,
+      "end": 13
+    },
+    {
+      "start": 12,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 15,
+      "end": 16
+    },
+    {
+      "start": 15,
+      "end": 17
+    },
+    {
+      "start": 0,
+      "end": 18
+    },
+    {
+      "start": 18,
+      "end": 19
+    },
+    {
+      "start": 18,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 21,
+      "end": 22
+    },
+    {
+      "start": 21,
+      "end": 23
+    },
+    {
+      "start": 0,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

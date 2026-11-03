@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Agent SDK",
+      "x": 0,
+      "y": 0,
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#xtiknb",
+      "name": "Agent SDK Overview",
+      "x": -190,
+      "y": -138,
+      "link": "./sdk-overview.jsonld",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cyduqq",
+      "name": "Python SDK",
+      "x": 110,
+      "y": -191,
+      "link": "./sdk-python.jsonld",
+      "bgColor": "#e9c1ef",
+      "parent": "#this"
+    },
+    {
+      "@id": "#c4smut",
+      "name": "TypeScript SDK",
+      "x": 249,
+      "y": 21,
+      "link": "./sdk-typescript.jsonld",
+      "bgColor": "#fec0b1",
+      "parent": "#this"
+    },
+    {
+      "@id": "#2h67yt",
+      "name": "Use Cases",
+      "x": 63,
+      "y": 206,
+      "link": "./sdk-use-cases.jsonld",
+      "bgColor": "#d7d59b",
+      "parent": "#this"
+    },
+    {
+      "@id": "#xahf87",
+      "name": "← Claude docs",
+      "x": -205,
+      "y": 121,
+      "link": "./index.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    }
+  ],
+  "selectedNode": 0
+}

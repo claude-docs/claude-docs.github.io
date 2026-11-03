@@ -1,0 +1,246 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "MCP Overview",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/mcp/overview",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#wmw2zs",
+      "name": "What is MCP?",
+      "x": -244,
+      "y": -47,
+      "link": "https://claude-docs.github.io/mcp/overview#what-is-mcp",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vfmmq5",
+      "name": "Architecture",
+      "x": -196,
+      "y": -132,
+      "link": "https://claude-docs.github.io/mcp/overview#architecture",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#pcr96u",
+      "name": "Key Components",
+      "x": -391,
+      "y": -264,
+      "link": "https://claude-docs.github.io/mcp/overview#key-components",
+      "bgColor": "#efe6ff",
+      "parent": "#vfmmq5"
+    },
+    {
+      "@id": "#9b7nqt",
+      "name": "Core Concepts",
+      "x": -1,
+      "y": -212,
+      "link": "https://claude-docs.github.io/mcp/overview#core-concepts",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#tznyhy",
+      "name": "Tools",
+      "x": -185,
+      "y": -395,
+      "link": "https://claude-docs.github.io/mcp/overview#tools",
+      "bgColor": "#ffe2ed",
+      "parent": "#9b7nqt"
+    },
+    {
+      "@id": "#uwwb48",
+      "name": "Resources",
+      "x": -2,
+      "y": -501,
+      "link": "https://claude-docs.github.io/mcp/overview#resources",
+      "bgColor": "#ffe2ed",
+      "parent": "#9b7nqt"
+    },
+    {
+      "@id": "#bkdx9m",
+      "name": "Prompts",
+      "x": 182,
+      "y": -396,
+      "link": "https://claude-docs.github.io/mcp/overview#prompts",
+      "bgColor": "#ffe2ed",
+      "parent": "#9b7nqt"
+    },
+    {
+      "@id": "#uyi44v",
+      "name": "Available Servers",
+      "x": 229,
+      "y": -86,
+      "link": "https://claude-docs.github.io/mcp/overview#available-servers",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#pepean",
+      "name": "Official Servers",
+      "x": 406,
+      "y": -248,
+      "link": "https://claude-docs.github.io/mcp/overview#official-servers",
+      "bgColor": "#ffe4d9",
+      "parent": "#uyi44v"
+    },
+    {
+      "@id": "#uxyq6b",
+      "name": "Community Servers",
+      "x": 577,
+      "y": -106,
+      "link": "https://claude-docs.github.io/mcp/overview#community-servers",
+      "bgColor": "#ffe4d9",
+      "parent": "#uyi44v"
+    },
+    {
+      "@id": "#pms64g",
+      "name": "Getting Started",
+      "x": 168,
+      "y": 157,
+      "link": "https://claude-docs.github.io/mcp/overview#getting-started",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cywvmh",
+      "name": "Configure a Server",
+      "x": 458,
+      "y": 171,
+      "link": "https://claude-docs.github.io/mcp/overview#1-configure-a-server",
+      "bgColor": "#f2ecd2",
+      "parent": "#pms64g"
+    },
+    {
+      "@id": "#mmmrka",
+      "name": "Restart Claude Code",
+      "x": 383,
+      "y": 381,
+      "link": "https://claude-docs.github.io/mcp/overview#2-restart-claude-code",
+      "bgColor": "#f2ecd2",
+      "parent": "#pms64g"
+    },
+    {
+      "@id": "#u2r43v",
+      "name": "Use the Tools",
+      "x": 143,
+      "y": 407,
+      "link": "https://claude-docs.github.io/mcp/overview#3-use-the-tools",
+      "bgColor": "#f2ecd2",
+      "parent": "#pms64g"
+    },
+    {
+      "@id": "#pnzi2z",
+      "name": "MCP Registries",
+      "x": -60,
+      "y": 208,
+      "link": "https://claude-docs.github.io/mcp/overview#mcp-registries",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#2yz4j8",
+      "name": "Benefits",
+      "x": -159,
+      "y": 163,
+      "link": "https://claude-docs.github.io/mcp/overview#benefits",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#xgkrrw",
+      "name": "← Model Context Protocol",
+      "x": -237,
+      "y": 69,
+      "link": "./model-context-protocol.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 4,
+      "end": 5
+    },
+    {
+      "start": 4,
+      "end": 6
+    },
+    {
+      "start": 4,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 8,
+      "end": 9
+    },
+    {
+      "start": 8,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 11,
+      "end": 12
+    },
+    {
+      "start": 11,
+      "end": 13
+    },
+    {
+      "start": 11,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    }
+  ],
+  "selectedNode": 0
+}

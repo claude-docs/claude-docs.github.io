@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Hook Events",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/hooks/events",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#8um54u",
+      "name": "PreToolUse",
+      "x": -205,
+      "y": -122,
+      "link": "https://claude-docs.github.io/hooks/events#pretooluse",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#5kkg9n",
+      "name": "Use Cases",
+      "x": -488,
+      "y": -92,
+      "link": "https://claude-docs.github.io/hooks/events#use-cases",
+      "bgColor": "#daeeff",
+      "parent": "#8um54u"
+    },
+    {
+      "@id": "#9xb4tt",
+      "name": "Configuration",
+      "x": -530,
+      "y": -221,
+      "link": "https://claude-docs.github.io/hooks/events#configuration",
+      "bgColor": "#daeeff",
+      "parent": "#8um54u"
+    },
+    {
+      "@id": "#maagxn",
+      "name": "Environment Variables",
+      "x": -372,
+      "y": -284,
+      "link": "https://claude-docs.github.io/hooks/events#environment-variables",
+      "bgColor": "#daeeff",
+      "parent": "#8um54u"
+    },
+    {
+      "@id": "#by83wr",
+      "name": "Blocking",
+      "x": -315,
+      "y": -424,
+      "link": "https://claude-docs.github.io/hooks/events#blocking",
+      "bgColor": "#daeeff",
+      "parent": "#8um54u"
+    },
+    {
+      "@id": "#u3nq93",
+      "name": "PostToolUse",
+      "x": 66,
+      "y": -205,
+      "link": "https://claude-docs.github.io/hooks/events#posttooluse",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#idgxzv",
+      "name": "Use Cases",
+      "x": -64,
+      "y": -421,
+      "link": "https://claude-docs.github.io/hooks/events#use-cases",
+      "bgColor": "#efe6ff",
+      "parent": "#u3nq93"
+    },
+    {
+      "@id": "#u5tewx",
+      "name": "Configuration",
+      "x": 64,
+      "y": -499,
+      "link": "https://claude-docs.github.io/hooks/events#configuration",
+      "bgColor": "#efe6ff",
+      "parent": "#u3nq93"
+    },
+    {
+      "@id": "#zhdmxn",
+      "name": "Environment Variables",
+      "x": 188,
+      "y": -394,
+      "link": "https://claude-docs.github.io/hooks/events#environment-variables",
+      "bgColor": "#efe6ff",
+      "parent": "#u3nq93"
+    },
+    {
+      "@id": "#qxhb8n",
+      "name": "Chaining",
+      "x": 362,
+      "y": -396,
+      "link": "https://claude-docs.github.io/hooks/events#chaining",
+      "bgColor": "#efe6ff",
+      "parent": "#u3nq93"
+    },
+    {
+      "@id": "#rihrek",
+      "name": "Notification",
+      "x": 250,
+      "y": 0,
+      "link": "https://claude-docs.github.io/hooks/events#notification",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#8n9yzf",
+      "name": "Use Cases",
+      "x": 447,
+      "y": -190,
+      "link": "https://claude-docs.github.io/hooks/events#use-cases",
+      "bgColor": "#ffe2ed",
+      "parent": "#rihrek"
+    },
+    {
+      "@id": "#4pu28h",
+      "name": "Configuration",
+      "x": 575,
+      "y": -112,
+      "link": "https://claude-docs.github.io/hooks/events#configuration",
+      "bgColor": "#ffe2ed",
+      "parent": "#rihrek"
+    },
+    {
+      "@id": "#ahtsnn",
+      "name": "Environment Variables",
+      "x": 499,
+      "y": 22,
+      "link": "https://claude-docs.github.io/hooks/events#environment-variables",
+      "bgColor": "#ffe2ed",
+      "parent": "#rihrek"
+    },
+    {
+      "@id": "#aphyu8",
+      "name": "Platform-Specific Examples",
+      "x": 545,
+      "y": 193,
+      "link": "https://claude-docs.github.io/hooks/events#platform-specific-examples",
+      "bgColor": "#ffe2ed",
+      "parent": "#rihrek"
+    },
+    {
+      "@id": "#5uiyek",
+      "name": "Stop",
+      "x": 99,
+      "y": 195,
+      "link": "https://claude-docs.github.io/hooks/events#stop",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#5dir7i",
+      "name": "Use Cases",
+      "x": 316,
+      "y": 329,
+      "link": "https://claude-docs.github.io/hooks/events#use-cases",
+      "bgColor": "#ffe4d9",
+      "parent": "#5uiyek"
+    },
+    {
+      "@id": "#fw7i2r",
+      "name": "Configuration",
+      "x": 254,
+      "y": 453,
+      "link": "https://claude-docs.github.io/hooks/events#configuration",
+      "bgColor": "#ffe4d9",
+      "parent": "#5uiyek"
+    },
+    {
+      "@id": "#y82w7d",
+      "name": "Environment Variables",
+      "x": 84,
+      "y": 419,
+      "link": "https://claude-docs.github.io/hooks/events#environment-variables",
+      "bgColor": "#ffe4d9",
+      "parent": "#5uiyek"
+    },
+    {
+      "@id": "#c4tqxx",
+      "name": "UserPromptSubmit",
+      "x": -127,
+      "y": 183,
+      "link": "https://claude-docs.github.io/hooks/events#userpromptsubmit",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#hupuw5",
+      "name": "Use Cases",
+      "x": -127,
+      "y": 411,
+      "link": "https://claude-docs.github.io/hooks/events#use-cases",
+      "bgColor": "#f2ecd2",
+      "parent": "#c4tqxx"
+    },
+    {
+      "@id": "#ay8irx",
+      "name": "Configuration",
+      "x": -280,
+      "y": 441,
+      "link": "https://claude-docs.github.io/hooks/events#configuration",
+      "bgColor": "#f2ecd2",
+      "parent": "#c4tqxx"
+    },
+    {
+      "@id": "#mteddy",
+      "name": "Environment Variables",
+      "x": -349,
+      "y": 305,
+      "link": "https://claude-docs.github.io/hooks/events#environment-variables",
+      "bgColor": "#f2ecd2",
+      "parent": "#c4tqxx"
+    },
+    {
+      "@id": "#nrasrm",
+      "name": "SessionStart",
+      "x": -228,
+      "y": 88,
+      "link": "https://claude-docs.github.io/hooks/events#sessionstart",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#fb86u4",
+      "name": "← Hooks System",
+      "x": -247,
+      "y": 30,
+      "link": "./hooks-system.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 1,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 6,
+      "end": 7
+    },
+    {
+      "start": 6,
+      "end": 8
+    },
+    {
+      "start": 6,
+      "end": 9
+    },
+    {
+      "start": 6,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 11,
+      "end": 12
+    },
+    {
+      "start": 11,
+      "end": 13
+    },
+    {
+      "start": 11,
+      "end": 14
+    },
+    {
+      "start": 11,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 16,
+      "end": 17
+    },
+    {
+      "start": 16,
+      "end": 18
+    },
+    {
+      "start": 16,
+      "end": 19
+    },
+    {
+      "start": 0,
+      "end": 20
+    },
+    {
+      "start": 20,
+      "end": 21
+    },
+    {
+      "start": 20,
+      "end": 22
+    },
+    {
+      "start": 20,
+      "end": 23
+    },
+    {
+      "start": 0,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

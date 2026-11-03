@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Project Templates",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/guides/project-templates",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#r6cu5d",
+      "name": "Frontend Projects",
+      "x": -193,
+      "y": -136,
+      "link": "https://claude-docs.github.io/guides/project-templates#frontend-projects",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#s7dufv",
+      "name": "React",
+      "x": -484,
+      "y": -108,
+      "link": "https://claude-docs.github.io/guides/project-templates#react-vite-typescript",
+      "bgColor": "#daeeff",
+      "parent": "#r6cu5d"
+    },
+    {
+      "@id": "#2yqihn",
+      "name": "Next.js",
+      "x": -504,
+      "y": -261,
+      "link": "https://claude-docs.github.io/guides/project-templates#nextjs-app-router",
+      "bgColor": "#daeeff",
+      "parent": "#r6cu5d"
+    },
+    {
+      "@id": "#fp6n3v",
+      "name": "Vue 3",
+      "x": -335,
+      "y": -316,
+      "link": "https://claude-docs.github.io/guides/project-templates#vue-3-composition-api",
+      "bgColor": "#daeeff",
+      "parent": "#r6cu5d"
+    },
+    {
+      "@id": "#stzbnh",
+      "name": "Svelte",
+      "x": -253,
+      "y": -453,
+      "link": "https://claude-docs.github.io/guides/project-templates#svelte-sveltekit",
+      "bgColor": "#daeeff",
+      "parent": "#r6cu5d"
+    },
+    {
+      "@id": "#6thrat",
+      "name": "Backend Projects",
+      "x": 121,
+      "y": -186,
+      "link": "https://claude-docs.github.io/guides/project-templates#backend-projects",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#47wswh",
+      "name": "Node.js",
+      "x": 34,
+      "y": -424,
+      "link": "https://claude-docs.github.io/guides/project-templates#nodejs-express-typescript",
+      "bgColor": "#efe6ff",
+      "parent": "#6thrat"
+    },
+    {
+      "@id": "#gyacrq",
+      "name": "Python",
+      "x": 207,
+      "y": -470,
+      "link": "https://claude-docs.github.io/guides/project-templates#python-fastapi",
+      "bgColor": "#efe6ff",
+      "parent": "#6thrat"
+    },
+    {
+      "@id": "#699cj2",
+      "name": "Go",
+      "x": 302,
+      "y": -338,
+      "link": "https://claude-docs.github.io/guides/project-templates#go-chi-router",
+      "bgColor": "#efe6ff",
+      "parent": "#6thrat"
+    },
+    {
+      "@id": "#4m4kni",
+      "name": "Rust",
+      "x": 477,
+      "y": -296,
+      "link": "https://claude-docs.github.io/guides/project-templates#rust-axum",
+      "bgColor": "#efe6ff",
+      "parent": "#6thrat"
+    },
+    {
+      "@id": "#y3tqzj",
+      "name": "Full-Stack Projects",
+      "x": 250,
+      "y": -6,
+      "link": "https://claude-docs.github.io/guides/project-templates#full-stack-projects",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#8incj7",
+      "name": "T3 Stack",
+      "x": 492,
+      "y": -74,
+      "link": "https://claude-docs.github.io/guides/project-templates#t3-stack-nextjs-trpc-prisma",
+      "bgColor": "#ffe2ed",
+      "parent": "#y3tqzj"
+    },
+    {
+      "@id": "#eekj9y",
+      "name": "MERN Stack",
+      "x": 586,
+      "y": 58,
+      "link": "https://claude-docs.github.io/guides/project-templates#mern-stack",
+      "bgColor": "#ffe2ed",
+      "parent": "#y3tqzj"
+    },
+    {
+      "@id": "#fyizgp",
+      "name": "Mobile Projects",
+      "x": 197,
+      "y": 131,
+      "link": "https://claude-docs.github.io/guides/project-templates#mobile-projects",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#jyxtum",
+      "name": "React Native",
+      "x": 434,
+      "y": 210,
+      "link": "https://claude-docs.github.io/guides/project-templates#react-native-expo",
+      "bgColor": "#ffe4d9",
+      "parent": "#fyizgp"
+    },
+    {
+      "@id": "#4u2pat",
+      "name": "Flutter",
+      "x": 408,
+      "y": 363,
+      "link": "https://claude-docs.github.io/guides/project-templates#flutter",
+      "bgColor": "#ffe4d9",
+      "parent": "#fyizgp"
+    },
+    {
+      "@id": "#jczkhg",
+      "name": "CLI Tools",
+      "x": 54,
+      "y": 208,
+      "link": "https://claude-docs.github.io/guides/project-templates#cli-tools",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#jtqwjq",
+      "name": "Node.js CLI",
+      "x": 177,
+      "y": 398,
+      "link": "https://claude-docs.github.io/guides/project-templates#nodejs-cli",
+      "bgColor": "#f2ecd2",
+      "parent": "#jczkhg"
+    },
+    {
+      "@id": "#tg68vr",
+      "name": "Go CLI",
+      "x": 42,
+      "y": 500,
+      "link": "https://claude-docs.github.io/guides/project-templates#go-cli",
+      "bgColor": "#f2ecd2",
+      "parent": "#jczkhg"
+    },
+    {
+      "@id": "#jr4ba3",
+      "name": "Libraries/Packages",
+      "x": -121,
+      "y": 186,
+      "link": "https://claude-docs.github.io/guides/project-templates#librariespackages",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#h46fgs",
+      "name": "TypeScript Library",
+      "x": -176,
+      "y": 398,
+      "link": "https://claude-docs.github.io/guides/project-templates#typescript-library",
+      "bgColor": "#ddf2de",
+      "parent": "#jr4ba3"
+    },
+    {
+      "@id": "#5x6chy",
+      "name": "Python Package",
+      "x": -368,
+      "y": 392,
+      "link": "https://claude-docs.github.io/guides/project-templates#python-package",
+      "bgColor": "#ddf2de",
+      "parent": "#jr4ba3"
+    },
+    {
+      "@id": "#jjmu7c",
+      "name": "Monorepos",
+      "x": -217,
+      "y": 105,
+      "link": "https://claude-docs.github.io/guides/project-templates#monorepos",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#9rfhte",
+      "name": "Turborepo",
+      "x": -434,
+      "y": 211,
+      "link": "https://claude-docs.github.io/guides/project-templates#turborepo-typescript",
+      "bgColor": "#d1f3f4",
+      "parent": "#jjmu7c"
+    },
+    {
+      "@id": "#w6qzyt",
+      "name": "← Core Guides",
+      "x": -246,
+      "y": 37,
+      "link": "./core-guides.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 1,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 6,
+      "end": 7
+    },
+    {
+      "start": 6,
+      "end": 8
+    },
+    {
+      "start": 6,
+      "end": 9
+    },
+    {
+      "start": 6,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 11,
+      "end": 12
+    },
+    {
+      "start": 11,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 14,
+      "end": 15
+    },
+    {
+      "start": 14,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    },
+    {
+      "start": 17,
+      "end": 18
+    },
+    {
+      "start": 17,
+      "end": 19
+    },
+    {
+      "start": 0,
+      "end": 20
+    },
+    {
+      "start": 20,
+      "end": 21
+    },
+    {
+      "start": 20,
+      "end": 22
+    },
+    {
+      "start": 0,
+      "end": 23
+    },
+    {
+      "start": 23,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

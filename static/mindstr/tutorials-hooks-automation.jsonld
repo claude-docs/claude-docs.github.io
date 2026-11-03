@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Hooks & Automation",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#u6iz6f",
+      "name": "What Are Hooks?",
+      "x": -248,
+      "y": -27,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#what-are-hooks",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vb6nak",
+      "name": "Setting Up Hooks",
+      "x": -192,
+      "y": -137,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#setting-up-hooks",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#zv6fek",
+      "name": "Configuration Location",
+      "x": -447,
+      "y": -190,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#configuration-location",
+      "bgColor": "#efe6ff",
+      "parent": "#vb6nak"
+    },
+    {
+      "@id": "#y6p8te",
+      "name": "Basic Hook Structure",
+      "x": -437,
+      "y": -337,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#basic-hook-structure",
+      "bgColor": "#efe6ff",
+      "parent": "#vb6nak"
+    },
+    {
+      "@id": "#kpttum",
+      "name": "Hook Types",
+      "x": -282,
+      "y": -351,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#hook-types",
+      "bgColor": "#efe6ff",
+      "parent": "#vb6nak"
+    },
+    {
+      "@id": "#t62ib9",
+      "name": "Your First Hook: Auto-Format",
+      "x": 18,
+      "y": -212,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#your-first-hook-auto-format",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qcu5gk",
+      "name": "Step 1: Install Prettier",
+      "x": -96,
+      "y": -417,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#step-1-install-prettier",
+      "bgColor": "#ffe2ed",
+      "parent": "#t62ib9"
+    },
+    {
+      "@id": "#za8che",
+      "name": "Step 2: Configure the Hook",
+      "x": 71,
+      "y": -498,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#step-2-configure-the-hook",
+      "bgColor": "#ffe2ed",
+      "parent": "#t62ib9"
+    },
+    {
+      "@id": "#rbwcef",
+      "name": "Step 3: Test It",
+      "x": 189,
+      "y": -393,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#step-3-test-it",
+      "bgColor": "#ffe2ed",
+      "parent": "#t62ib9"
+    },
+    {
+      "@id": "#mvt9ib",
+      "name": "Auto-Linting Setup",
+      "x": 227,
+      "y": -89,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#auto-linting-setup",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4cdvsg",
+      "name": "ESLint Auto-Fix",
+      "x": 348,
+      "y": -306,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#eslint-auto-fix",
+      "bgColor": "#ffe4d9",
+      "parent": "#mvt9ib"
+    },
+    {
+      "@id": "#ur7wv9",
+      "name": "Python with Black and Ruff",
+      "x": 508,
+      "y": -256,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#python-with-black-and-ruff",
+      "bgColor": "#ffe4d9",
+      "parent": "#mvt9ib"
+    },
+    {
+      "@id": "#j2eaqz",
+      "name": "Go Format",
+      "x": 482,
+      "y": -113,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#go-format",
+      "bgColor": "#ffe4d9",
+      "parent": "#mvt9ib"
+    },
+    {
+      "@id": "#vqbwbg",
+      "name": "Rust Format",
+      "x": 589,
+      "y": -31,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#rust-format",
+      "bgColor": "#ffe4d9",
+      "parent": "#mvt9ib"
+    },
+    {
+      "@id": "#y9jt3w",
+      "name": "Notification Hooks",
+      "x": 174,
+      "y": 153,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#notification-hooks",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vxinpu",
+      "name": "Slack Notification on Session End",
+      "x": 453,
+      "y": 180,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#slack-notification-on-session-end",
+      "bgColor": "#f2ecd2",
+      "parent": "#y9jt3w"
+    },
+    {
+      "@id": "#spatem",
+      "name": "Desktop Notification",
+      "x": 440,
+      "y": 348,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#desktop-notification-macos",
+      "bgColor": "#f2ecd2",
+      "parent": "#y9jt3w"
+    },
+    {
+      "@id": "#twzhxn",
+      "name": "Desktop Notification",
+      "x": 250,
+      "y": 364,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#desktop-notification-linux",
+      "bgColor": "#f2ecd2",
+      "parent": "#y9jt3w"
+    },
+    {
+      "@id": "#ir6eif",
+      "name": "Log All Edits",
+      "x": 179,
+      "y": 478,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#log-all-edits",
+      "bgColor": "#f2ecd2",
+      "parent": "#y9jt3w"
+    },
+    {
+      "@id": "#bwj4g5",
+      "name": "Validation Hooks",
+      "x": -108,
+      "y": 192,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#validation-hooks",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#9fjvd8",
+      "name": "Prevent Editing Sensitive Files",
+      "x": -62,
+      "y": 418,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#prevent-editing-sensitive-files",
+      "bgColor": "#ddf2de",
+      "parent": "#bwj4g5"
+    },
+    {
+      "@id": "#6fwnzy",
+      "name": "Type Check After Edit",
+      "x": -299,
+      "y": 440,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#type-check-after-edit",
+      "bgColor": "#ddf2de",
+      "parent": "#bwj4g5"
+    },
+    {
+      "@id": "#rtnzsk",
+      "name": "Run Tests After Edit",
+      "x": -348,
+      "y": 305,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#run-tests-after-edit",
+      "bgColor": "#ddf2de",
+      "parent": "#bwj4g5"
+    },
+    {
+      "@id": "#v8phzs",
+      "name": "Advanced Hook Patterns",
+      "x": -229,
+      "y": 86,
+      "link": "https://claude-docs.github.io/tutorials/hooks-automation#advanced-hook-patterns",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#izxsmt",
+      "name": "← Tutorials",
+      "x": -248,
+      "y": 26,
+      "link": "./tutorials.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 2,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 6,
+      "end": 7
+    },
+    {
+      "start": 6,
+      "end": 8
+    },
+    {
+      "start": 6,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 10,
+      "end": 13
+    },
+    {
+      "start": 10,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 15,
+      "end": 16
+    },
+    {
+      "start": 15,
+      "end": 17
+    },
+    {
+      "start": 15,
+      "end": 18
+    },
+    {
+      "start": 15,
+      "end": 19
+    },
+    {
+      "start": 0,
+      "end": 20
+    },
+    {
+      "start": 20,
+      "end": 21
+    },
+    {
+      "start": 20,
+      "end": 22
+    },
+    {
+      "start": 20,
+      "end": 23
+    },
+    {
+      "start": 0,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

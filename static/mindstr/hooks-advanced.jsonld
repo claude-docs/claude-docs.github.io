@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Advanced Hooks",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/hooks/advanced",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#znzi88",
+      "name": "Conditional Execution",
+      "x": -131,
+      "y": -181,
+      "link": "https://claude-docs.github.io/hooks/advanced#conditional-execution",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qnbgsz",
+      "name": "Environment-Based Conditions",
+      "x": -473,
+      "y": -138,
+      "link": "https://claude-docs.github.io/hooks/advanced#environment-based-conditions",
+      "bgColor": "#daeeff",
+      "parent": "#znzi88"
+    },
+    {
+      "@id": "#hv53w5",
+      "name": "File Content Conditions",
+      "x": -474,
+      "y": -293,
+      "link": "https://claude-docs.github.io/hooks/advanced#file-content-conditions",
+      "bgColor": "#daeeff",
+      "parent": "#znzi88"
+    },
+    {
+      "@id": "#djsnf9",
+      "name": "Git Branch Conditions",
+      "x": -306,
+      "y": -339,
+      "link": "https://claude-docs.github.io/hooks/advanced#git-branch-conditions",
+      "bgColor": "#daeeff",
+      "parent": "#znzi88"
+    },
+    {
+      "@id": "#wwtbyq",
+      "name": "Project Type Detection",
+      "x": -224,
+      "y": -466,
+      "link": "https://claude-docs.github.io/hooks/advanced#project-type-detection",
+      "bgColor": "#daeeff",
+      "parent": "#znzi88"
+    },
+    {
+      "@id": "#zfit6k",
+      "name": "Time-Based Conditions",
+      "x": -60,
+      "y": -421,
+      "link": "https://claude-docs.github.io/hooks/advanced#time-based-conditions",
+      "bgColor": "#daeeff",
+      "parent": "#znzi88"
+    },
+    {
+      "@id": "#5ckad9",
+      "name": "Conditional on File Size",
+      "x": 93,
+      "y": -495,
+      "link": "https://claude-docs.github.io/hooks/advanced#conditional-on-file-size",
+      "bgColor": "#daeeff",
+      "parent": "#znzi88"
+    },
+    {
+      "@id": "#um2tqa",
+      "name": "Chaining Hooks",
+      "x": 232,
+      "y": -80,
+      "link": "https://claude-docs.github.io/hooks/advanced#chaining-hooks",
+      "bgColor": "#e9c1ef",
+      "parent": "#this"
+    },
+    {
+      "@id": "#27jhza",
+      "name": "Sequential Execution",
+      "x": 326,
+      "y": -330,
+      "link": "https://claude-docs.github.io/hooks/advanced#sequential-execution",
+      "bgColor": "#f7e4f9",
+      "parent": "#um2tqa"
+    },
+    {
+      "@id": "#9brwfk",
+      "name": "Fail-Safe Chaining",
+      "x": 481,
+      "y": -286,
+      "link": "https://claude-docs.github.io/hooks/advanced#fail-safe-chaining",
+      "bgColor": "#f7e4f9",
+      "parent": "#um2tqa"
+    },
+    {
+      "@id": "#3q5x4d",
+      "name": "Parallel Execution",
+      "x": 464,
+      "y": -159,
+      "link": "https://claude-docs.github.io/hooks/advanced#parallel-execution",
+      "bgColor": "#f7e4f9",
+      "parent": "#um2tqa"
+    },
+    {
+      "@id": "#n9bvq7",
+      "name": "Pipeline Pattern",
+      "x": 582,
+      "y": -80,
+      "link": "https://claude-docs.github.io/hooks/advanced#pipeline-pattern",
+      "bgColor": "#f7e4f9",
+      "parent": "#um2tqa"
+    },
+    {
+      "@id": "#cqw46h",
+      "name": "Multi-Stage Validation",
+      "x": 498,
+      "y": 36,
+      "link": "https://claude-docs.github.io/hooks/advanced#multi-stage-validation",
+      "bgColor": "#f7e4f9",
+      "parent": "#um2tqa"
+    },
+    {
+      "@id": "#w6734b",
+      "name": "Async Hooks",
+      "x": 143,
+      "y": 175,
+      "link": "https://claude-docs.github.io/hooks/advanced#async-hooks",
+      "bgColor": "#fec0b1",
+      "parent": "#this"
+    },
+    {
+      "@id": "#whg83u",
+      "name": "Background Execution",
+      "x": 423,
+      "y": 227,
+      "link": "https://claude-docs.github.io/hooks/advanced#background-execution",
+      "bgColor": "#ffe3dc",
+      "parent": "#w6734b"
+    },
+    {
+      "@id": "#ryeahv",
+      "name": "Deferred Processing",
+      "x": 421,
+      "y": 364,
+      "link": "https://claude-docs.github.io/hooks/advanced#deferred-processing",
+      "bgColor": "#ffe3dc",
+      "parent": "#w6734b"
+    },
+    {
+      "@id": "#c4zr3w",
+      "name": "Debounced Execution",
+      "x": 238,
+      "y": 370,
+      "link": "https://claude-docs.github.io/hooks/advanced#debounced-execution",
+      "bgColor": "#ffe3dc",
+      "parent": "#w6734b"
+    },
+    {
+      "@id": "#jgcv5z",
+      "name": "Rate-Limited Notifications",
+      "x": 138,
+      "y": 488,
+      "link": "https://claude-docs.github.io/hooks/advanced#rate-limited-notifications",
+      "bgColor": "#ffe3dc",
+      "parent": "#w6734b"
+    },
+    {
+      "@id": "#bs5qn2",
+      "name": "Error Recovery",
+      "x": -157,
+      "y": 166,
+      "link": "https://claude-docs.github.io/hooks/advanced#error-recovery",
+      "bgColor": "#d7d59b",
+      "parent": "#this"
+    },
+    {
+      "@id": "#nteprv",
+      "name": "Graceful Degradation",
+      "x": -125,
+      "y": 405,
+      "link": "https://claude-docs.github.io/hooks/advanced#graceful-degradation",
+      "bgColor": "#eeedd3",
+      "parent": "#bs5qn2"
+    },
+    {
+      "@id": "#uk3b6t",
+      "name": "Automatic Retry",
+      "x": -273,
+      "y": 449,
+      "link": "https://claude-docs.github.io/hooks/advanced#automatic-retry",
+      "bgColor": "#eeedd3",
+      "parent": "#bs5qn2"
+    },
+    {
+      "@id": "#vi5yj8",
+      "name": "Error Logging",
+      "x": -308,
+      "y": 330,
+      "link": "https://claude-docs.github.io/hooks/advanced#error-logging",
+      "bgColor": "#eeedd3",
+      "parent": "#bs5qn2"
+    },
+    {
+      "@id": "#k3j28m",
+      "name": "Rollback on Failure",
+      "x": -468,
+      "y": 310,
+      "link": "https://claude-docs.github.io/hooks/advanced#rollback-on-failure",
+      "bgColor": "#eeedd3",
+      "parent": "#bs5qn2"
+    },
+    {
+      "@id": "#taneds",
+      "name": "Health Checks",
+      "x": -452,
+      "y": 182,
+      "link": "https://claude-docs.github.io/hooks/advanced#health-checks",
+      "bgColor": "#eeedd3",
+      "parent": "#bs5qn2"
+    },
+    {
+      "@id": "#adixp4",
+      "name": "← Hooks System",
+      "x": -248,
+      "y": 25,
+      "link": "./hooks-system.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 1,
+      "end": 5
+    },
+    {
+      "start": 1,
+      "end": 6
+    },
+    {
+      "start": 1,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 8,
+      "end": 9
+    },
+    {
+      "start": 8,
+      "end": 10
+    },
+    {
+      "start": 8,
+      "end": 11
+    },
+    {
+      "start": 8,
+      "end": 12
+    },
+    {
+      "start": 8,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 14,
+      "end": 15
+    },
+    {
+      "start": 14,
+      "end": 16
+    },
+    {
+      "start": 14,
+      "end": 17
+    },
+    {
+      "start": 14,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 19,
+      "end": 20
+    },
+    {
+      "start": 19,
+      "end": 21
+    },
+    {
+      "start": 19,
+      "end": 22
+    },
+    {
+      "start": 19,
+      "end": 23
+    },
+    {
+      "start": 19,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "TypeScript Guide",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/guides/typescript-guide",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#xpeyxq",
+      "name": "Type Generation",
+      "x": -216,
+      "y": -107,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#type-generation",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#kvdf3e",
+      "name": "Generate Types from Data",
+      "x": -489,
+      "y": -90,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#generate-types-from-data",
+      "bgColor": "#daeeff",
+      "parent": "#xpeyxq"
+    },
+    {
+      "@id": "#y8bc2c",
+      "name": "Generate Types from API Specs",
+      "x": -519,
+      "y": -238,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#generate-types-from-api-specs",
+      "bgColor": "#daeeff",
+      "parent": "#xpeyxq"
+    },
+    {
+      "@id": "#2df7y2",
+      "name": "Generate Zod Schemas with Types",
+      "x": -346,
+      "y": -307,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#generate-zod-schemas-with-types",
+      "bgColor": "#daeeff",
+      "parent": "#xpeyxq"
+    },
+    {
+      "@id": "#f8ppzv",
+      "name": "Interface Extraction",
+      "x": -7,
+      "y": -212,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#interface-extraction",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ekf3u7",
+      "name": "Extract Interface from Implementation",
+      "x": -126,
+      "y": -411,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#extract-interface-from-implementation",
+      "bgColor": "#efe6ff",
+      "parent": "#f8ppzv"
+    },
+    {
+      "@id": "#m63cc3",
+      "name": "Extract Common Interface from Multiple Classes",
+      "x": 93,
+      "y": -495,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#extract-common-interface-from-multiple-classes",
+      "bgColor": "#efe6ff",
+      "parent": "#f8ppzv"
+    },
+    {
+      "@id": "#qkv3ee",
+      "name": "Generic Patterns",
+      "x": 207,
+      "y": -119,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#generic-patterns",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#gfxgat",
+      "name": "Create Generic Data Structures",
+      "x": 323,
+      "y": -325,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#create-generic-data-structures",
+      "bgColor": "#ffe2ed",
+      "parent": "#qkv3ee"
+    },
+    {
+      "@id": "#cexiii",
+      "name": "Generic API Response Wrapper",
+      "x": 498,
+      "y": -269,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#generic-api-response-wrapper",
+      "bgColor": "#ffe2ed",
+      "parent": "#qkv3ee"
+    },
+    {
+      "@id": "#ff2i2s",
+      "name": "Generic Builder Pattern",
+      "x": 479,
+      "y": -123,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#generic-builder-pattern",
+      "bgColor": "#ffe2ed",
+      "parent": "#qkv3ee"
+    },
+    {
+      "@id": "#hswa8m",
+      "name": "Type-Safe Refactoring",
+      "x": 244,
+      "y": 47,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#type-safe-refactoring",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#b8ghka",
+      "name": "Convert Any Types to Proper Types",
+      "x": 496,
+      "y": 55,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#convert-any-types-to-proper-types",
+      "bgColor": "#ffe4d9",
+      "parent": "#hswa8m"
+    },
+    {
+      "@id": "#spjzwb",
+      "name": "Add Type Guards",
+      "x": 546,
+      "y": 191,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#add-type-guards",
+      "bgColor": "#ffe4d9",
+      "parent": "#hswa8m"
+    },
+    {
+      "@id": "#87w3jv",
+      "name": "JavaScript to TypeScript Migration",
+      "x": 146,
+      "y": 167,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#javascript-to-typescript-migration",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#6vhgi7",
+      "name": "Convert JavaScript File to TypeScript",
+      "x": 355,
+      "y": 300,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#convert-javascript-file-to-typescript",
+      "bgColor": "#f2ecd2",
+      "parent": "#87w3jv"
+    },
+    {
+      "@id": "#wqby3r",
+      "name": "Migrate Module with Dependencies",
+      "x": 263,
+      "y": 454,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#migrate-module-with-dependencies",
+      "bgColor": "#f2ecd2",
+      "parent": "#87w3jv"
+    },
+    {
+      "@id": "#qxtant",
+      "name": "Strict Mode Adoption",
+      "x": -40,
+      "y": 213,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#strict-mode-adoption",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#sta3ff",
+      "name": "Enable Strict Mode Incrementally",
+      "x": -17,
+      "y": 425,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#enable-strict-mode-incrementally",
+      "bgColor": "#ddf2de",
+      "parent": "#qxtant"
+    },
+    {
+      "@id": "#6gef7n",
+      "name": "Fix strictNullChecks Errors",
+      "x": -189,
+      "y": 475,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#fix-strictnullchecks-errors",
+      "bgColor": "#ddf2de",
+      "parent": "#qxtant"
+    },
+    {
+      "@id": "#ns9rx5",
+      "name": "Type Narrowing",
+      "x": -180,
+      "y": 147,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#type-narrowing",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ye3fdj",
+      "name": "Discriminated Unions",
+      "x": -316,
+      "y": 344,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#discriminated-unions",
+      "bgColor": "#d1f3f4",
+      "parent": "#ns9rx5"
+    },
+    {
+      "@id": "#js9r8f",
+      "name": "Custom Type Predicates",
+      "x": -468,
+      "y": 299,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#custom-type-predicates",
+      "bgColor": "#d1f3f4",
+      "parent": "#ns9rx5"
+    },
+    {
+      "@id": "#w6gb5f",
+      "name": "Utility Types Usage",
+      "x": -234,
+      "y": 75,
+      "link": "https://claude-docs.github.io/guides/typescript-guide#utility-types-usage",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4edzth",
+      "name": "← Language Guides",
+      "x": -248,
+      "y": 25,
+      "link": "./language-guides.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 8,
+      "end": 9
+    },
+    {
+      "start": 8,
+      "end": 10
+    },
+    {
+      "start": 8,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 12,
+      "end": 13
+    },
+    {
+      "start": 12,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 15,
+      "end": 16
+    },
+    {
+      "start": 15,
+      "end": 17
+    },
+    {
+      "start": 0,
+      "end": 18
+    },
+    {
+      "start": 18,
+      "end": 19
+    },
+    {
+      "start": 18,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 21,
+      "end": 22
+    },
+    {
+      "start": 21,
+      "end": 23
+    },
+    {
+      "start": 0,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Troubleshooting",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/reference/troubleshooting",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#ue2sb5",
+      "name": "Diagnostics",
+      "x": -226,
+      "y": -91,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#diagnostics",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vbimjg",
+      "name": "Run Doctor",
+      "x": -491,
+      "y": -82,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#run-doctor",
+      "bgColor": "#daeeff",
+      "parent": "#ue2sb5"
+    },
+    {
+      "@id": "#g3rdue",
+      "name": "Verbose Mode",
+      "x": -534,
+      "y": -214,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#verbose-mode",
+      "bgColor": "#daeeff",
+      "parent": "#ue2sb5"
+    },
+    {
+      "@id": "#s27ixx",
+      "name": "MCP Debug",
+      "x": -387,
+      "y": -270,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#mcp-debug",
+      "bgColor": "#daeeff",
+      "parent": "#ue2sb5"
+    },
+    {
+      "@id": "#ctmpqn",
+      "name": "Installation Issues",
+      "x": -49,
+      "y": -208,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#installation-issues",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#33t7ym",
+      "name": "\"command not found\"",
+      "x": -223,
+      "y": -381,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#command-not-found",
+      "bgColor": "#efe6ff",
+      "parent": "#ctmpqn"
+    },
+    {
+      "@id": "#mvekv4",
+      "name": "Node.js Version",
+      "x": -109,
+      "y": -493,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#nodejs-version",
+      "bgColor": "#efe6ff",
+      "parent": "#ctmpqn"
+    },
+    {
+      "@id": "#82q677",
+      "name": "Permission Errors",
+      "x": 39,
+      "y": -424,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#permission-errors-npm",
+      "bgColor": "#efe6ff",
+      "parent": "#ctmpqn"
+    },
+    {
+      "@id": "#zkm5rg",
+      "name": "Authentication Issues",
+      "x": 184,
+      "y": -144,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#authentication-issues",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wqzmpz",
+      "name": "\"Authentication failed\"",
+      "x": 263,
+      "y": -362,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#authentication-failed",
+      "bgColor": "#ffe2ed",
+      "parent": "#zkm5rg"
+    },
+    {
+      "@id": "#jpt4qz",
+      "name": "\"Rate limited\"",
+      "x": 444,
+      "y": -330,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#rate-limited",
+      "bgColor": "#ffe2ed",
+      "parent": "#zkm5rg"
+    },
+    {
+      "@id": "#jyg9pc",
+      "name": "Browser Not Opening",
+      "x": 451,
+      "y": -183,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#browser-not-opening",
+      "bgColor": "#ffe2ed",
+      "parent": "#zkm5rg"
+    },
+    {
+      "@id": "#me59hv",
+      "name": "Performance Issues",
+      "x": 249,
+      "y": 21,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#performance-issues",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#8nv3vb",
+      "name": "Slow Responses",
+      "x": 500,
+      "y": -16,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#slow-responses",
+      "bgColor": "#ffe4d9",
+      "parent": "#me59hv"
+    },
+    {
+      "@id": "#3bp6xy",
+      "name": "High Memory Usage",
+      "x": 575,
+      "y": 111,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#high-memory-usage",
+      "bgColor": "#ffe4d9",
+      "parent": "#me59hv"
+    },
+    {
+      "@id": "#g7jckq",
+      "name": "MCP Issues",
+      "x": 132,
+      "y": 180,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#mcp-issues",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4mibdb",
+      "name": "Server Not Starting",
+      "x": 396,
+      "y": 260,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#server-not-starting",
+      "bgColor": "#f2ecd2",
+      "parent": "#g7jckq"
+    },
+    {
+      "@id": "#msdfuf",
+      "name": "Connection Timeout",
+      "x": 346,
+      "y": 408,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#connection-timeout",
+      "bgColor": "#f2ecd2",
+      "parent": "#g7jckq"
+    },
+    {
+      "@id": "#tpkxeq",
+      "name": "Missing Environment Variables",
+      "x": 128,
+      "y": 410,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#missing-environment-variables",
+      "bgColor": "#f2ecd2",
+      "parent": "#g7jckq"
+    },
+    {
+      "@id": "#adry28",
+      "name": "IDE Integration",
+      "x": -116,
+      "y": 188,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#ide-integration",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#5wt58n",
+      "name": "VS Code Not Connecting",
+      "x": -134,
+      "y": 408,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#vs-code-not-connecting",
+      "bgColor": "#ddf2de",
+      "parent": "#adry28"
+    },
+    {
+      "@id": "#9vw56q",
+      "name": "JetBrains Connection Issues",
+      "x": -360,
+      "y": 399,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#jetbrains-connection-issues",
+      "bgColor": "#ddf2de",
+      "parent": "#adry28"
+    },
+    {
+      "@id": "#xkx2wp",
+      "name": "Context Issues",
+      "x": -223,
+      "y": 97,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#context-issues",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#tyc2it",
+      "name": "\"Context too large\"",
+      "x": -445,
+      "y": 193,
+      "link": "https://claude-docs.github.io/reference/troubleshooting#context-too-large",
+      "bgColor": "#d1f3f4",
+      "parent": "#xkx2wp"
+    },
+    {
+      "@id": "#mnp7k5",
+      "name": "← Reference",
+      "x": -247,
+      "y": 31,
+      "link": "./reference.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 5,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 9,
+      "end": 10
+    },
+    {
+      "start": 9,
+      "end": 11
+    },
+    {
+      "start": 9,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 13,
+      "end": 14
+    },
+    {
+      "start": 13,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 16,
+      "end": 17
+    },
+    {
+      "start": 16,
+      "end": 18
+    },
+    {
+      "start": 16,
+      "end": 19
+    },
+    {
+      "start": 0,
+      "end": 20
+    },
+    {
+      "start": 20,
+      "end": 21
+    },
+    {
+      "start": 20,
+      "end": 22
+    },
+    {
+      "start": 0,
+      "end": 23
+    },
+    {
+      "start": 23,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

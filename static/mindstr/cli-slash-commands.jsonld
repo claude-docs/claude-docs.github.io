@@ -1,0 +1,337 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Slash Commands",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/cli/slash-commands",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#hzes4u",
+      "name": "Session Management",
+      "x": -213,
+      "y": -112,
+      "link": "https://claude-docs.github.io/cli/slash-commands#session-management",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#mciseu",
+      "name": "/clear",
+      "x": -485,
+      "y": -102,
+      "link": "https://claude-docs.github.io/cli/slash-commands#clear",
+      "bgColor": "#daeeff",
+      "parent": "#hzes4u"
+    },
+    {
+      "@id": "#dm48gj",
+      "name": "/compact",
+      "x": -502,
+      "y": -263,
+      "link": "https://claude-docs.github.io/cli/slash-commands#compact",
+      "bgColor": "#daeeff",
+      "parent": "#hzes4u"
+    },
+    {
+      "@id": "#k6cm7k",
+      "name": "/context",
+      "x": -325,
+      "y": -323,
+      "link": "https://claude-docs.github.io/cli/slash-commands#context",
+      "bgColor": "#daeeff",
+      "parent": "#hzes4u"
+    },
+    {
+      "@id": "#djkutb",
+      "name": "Configuration",
+      "x": 22,
+      "y": -212,
+      "link": "https://claude-docs.github.io/cli/slash-commands#configuration",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#pu9sy8",
+      "name": "/config",
+      "x": -110,
+      "y": -415,
+      "link": "https://claude-docs.github.io/cli/slash-commands#config",
+      "bgColor": "#efe6ff",
+      "parent": "#djkutb"
+    },
+    {
+      "@id": "#7ppwsy",
+      "name": "/model",
+      "x": 52,
+      "y": -500,
+      "link": "https://claude-docs.github.io/cli/slash-commands#model",
+      "bgColor": "#efe6ff",
+      "parent": "#djkutb"
+    },
+    {
+      "@id": "#c8rxju",
+      "name": "/permissions",
+      "x": 193,
+      "y": -392,
+      "link": "https://claude-docs.github.io/cli/slash-commands#permissions",
+      "bgColor": "#efe6ff",
+      "parent": "#djkutb"
+    },
+    {
+      "@id": "#jr3z4p",
+      "name": "Project",
+      "x": 212,
+      "y": -113,
+      "link": "https://claude-docs.github.io/cli/slash-commands#project",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#hmnpnc",
+      "name": "/init",
+      "x": 377,
+      "y": -279,
+      "link": "https://claude-docs.github.io/cli/slash-commands#init",
+      "bgColor": "#ffe2ed",
+      "parent": "#jr3z4p"
+    },
+    {
+      "@id": "#tbf3y4",
+      "name": "/ide",
+      "x": 542,
+      "y": -199,
+      "link": "https://claude-docs.github.io/cli/slash-commands#ide",
+      "bgColor": "#ffe2ed",
+      "parent": "#jr3z4p"
+    },
+    {
+      "@id": "#z9ubg8",
+      "name": "Recovery",
+      "x": 246,
+      "y": 37,
+      "link": "https://claude-docs.github.io/cli/slash-commands#recovery",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#5h5cc9",
+      "name": "/rewind",
+      "x": 500,
+      "y": 9,
+      "link": "https://claude-docs.github.io/cli/slash-commands#rewind",
+      "bgColor": "#ffe4d9",
+      "parent": "#z9ubg8"
+    },
+    {
+      "@id": "#2682x9",
+      "name": "/status",
+      "x": 558,
+      "y": 162,
+      "link": "https://claude-docs.github.io/cli/slash-commands#status",
+      "bgColor": "#ffe4d9",
+      "parent": "#z9ubg8"
+    },
+    {
+      "@id": "#dgxw48",
+      "name": "Debugging",
+      "x": 153,
+      "y": 168,
+      "link": "https://claude-docs.github.io/cli/slash-commands#debugging",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#3m2wcm",
+      "name": "/doctor",
+      "x": 363,
+      "y": 292,
+      "link": "https://claude-docs.github.io/cli/slash-commands#doctor",
+      "bgColor": "#f2ecd2",
+      "parent": "#dgxw48"
+    },
+    {
+      "@id": "#4ad697",
+      "name": "/bug",
+      "x": 285,
+      "y": 439,
+      "link": "https://claude-docs.github.io/cli/slash-commands#bug",
+      "bgColor": "#f2ecd2",
+      "parent": "#dgxw48"
+    },
+    {
+      "@id": "#z237xc",
+      "name": "Hooks",
+      "x": 26,
+      "y": 211,
+      "link": "https://claude-docs.github.io/cli/slash-commands#hooks",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ern3ds",
+      "name": "/hooks",
+      "x": 53,
+      "y": 423,
+      "link": "https://claude-docs.github.io/cli/slash-commands#hooks",
+      "bgColor": "#ddf2de",
+      "parent": "#z237xc"
+    },
+    {
+      "@id": "#cixa8i",
+      "name": "Help",
+      "x": -65,
+      "y": 212,
+      "link": "https://claude-docs.github.io/cli/slash-commands#help",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#w8ga4c",
+      "name": "/help",
+      "x": -130,
+      "y": 410,
+      "link": "https://claude-docs.github.io/cli/slash-commands#help",
+      "bgColor": "#d1f3f4",
+      "parent": "#cixa8i"
+    },
+    {
+      "@id": "#eud4cc",
+      "name": "Custom Commands",
+      "x": -148,
+      "y": 168,
+      "link": "https://claude-docs.github.io/cli/slash-commands#custom-commands",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#5mb355",
+      "name": "Quick Reference",
+      "x": -212,
+      "y": 113,
+      "link": "https://claude-docs.github.io/cli/slash-commands#quick-reference",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#mikqv6",
+      "name": "← CLI Reference",
+      "x": -246,
+      "y": 40,
+      "link": "./cli-reference.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 5,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 9,
+      "end": 10
+    },
+    {
+      "start": 9,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 12,
+      "end": 13
+    },
+    {
+      "start": 12,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 15,
+      "end": 16
+    },
+    {
+      "start": 15,
+      "end": 17
+    },
+    {
+      "start": 0,
+      "end": 18
+    },
+    {
+      "start": 18,
+      "end": 19
+    },
+    {
+      "start": 0,
+      "end": 20
+    },
+    {
+      "start": 20,
+      "end": 21
+    },
+    {
+      "start": 0,
+      "end": 22
+    },
+    {
+      "start": 0,
+      "end": 23
+    },
+    {
+      "start": 0,
+      "end": 24
+    }
+  ],
+  "selectedNode": 0
+}

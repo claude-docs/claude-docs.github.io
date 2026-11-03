@@ -1,0 +1,220 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Skills Overview",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/skills/overview",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#5xbmf8",
+      "name": "What are Skills?",
+      "x": -241,
+      "y": -56,
+      "link": "https://claude-docs.github.io/skills/overview#what-are-skills",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#zn6fhh",
+      "name": "Skills vs Commands",
+      "x": -170,
+      "y": -156,
+      "link": "https://claude-docs.github.io/skills/overview#skills-vs-commands",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#x39a2c",
+      "name": "Skill Structure",
+      "x": -50,
+      "y": -208,
+      "link": "https://claude-docs.github.io/skills/overview#skill-structure",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#nyyrcy",
+      "name": "SKILL.md Format",
+      "x": -99,
+      "y": -417,
+      "link": "https://claude-docs.github.io/skills/overview#skillmd-format",
+      "bgColor": "#ffe2ed",
+      "parent": "#x39a2c"
+    },
+    {
+      "@id": "#mnfyp6",
+      "name": "Quick Start",
+      "x": 132,
+      "y": -181,
+      "link": "https://claude-docs.github.io/skills/overview#quick-start",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#nw6wmk",
+      "name": "Create a Skill",
+      "x": 169,
+      "y": -400,
+      "link": "https://claude-docs.github.io/skills/overview#create-a-skill",
+      "bgColor": "#ffe4d9",
+      "parent": "#mnfyp6"
+    },
+    {
+      "@id": "#dt3q9k",
+      "name": "Use the Skill",
+      "x": 408,
+      "y": -362,
+      "link": "https://claude-docs.github.io/skills/overview#use-the-skill",
+      "bgColor": "#ffe4d9",
+      "parent": "#mnfyp6"
+    },
+    {
+      "@id": "#s6xkxp",
+      "name": "Skill Discovery",
+      "x": 241,
+      "y": -55,
+      "link": "https://claude-docs.github.io/skills/overview#skill-discovery",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#mc7apj",
+      "name": "Built-in Skill Types",
+      "x": 220,
+      "y": 101,
+      "link": "https://claude-docs.github.io/skills/overview#built-in-skill-types",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#anqkfm",
+      "name": "Project Skills",
+      "x": 480,
+      "y": 118,
+      "link": "https://claude-docs.github.io/skills/overview#project-skills",
+      "bgColor": "#ddf2de",
+      "parent": "#mc7apj"
+    },
+    {
+      "@id": "#t8ekhx",
+      "name": "Personal Skills",
+      "x": 449,
+      "y": 325,
+      "link": "https://claude-docs.github.io/skills/overview#personal-skills",
+      "bgColor": "#ddf2de",
+      "parent": "#mc7apj"
+    },
+    {
+      "@id": "#shrabj",
+      "name": "Skill Metadata",
+      "x": 93,
+      "y": 202,
+      "link": "https://claude-docs.github.io/skills/overview#skill-metadata",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4kvy3s",
+      "name": "Best Practices",
+      "x": -52,
+      "y": 209,
+      "link": "https://claude-docs.github.io/skills/overview#best-practices",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4jdhn8",
+      "name": "Community Skills",
+      "x": -160,
+      "y": 163,
+      "link": "https://claude-docs.github.io/skills/overview#community-skills",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#k2zmgq",
+      "name": "← Skills & Commands",
+      "x": -239,
+      "y": 64,
+      "link": "./skills-commands.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 3,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 9,
+      "end": 10
+    },
+    {
+      "start": 9,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    }
+  ],
+  "selectedNode": 0
+}

@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Git Integration",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/guides/git-integration",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#c3rvgv",
+      "name": "Git Workflow Overview",
+      "x": -238,
+      "y": -66,
+      "link": "https://claude-docs.github.io/guides/git-integration#git-workflow-overview",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#p4qxfc",
+      "name": "Basic Git Operations",
+      "x": -492,
+      "y": -74,
+      "link": "https://claude-docs.github.io/guides/git-integration#basic-git-operations",
+      "bgColor": "#daeeff",
+      "parent": "#c3rvgv"
+    },
+    {
+      "@id": "#qmvpfn",
+      "name": "Interactive Git Session",
+      "x": -534,
+      "y": -213,
+      "link": "https://claude-docs.github.io/guides/git-integration#interactive-git-session",
+      "bgColor": "#daeeff",
+      "parent": "#c3rvgv"
+    },
+    {
+      "@id": "#77w4nr",
+      "name": "Commit Message Generation",
+      "x": -65,
+      "y": -205,
+      "link": "https://claude-docs.github.io/guides/git-integration#commit-message-generation",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#rv4re4",
+      "name": "Automatic Commit Messages",
+      "x": -317,
+      "y": -329,
+      "link": "https://claude-docs.github.io/guides/git-integration#automatic-commit-messages",
+      "bgColor": "#efe6ff",
+      "parent": "#77w4nr"
+    },
+    {
+      "@id": "#8nixxw",
+      "name": "Conventional Commits",
+      "x": -237,
+      "y": -464,
+      "link": "https://claude-docs.github.io/guides/git-integration#conventional-commits",
+      "bgColor": "#efe6ff",
+      "parent": "#77w4nr"
+    },
+    {
+      "@id": "#urxiny",
+      "name": "Commit Message Templates",
+      "x": -72,
+      "y": -418,
+      "link": "https://claude-docs.github.io/guides/git-integration#commit-message-templates",
+      "bgColor": "#efe6ff",
+      "parent": "#77w4nr"
+    },
+    {
+      "@id": "#3qwn3z",
+      "name": "Multi-File Commit Analysis",
+      "x": 90,
+      "y": -496,
+      "link": "https://claude-docs.github.io/guides/git-integration#multi-file-commit-analysis",
+      "bgColor": "#efe6ff",
+      "parent": "#77w4nr"
+    },
+    {
+      "@id": "#gqwdse",
+      "name": "Pull Request Creation",
+      "x": 197,
+      "y": -131,
+      "link": "https://claude-docs.github.io/guides/git-integration#pull-request-creation",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vaejn3",
+      "name": "Automated PR Creation",
+      "x": 292,
+      "y": -353,
+      "link": "https://claude-docs.github.io/guides/git-integration#automated-pr-creation",
+      "bgColor": "#ffe2ed",
+      "parent": "#gqwdse"
+    },
+    {
+      "@id": "#gsgk8g",
+      "name": "PR Description Templates",
+      "x": 461,
+      "y": -309,
+      "link": "https://claude-docs.github.io/guides/git-integration#pr-description-templates",
+      "bgColor": "#ffe2ed",
+      "parent": "#gqwdse"
+    },
+    {
+      "@id": "#4cvp6j",
+      "name": "Interactive PR Creation",
+      "x": 462,
+      "y": -162,
+      "link": "https://claude-docs.github.io/guides/git-integration#interactive-pr-creation",
+      "bgColor": "#ffe2ed",
+      "parent": "#gqwdse"
+    },
+    {
+      "@id": "#7hys4n",
+      "name": "PR Review Assistance",
+      "x": 237,
+      "y": 69,
+      "link": "https://claude-docs.github.io/guides/git-integration#pr-review-assistance",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#7ncxmd",
+      "name": "Reviewing Incoming PRs",
+      "x": 500,
+      "y": 18,
+      "link": "https://claude-docs.github.io/guides/git-integration#reviewing-incoming-prs",
+      "bgColor": "#ffe4d9",
+      "parent": "#7hys4n"
+    },
+    {
+      "@id": "#cp974u",
+      "name": "Addressing Review Comments",
+      "x": 558,
+      "y": 162,
+      "link": "https://claude-docs.github.io/guides/git-integration#addressing-review-comments",
+      "bgColor": "#ffe4d9",
+      "parent": "#7hys4n"
+    },
+    {
+      "@id": "#kn96vj",
+      "name": "Bulk Review Processing",
+      "x": 408,
+      "y": 246,
+      "link": "https://claude-docs.github.io/guides/git-integration#bulk-review-processing",
+      "bgColor": "#ffe4d9",
+      "parent": "#7hys4n"
+    },
+    {
+      "@id": "#m8ex6s",
+      "name": "Branch Management",
+      "x": 65,
+      "y": 205,
+      "link": "https://claude-docs.github.io/guides/git-integration#branch-management",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ja42zz",
+      "name": "Branch Strategy with Claude",
+      "x": 242,
+      "y": 372,
+      "link": "https://claude-docs.github.io/guides/git-integration#branch-strategy-with-claude",
+      "bgColor": "#f2ecd2",
+      "parent": "#m8ex6s"
+    },
+    {
+      "@id": "#ij9gnj",
+      "name": "Branch Cleanup",
+      "x": 144,
+      "y": 486,
+      "link": "https://claude-docs.github.io/guides/git-integration#branch-cleanup",
+      "bgColor": "#f2ecd2",
+      "parent": "#m8ex6s"
+    },
+    {
+      "@id": "#9jz8pb",
+      "name": "Branch Naming Convention",
+      "x": 7,
+      "y": 425,
+      "link": "https://claude-docs.github.io/guides/git-integration#branch-naming-convention",
+      "bgColor": "#f2ecd2",
+      "parent": "#m8ex6s"
+    },
+    {
+      "@id": "#26hebb",
+      "name": "Merge Conflict Resolution",
+      "x": -175,
+      "y": 152,
+      "link": "https://claude-docs.github.io/guides/git-integration#merge-conflict-resolution",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#x98nfn",
+      "name": "Automated Conflict Analysis",
+      "x": -226,
+      "y": 389,
+      "link": "https://claude-docs.github.io/guides/git-integration#automated-conflict-analysis",
+      "bgColor": "#ddf2de",
+      "parent": "#26hebb"
+    },
+    {
+      "@id": "#nwcy4w",
+      "name": "Interactive Conflict Resolution",
+      "x": -424,
+      "y": 345,
+      "link": "https://claude-docs.github.io/guides/git-integration#interactive-conflict-resolution",
+      "bgColor": "#ddf2de",
+      "parent": "#26hebb"
+    },
+    {
+      "@id": "#rgqtdn",
+      "name": "Complex Merge Strategy",
+      "x": -449,
+      "y": 188,
+      "link": "https://claude-docs.github.io/guides/git-integration#complex-merge-strategy",
+      "bgColor": "#ddf2de",
+      "parent": "#26hebb"
+    },
+    {
+      "@id": "#636wqk",
+      "name": "← Development",
+      "x": -248,
+      "y": 25,
+      "link": "./development.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 4,
+      "end": 5
+    },
+    {
+      "start": 4,
+      "end": 6
+    },
+    {
+      "start": 4,
+      "end": 7
+    },
+    {
+      "start": 4,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 9,
+      "end": 10
+    },
+    {
+      "start": 9,
+      "end": 11
+    },
+    {
+      "start": 9,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 13,
+      "end": 14
+    },
+    {
+      "start": 13,
+      "end": 15
+    },
+    {
+      "start": 13,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    },
+    {
+      "start": 17,
+      "end": 18
+    },
+    {
+      "start": 17,
+      "end": 19
+    },
+    {
+      "start": 17,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 21,
+      "end": 22
+    },
+    {
+      "start": 21,
+      "end": 23
+    },
+    {
+      "start": 21,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

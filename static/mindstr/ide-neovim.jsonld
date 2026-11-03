@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Neovim",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/ide/neovim",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#vxdvti",
+      "name": "Installation",
+      "x": -237,
+      "y": -69,
+      "link": "https://claude-docs.github.io/ide/neovim#installation",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#8qyphq",
+      "name": "Using lazy.nvim",
+      "x": -492,
+      "y": -78,
+      "link": "https://claude-docs.github.io/ide/neovim#using-lazynvim",
+      "bgColor": "#daeeff",
+      "parent": "#vxdvti"
+    },
+    {
+      "@id": "#awt4ph",
+      "name": "Using packer.nvim",
+      "x": -528,
+      "y": -223,
+      "link": "https://claude-docs.github.io/ide/neovim#using-packernvim",
+      "bgColor": "#daeeff",
+      "parent": "#vxdvti"
+    },
+    {
+      "@id": "#j3ffm5",
+      "name": "Configuration",
+      "x": -172,
+      "y": -154,
+      "link": "https://claude-docs.github.io/ide/neovim#configuration",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#s2vv4u",
+      "name": "Usage",
+      "x": 16,
+      "y": -212,
+      "link": "https://claude-docs.github.io/ide/neovim#usage",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#8gx4pf",
+      "name": "Open Claude",
+      "x": -179,
+      "y": -397,
+      "link": "https://claude-docs.github.io/ide/neovim#open-claude",
+      "bgColor": "#ffe2ed",
+      "parent": "#s2vv4u"
+    },
+    {
+      "@id": "#knn5ve",
+      "name": "Send Selection",
+      "x": -63,
+      "y": -499,
+      "link": "https://claude-docs.github.io/ide/neovim#send-selection",
+      "bgColor": "#ffe2ed",
+      "parent": "#s2vv4u"
+    },
+    {
+      "@id": "#hgjzm6",
+      "name": "Send Current Buffer",
+      "x": 90,
+      "y": -418,
+      "link": "https://claude-docs.github.io/ide/neovim#send-current-buffer",
+      "bgColor": "#ffe2ed",
+      "parent": "#s2vv4u"
+    },
+    {
+      "@id": "#hxgis3",
+      "name": "Keymaps Reference",
+      "x": 274,
+      "y": -444,
+      "link": "https://claude-docs.github.io/ide/neovim#keymaps-reference",
+      "bgColor": "#ffe2ed",
+      "parent": "#s2vv4u"
+    },
+    {
+      "@id": "#jqxvqz",
+      "name": "Features",
+      "x": 246,
+      "y": -38,
+      "link": "https://claude-docs.github.io/ide/neovim#features",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#3b8m9c",
+      "name": "Split Terminal",
+      "x": 412,
+      "y": -241,
+      "link": "https://claude-docs.github.io/ide/neovim#split-terminal",
+      "bgColor": "#ffe4d9",
+      "parent": "#jqxvqz"
+    },
+    {
+      "@id": "#4wrpia",
+      "name": "Visual Selection",
+      "x": 557,
+      "y": -164,
+      "link": "https://claude-docs.github.io/ide/neovim#visual-selection",
+      "bgColor": "#ffe4d9",
+      "parent": "#jqxvqz"
+    },
+    {
+      "@id": "#v2ex7g",
+      "name": "File References",
+      "x": 499,
+      "y": -27,
+      "link": "https://claude-docs.github.io/ide/neovim#file-references",
+      "bgColor": "#ffe4d9",
+      "parent": "#jqxvqz"
+    },
+    {
+      "@id": "#nkrjkg",
+      "name": "Buffer Integration",
+      "x": 576,
+      "y": 109,
+      "link": "https://claude-docs.github.io/ide/neovim#buffer-integration",
+      "bgColor": "#ffe4d9",
+      "parent": "#jqxvqz"
+    },
+    {
+      "@id": "#b7k6ur",
+      "name": "Workflow",
+      "x": 148,
+      "y": 171,
+      "link": "https://claude-docs.github.io/ide/neovim#workflow",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#bcmvix",
+      "name": "Basic Flow",
+      "x": 389,
+      "y": 267,
+      "link": "https://claude-docs.github.io/ide/neovim#basic-flow",
+      "bgColor": "#f2ecd2",
+      "parent": "#b7k6ur"
+    },
+    {
+      "@id": "#ffcp4d",
+      "name": "Code Review",
+      "x": 348,
+      "y": 405,
+      "link": "https://claude-docs.github.io/ide/neovim#code-review",
+      "bgColor": "#f2ecd2",
+      "parent": "#b7k6ur"
+    },
+    {
+      "@id": "#g8z5p2",
+      "name": "Quick Fix",
+      "x": 182,
+      "y": 396,
+      "link": "https://claude-docs.github.io/ide/neovim#quick-fix",
+      "bgColor": "#f2ecd2",
+      "parent": "#b7k6ur"
+    },
+    {
+      "@id": "#xqipyb",
+      "name": "Tips",
+      "x": -80,
+      "y": 201,
+      "link": "https://claude-docs.github.io/ide/neovim#tips",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#aa3kv2",
+      "name": "Floating Window",
+      "x": -21,
+      "y": 425,
+      "link": "https://claude-docs.github.io/ide/neovim#floating-window",
+      "bgColor": "#ddf2de",
+      "parent": "#xqipyb"
+    },
+    {
+      "@id": "#ee3shg",
+      "name": "Persistent Session",
+      "x": -189,
+      "y": 475,
+      "link": "https://claude-docs.github.io/ide/neovim#persistent-session",
+      "bgColor": "#ddf2de",
+      "parent": "#xqipyb"
+    },
+    {
+      "@id": "#rmz6un",
+      "name": "Custom Commands",
+      "x": -286,
+      "y": 349,
+      "link": "https://claude-docs.github.io/ide/neovim#custom-commands",
+      "bgColor": "#ddf2de",
+      "parent": "#xqipyb"
+    },
+    {
+      "@id": "#8dsc8w",
+      "name": "Troubleshooting",
+      "x": -212,
+      "y": 112,
+      "link": "https://claude-docs.github.io/ide/neovim#troubleshooting",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#esbs6z",
+      "name": "Terminal not opening",
+      "x": -425,
+      "y": 224,
+      "link": "https://claude-docs.github.io/ide/neovim#terminal-not-opening",
+      "bgColor": "#d1f3f4",
+      "parent": "#8dsc8w"
+    },
+    {
+      "@id": "#suwi6b",
+      "name": "← IDE Integrations",
+      "x": -246,
+      "y": 38,
+      "link": "./ide-integrations.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 5,
+      "end": 8
+    },
+    {
+      "start": 5,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 10,
+      "end": 13
+    },
+    {
+      "start": 10,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 15,
+      "end": 16
+    },
+    {
+      "start": 15,
+      "end": 17
+    },
+    {
+      "start": 15,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 19,
+      "end": 20
+    },
+    {
+      "start": 19,
+      "end": 21
+    },
+    {
+      "start": 19,
+      "end": 22
+    },
+    {
+      "start": 0,
+      "end": 23
+    },
+    {
+      "start": 23,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

@@ -1,0 +1,272 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Creating Skills",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/skills/creating-skills",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#skcg46",
+      "name": "Basic Structure",
+      "x": -221,
+      "y": -99,
+      "link": "https://claude-docs.github.io/skills/creating-skills#basic-structure",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#7weq86",
+      "name": "Directory Layout",
+      "x": -480,
+      "y": -120,
+      "link": "https://claude-docs.github.io/skills/creating-skills#directory-layout",
+      "bgColor": "#daeeff",
+      "parent": "#skcg46"
+    },
+    {
+      "@id": "#fi3gc5",
+      "name": "Minimal Skill",
+      "x": -454,
+      "y": -320,
+      "link": "https://claude-docs.github.io/skills/creating-skills#minimal-skill",
+      "bgColor": "#daeeff",
+      "parent": "#skcg46"
+    },
+    {
+      "@id": "#6pcqhm",
+      "name": "Skill Components",
+      "x": -34,
+      "y": -211,
+      "link": "https://claude-docs.github.io/skills/creating-skills#skill-components",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#xabtvt",
+      "name": "Frontmatter",
+      "x": -163,
+      "y": -402,
+      "link": "https://claude-docs.github.io/skills/creating-skills#frontmatter",
+      "bgColor": "#efe6ff",
+      "parent": "#6pcqhm"
+    },
+    {
+      "@id": "#5i939p",
+      "name": "Instructions",
+      "x": 35,
+      "y": -501,
+      "link": "https://claude-docs.github.io/skills/creating-skills#instructions",
+      "bgColor": "#efe6ff",
+      "parent": "#6pcqhm"
+    },
+    {
+      "@id": "#r6k6jg",
+      "name": "Advanced Features",
+      "x": 184,
+      "y": -144,
+      "link": "https://claude-docs.github.io/skills/creating-skills#advanced-features",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#tjbqv9",
+      "name": "Conditional Logic",
+      "x": 295,
+      "y": -343,
+      "link": "https://claude-docs.github.io/skills/creating-skills#conditional-logic",
+      "bgColor": "#ffe2ed",
+      "parent": "#r6k6jg"
+    },
+    {
+      "@id": "#jdaec9",
+      "name": "Checklists",
+      "x": 511,
+      "y": -251,
+      "link": "https://claude-docs.github.io/skills/creating-skills#checklists",
+      "bgColor": "#ffe2ed",
+      "parent": "#r6k6jg"
+    },
+    {
+      "@id": "#kczsjy",
+      "name": "Example Skills",
+      "x": 244,
+      "y": 46,
+      "link": "https://claude-docs.github.io/skills/creating-skills#example-skills",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#tufdet",
+      "name": "Testing Skill",
+      "x": 500,
+      "y": 9,
+      "link": "https://claude-docs.github.io/skills/creating-skills#testing-skill",
+      "bgColor": "#ffe4d9",
+      "parent": "#kczsjy"
+    },
+    {
+      "@id": "#wg9kzv",
+      "name": "API Skill",
+      "x": 540,
+      "y": 202,
+      "link": "https://claude-docs.github.io/skills/creating-skills#api-skill",
+      "bgColor": "#ffe4d9",
+      "parent": "#kczsjy"
+    },
+    {
+      "@id": "#6rthdu",
+      "name": "Skill Validation",
+      "x": 100,
+      "y": 195,
+      "link": "https://claude-docs.github.io/skills/creating-skills#skill-validation",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#f4uytf",
+      "name": "Test Your Skill",
+      "x": 286,
+      "y": 348,
+      "link": "https://claude-docs.github.io/skills/creating-skills#test-your-skill",
+      "bgColor": "#f2ecd2",
+      "parent": "#6rthdu"
+    },
+    {
+      "@id": "#72myfu",
+      "name": "Common Issues",
+      "x": 125,
+      "y": 490,
+      "link": "https://claude-docs.github.io/skills/creating-skills#common-issues",
+      "bgColor": "#f2ecd2",
+      "parent": "#6rthdu"
+    },
+    {
+      "@id": "#twufja",
+      "name": "Publishing Skills",
+      "x": -126,
+      "y": 183,
+      "link": "https://claude-docs.github.io/skills/creating-skills#publishing-skills",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#2tj4qk",
+      "name": "Share with Team",
+      "x": -164,
+      "y": 402,
+      "link": "https://claude-docs.github.io/skills/creating-skills#share-with-team",
+      "bgColor": "#ddf2de",
+      "parent": "#twufja"
+    },
+    {
+      "@id": "#ahwdri",
+      "name": "Community",
+      "x": -393,
+      "y": 374,
+      "link": "https://claude-docs.github.io/skills/creating-skills#community",
+      "bgColor": "#ddf2de",
+      "parent": "#twufja"
+    },
+    {
+      "@id": "#cayvbp",
+      "name": "← Skills & Commands",
+      "x": -240,
+      "y": 60,
+      "link": "./skills-commands.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 4,
+      "end": 5
+    },
+    {
+      "start": 4,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 7,
+      "end": 8
+    },
+    {
+      "start": 7,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 13,
+      "end": 14
+    },
+    {
+      "start": 13,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 16,
+      "end": 17
+    },
+    {
+      "start": 16,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    }
+  ],
+  "selectedNode": 0
+}

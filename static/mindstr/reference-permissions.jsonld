@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Permissions",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/reference/permissions",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#snzwrs",
+      "name": "Permission Levels",
+      "x": -246,
+      "y": -37,
+      "link": "https://claude-docs.github.io/reference/permissions#permission-levels",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#26yj3p",
+      "name": "Configuration",
+      "x": -171,
+      "y": -155,
+      "link": "https://claude-docs.github.io/reference/permissions#configuration",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#rspggf",
+      "name": "In settings.json",
+      "x": -424,
+      "y": -226,
+      "link": "https://claude-docs.github.io/reference/permissions#in-settingsjson",
+      "bgColor": "#efe6ff",
+      "parent": "#26yj3p"
+    },
+    {
+      "@id": "#bmzreq",
+      "name": "Via CLI",
+      "x": -399,
+      "y": -369,
+      "link": "https://claude-docs.github.io/reference/permissions#via-cli",
+      "bgColor": "#efe6ff",
+      "parent": "#26yj3p"
+    },
+    {
+      "@id": "#sdfrz2",
+      "name": "Via Command",
+      "x": -232,
+      "y": -376,
+      "link": "https://claude-docs.github.io/reference/permissions#via-command",
+      "bgColor": "#efe6ff",
+      "parent": "#26yj3p"
+    },
+    {
+      "@id": "#qvveu6",
+      "name": "Permission Syntax",
+      "x": 8,
+      "y": -212,
+      "link": "https://claude-docs.github.io/reference/permissions#permission-syntax",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#v25sx8",
+      "name": "Basic Format",
+      "x": -49,
+      "y": -423,
+      "link": "https://claude-docs.github.io/reference/permissions#basic-format",
+      "bgColor": "#ffe2ed",
+      "parent": "#qvveu6"
+    },
+    {
+      "@id": "#yuqvmj",
+      "name": "Examples",
+      "x": 95,
+      "y": -495,
+      "link": "https://claude-docs.github.io/reference/permissions#examples",
+      "bgColor": "#ffe2ed",
+      "parent": "#qvveu6"
+    },
+    {
+      "@id": "#9chwja",
+      "name": "Tool Types",
+      "x": 224,
+      "y": -94,
+      "link": "https://claude-docs.github.io/reference/permissions#tool-types",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#xcsjqb",
+      "name": "Read",
+      "x": 280,
+      "y": -352,
+      "link": "https://claude-docs.github.io/reference/permissions#read",
+      "bgColor": "#ffe4d9",
+      "parent": "#9chwja"
+    },
+    {
+      "@id": "#md475q",
+      "name": "Write",
+      "x": 445,
+      "y": -329,
+      "link": "https://claude-docs.github.io/reference/permissions#write",
+      "bgColor": "#ffe4d9",
+      "parent": "#9chwja"
+    },
+    {
+      "@id": "#3yrsyq",
+      "name": "Bash",
+      "x": 449,
+      "y": -187,
+      "link": "https://claude-docs.github.io/reference/permissions#bash",
+      "bgColor": "#ffe4d9",
+      "parent": "#9chwja"
+    },
+    {
+      "@id": "#gatwh8",
+      "name": "WebFetch",
+      "x": 579,
+      "y": -98,
+      "link": "https://claude-docs.github.io/reference/permissions#webfetch",
+      "bgColor": "#ffe4d9",
+      "parent": "#9chwja"
+    },
+    {
+      "@id": "#navs85",
+      "name": "MCP Tools",
+      "x": 499,
+      "y": 27,
+      "link": "https://claude-docs.github.io/reference/permissions#mcp-tools",
+      "bgColor": "#ffe4d9",
+      "parent": "#9chwja"
+    },
+    {
+      "@id": "#i9nwsn",
+      "name": "Wildcards",
+      "x": 223,
+      "y": 97,
+      "link": "https://claude-docs.github.io/reference/permissions#wildcards",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#g25pyh",
+      "name": "Common Patterns",
+      "x": 78,
+      "y": 202,
+      "link": "https://claude-docs.github.io/reference/permissions#common-patterns",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#437b7h",
+      "name": "Development",
+      "x": 327,
+      "y": 321,
+      "link": "https://claude-docs.github.io/reference/permissions#development",
+      "bgColor": "#ddf2de",
+      "parent": "#g25pyh"
+    },
+    {
+      "@id": "#98um7p",
+      "name": "Read-Only Review",
+      "x": 254,
+      "y": 453,
+      "link": "https://claude-docs.github.io/reference/permissions#read-only-review",
+      "bgColor": "#ddf2de",
+      "parent": "#g25pyh"
+    },
+    {
+      "@id": "#ztniwk",
+      "name": "CI/CD",
+      "x": 88,
+      "y": 418,
+      "link": "https://claude-docs.github.io/reference/permissions#cicd",
+      "bgColor": "#ddf2de",
+      "parent": "#g25pyh"
+    },
+    {
+      "@id": "#w92v4p",
+      "name": "Security Audit",
+      "x": -49,
+      "y": 500,
+      "link": "https://claude-docs.github.io/reference/permissions#security-audit",
+      "bgColor": "#ddf2de",
+      "parent": "#g25pyh"
+    },
+    {
+      "@id": "#r2bmeu",
+      "name": "Sandboxing",
+      "x": -177,
+      "y": 150,
+      "link": "https://claude-docs.github.io/reference/permissions#sandboxing",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#mv34dn",
+      "name": "Enable Sandbox",
+      "x": -248,
+      "y": 369,
+      "link": "https://claude-docs.github.io/reference/permissions#enable-sandbox",
+      "bgColor": "#d1f3f4",
+      "parent": "#r2bmeu"
+    },
+    {
+      "@id": "#y5xban",
+      "name": "Sandbox Features",
+      "x": -418,
+      "y": 354,
+      "link": "https://claude-docs.github.io/reference/permissions#sandbox-features",
+      "bgColor": "#d1f3f4",
+      "parent": "#r2bmeu"
+    },
+    {
+      "@id": "#4qhq2r",
+      "name": "Configuration",
+      "x": -435,
+      "y": 209,
+      "link": "https://claude-docs.github.io/reference/permissions#configuration",
+      "bgColor": "#d1f3f4",
+      "parent": "#r2bmeu"
+    },
+    {
+      "@id": "#9jx52r",
+      "name": "← Reference",
+      "x": -247,
+      "y": 33,
+      "link": "./reference.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 2,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 6,
+      "end": 7
+    },
+    {
+      "start": 6,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 9,
+      "end": 10
+    },
+    {
+      "start": 9,
+      "end": 11
+    },
+    {
+      "start": 9,
+      "end": 12
+    },
+    {
+      "start": 9,
+      "end": 13
+    },
+    {
+      "start": 9,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 16,
+      "end": 17
+    },
+    {
+      "start": 16,
+      "end": 18
+    },
+    {
+      "start": 16,
+      "end": 19
+    },
+    {
+      "start": 16,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 21,
+      "end": 22
+    },
+    {
+      "start": 21,
+      "end": 23
+    },
+    {
+      "start": 21,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

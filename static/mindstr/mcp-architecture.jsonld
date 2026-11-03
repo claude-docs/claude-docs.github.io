@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Architecture",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/mcp/architecture",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#2yqrnt",
+      "name": "Protocol Design",
+      "x": -219,
+      "y": -102,
+      "link": "https://claude-docs.github.io/mcp/architecture#protocol-design",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#igep64",
+      "name": "Communication Flow",
+      "x": -486,
+      "y": -99,
+      "link": "https://claude-docs.github.io/mcp/architecture#communication-flow",
+      "bgColor": "#daeeff",
+      "parent": "#2yqrnt"
+    },
+    {
+      "@id": "#hgg764",
+      "name": "Transport Layer",
+      "x": -511,
+      "y": -250,
+      "link": "https://claude-docs.github.io/mcp/architecture#transport-layer",
+      "bgColor": "#daeeff",
+      "parent": "#2yqrnt"
+    },
+    {
+      "@id": "#pqcgpp",
+      "name": "Message Format",
+      "x": -352,
+      "y": -302,
+      "link": "https://claude-docs.github.io/mcp/architecture#message-format",
+      "bgColor": "#daeeff",
+      "parent": "#2yqrnt"
+    },
+    {
+      "@id": "#jhj67c",
+      "name": "Capabilities",
+      "x": -47,
+      "y": -209,
+      "link": "https://claude-docs.github.io/mcp/architecture#capabilities",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#mr58qm",
+      "name": "Server Capabilities",
+      "x": -171,
+      "y": -400,
+      "link": "https://claude-docs.github.io/mcp/architecture#server-capabilities",
+      "bgColor": "#efe6ff",
+      "parent": "#jhj67c"
+    },
+    {
+      "@id": "#hawxjn",
+      "name": "Client Capabilities",
+      "x": -16,
+      "y": -501,
+      "link": "https://claude-docs.github.io/mcp/architecture#client-capabilities",
+      "bgColor": "#efe6ff",
+      "parent": "#jhj67c"
+    },
+    {
+      "@id": "#y6wpy5",
+      "name": "Lifecycle",
+      "x": 157,
+      "y": -166,
+      "link": "https://claude-docs.github.io/mcp/architecture#lifecycle",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4q7gbw",
+      "name": "Initialization",
+      "x": 197,
+      "y": -391,
+      "link": "https://claude-docs.github.io/mcp/architecture#initialization",
+      "bgColor": "#ffe2ed",
+      "parent": "#y6wpy5"
+    },
+    {
+      "@id": "#98geuv",
+      "name": "Normal Operation",
+      "x": 370,
+      "y": -391,
+      "link": "https://claude-docs.github.io/mcp/architecture#normal-operation",
+      "bgColor": "#ffe2ed",
+      "parent": "#y6wpy5"
+    },
+    {
+      "@id": "#x5dcei",
+      "name": "Shutdown",
+      "x": 407,
+      "y": -247,
+      "link": "https://claude-docs.github.io/mcp/architecture#shutdown",
+      "bgColor": "#ffe2ed",
+      "parent": "#y6wpy5"
+    },
+    {
+      "@id": "#uchvmk",
+      "name": "Security Model",
+      "x": 248,
+      "y": 29,
+      "link": "https://claude-docs.github.io/mcp/architecture#security-model",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#72kqt7",
+      "name": "Process Isolation",
+      "x": 492,
+      "y": -74,
+      "link": "https://claude-docs.github.io/mcp/architecture#process-isolation",
+      "bgColor": "#ffe4d9",
+      "parent": "#uchvmk"
+    },
+    {
+      "@id": "#vbasu4",
+      "name": "Permission Model",
+      "x": 586,
+      "y": 56,
+      "link": "https://claude-docs.github.io/mcp/architecture#permission-model",
+      "bgColor": "#ffe4d9",
+      "parent": "#uchvmk"
+    },
+    {
+      "@id": "#8gars2",
+      "name": "Environment Variables",
+      "x": 455,
+      "y": 176,
+      "link": "https://claude-docs.github.io/mcp/architecture#environment-variables",
+      "bgColor": "#ffe4d9",
+      "parent": "#uchvmk"
+    },
+    {
+      "@id": "#ttudn3",
+      "name": "Error Handling",
+      "x": 134,
+      "y": 179,
+      "link": "https://claude-docs.github.io/mcp/architecture#error-handling",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#nm9jmm",
+      "name": "Error Codes",
+      "x": 322,
+      "y": 325,
+      "link": "https://claude-docs.github.io/mcp/architecture#error-codes",
+      "bgColor": "#f2ecd2",
+      "parent": "#ttudn3"
+    },
+    {
+      "@id": "#fcu6nk",
+      "name": "Retry Logic",
+      "x": 249,
+      "y": 455,
+      "link": "https://claude-docs.github.io/mcp/architecture#retry-logic",
+      "bgColor": "#f2ecd2",
+      "parent": "#ttudn3"
+    },
+    {
+      "@id": "#im3caa",
+      "name": "Debugging",
+      "x": -67,
+      "y": 205,
+      "link": "https://claude-docs.github.io/mcp/architecture#debugging",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#up5tww",
+      "name": "Enable Debug Mode",
+      "x": 11,
+      "y": 425,
+      "link": "https://claude-docs.github.io/mcp/architecture#enable-debug-mode",
+      "bgColor": "#ddf2de",
+      "parent": "#im3caa"
+    },
+    {
+      "@id": "#w7nqyt",
+      "name": "Check Server Status",
+      "x": -167,
+      "y": 481,
+      "link": "https://claude-docs.github.io/mcp/architecture#check-server-status",
+      "bgColor": "#ddf2de",
+      "parent": "#im3caa"
+    },
+    {
+      "@id": "#csuere",
+      "name": "Common Issues",
+      "x": -274,
+      "y": 356,
+      "link": "https://claude-docs.github.io/mcp/architecture#common-issues",
+      "bgColor": "#ddf2de",
+      "parent": "#im3caa"
+    },
+    {
+      "@id": "#vb2ctp",
+      "name": "Building Servers",
+      "x": -204,
+      "y": 123,
+      "link": "https://claude-docs.github.io/mcp/architecture#building-servers",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#gfdcab",
+      "name": "SDK Options",
+      "x": -407,
+      "y": 246,
+      "link": "https://claude-docs.github.io/mcp/architecture#sdk-options",
+      "bgColor": "#d1f3f4",
+      "parent": "#vb2ctp"
+    },
+    {
+      "@id": "#u3dr42",
+      "name": "← Model Context Protocol",
+      "x": -243,
+      "y": 49,
+      "link": "./model-context-protocol.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 8,
+      "end": 9
+    },
+    {
+      "start": 8,
+      "end": 10
+    },
+    {
+      "start": 8,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 12,
+      "end": 13
+    },
+    {
+      "start": 12,
+      "end": 14
+    },
+    {
+      "start": 12,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 16,
+      "end": 17
+    },
+    {
+      "start": 16,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 19,
+      "end": 20
+    },
+    {
+      "start": 19,
+      "end": 21
+    },
+    {
+      "start": 19,
+      "end": 22
+    },
+    {
+      "start": 0,
+      "end": 23
+    },
+    {
+      "start": 23,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

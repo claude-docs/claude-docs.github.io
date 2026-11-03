@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Development",
+      "x": 0,
+      "y": 0,
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#dhbnx3",
+      "name": "Git Integration",
+      "x": -227,
+      "y": -89,
+      "link": "./guides-git-integration.jsonld",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#rszuny",
+      "name": "Testing Strategies",
+      "x": -54,
+      "y": -207,
+      "link": "./guides-testing-strategies.jsonld",
+      "bgColor": "#e0c4f6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#kn7ch3",
+      "name": "Documentation Generation",
+      "x": 195,
+      "y": -133,
+      "link": "./guides-documentation-generation.jsonld",
+      "bgColor": "#febdc6",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cm3xhd",
+      "name": "Debugging with Claude Code",
+      "x": 206,
+      "y": 121,
+      "link": "./guides-debugging.jsonld",
+      "bgColor": "#f1c99c",
+      "parent": "#this"
+    },
+    {
+      "@id": "#uqk7sh",
+      "name": "Real-World Examples",
+      "x": -52,
+      "y": 208,
+      "link": "./guides-real-world-examples.jsonld",
+      "bgColor": "#c1dba8",
+      "parent": "#this"
+    },
+    {
+      "@id": "#zcgp9j",
+      "name": "← Guides",
+      "x": -228,
+      "y": 87,
+      "link": "./guides.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    }
+  ],
+  "selectedNode": 0
+}

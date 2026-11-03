@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "React Guide",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/guides/react-guide",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#wscww3",
+      "name": "Component Generation",
+      "x": -192,
+      "y": -136,
+      "link": "https://claude-docs.github.io/guides/react-guide#component-generation",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#utinpp",
+      "name": "Generate Functional Components",
+      "x": -480,
+      "y": -120,
+      "link": "https://claude-docs.github.io/guides/react-guide#generate-functional-components",
+      "bgColor": "#daeeff",
+      "parent": "#wscww3"
+    },
+    {
+      "@id": "#bb9rnb",
+      "name": "Generate Component with Compound Pattern",
+      "x": -456,
+      "y": -318,
+      "link": "https://claude-docs.github.io/guides/react-guide#generate-component-with-compound-pattern",
+      "bgColor": "#daeeff",
+      "parent": "#wscww3"
+    },
+    {
+      "@id": "#bnmjfj",
+      "name": "Generate Data Display Component",
+      "x": -229,
+      "y": -376,
+      "link": "https://claude-docs.github.io/guides/react-guide#generate-data-display-component",
+      "bgColor": "#daeeff",
+      "parent": "#wscww3"
+    },
+    {
+      "@id": "#8nrp6i",
+      "name": "Hook Patterns",
+      "x": 84,
+      "y": -200,
+      "link": "https://claude-docs.github.io/guides/react-guide#hook-patterns",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#f98kmy",
+      "name": "Create Custom Data Fetching Hook",
+      "x": 43,
+      "y": -422,
+      "link": "https://claude-docs.github.io/guides/react-guide#create-custom-data-fetching-hook",
+      "bgColor": "#efe6ff",
+      "parent": "#8nrp6i"
+    },
+    {
+      "@id": "#6g4jyd",
+      "name": "Create Form Hook",
+      "x": 217,
+      "y": -467,
+      "link": "https://claude-docs.github.io/guides/react-guide#create-form-hook",
+      "bgColor": "#efe6ff",
+      "parent": "#8nrp6i"
+    },
+    {
+      "@id": "#vyphas",
+      "name": "Create Local Storage Hook",
+      "x": 296,
+      "y": -342,
+      "link": "https://claude-docs.github.io/guides/react-guide#create-local-storage-hook",
+      "bgColor": "#efe6ff",
+      "parent": "#8nrp6i"
+    },
+    {
+      "@id": "#sq8kh2",
+      "name": "State Management",
+      "x": 235,
+      "y": -72,
+      "link": "https://claude-docs.github.io/guides/react-guide#state-management",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#t6q63k",
+      "name": "Context with Reducer Pattern",
+      "x": 444,
+      "y": -196,
+      "link": "https://claude-docs.github.io/guides/react-guide#context-with-reducer-pattern",
+      "bgColor": "#ffe2ed",
+      "parent": "#sq8kh2"
+    },
+    {
+      "@id": "#pc8rdm",
+      "name": "Zustand Store Pattern",
+      "x": 580,
+      "y": -91,
+      "link": "https://claude-docs.github.io/guides/react-guide#zustand-store-pattern",
+      "bgColor": "#ffe2ed",
+      "parent": "#sq8kh2"
+    },
+    {
+      "@id": "#apyv34",
+      "name": "Performance Optimization",
+      "x": 234,
+      "y": 76,
+      "link": "https://claude-docs.github.io/guides/react-guide#performance-optimization",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#b3bc7t",
+      "name": "Memoization Patterns",
+      "x": 491,
+      "y": 80,
+      "link": "https://claude-docs.github.io/guides/react-guide#memoization-patterns",
+      "bgColor": "#ffe4d9",
+      "parent": "#apyv34"
+    },
+    {
+      "@id": "#8y8vkw",
+      "name": "Virtualization for Large Lists",
+      "x": 520,
+      "y": 237,
+      "link": "https://claude-docs.github.io/guides/react-guide#virtualization-for-large-lists",
+      "bgColor": "#ffe4d9",
+      "parent": "#apyv34"
+    },
+    {
+      "@id": "#uhv97p",
+      "name": "Testing Components",
+      "x": 133,
+      "y": 187,
+      "link": "https://claude-docs.github.io/guides/react-guide#testing-components",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#h4989y",
+      "name": "React Testing Library Patterns",
+      "x": 288,
+      "y": 347,
+      "link": "https://claude-docs.github.io/guides/react-guide#react-testing-library-patterns",
+      "bgColor": "#f2ecd2",
+      "parent": "#uhv97p"
+    },
+    {
+      "@id": "#4zmyuu",
+      "name": "Custom Hook Testing",
+      "x": 184,
+      "y": 477,
+      "link": "https://claude-docs.github.io/guides/react-guide#custom-hook-testing",
+      "bgColor": "#f2ecd2",
+      "parent": "#uhv97p"
+    },
+    {
+      "@id": "#rif9di",
+      "name": "Accessibility",
+      "x": -24,
+      "y": 226,
+      "link": "https://claude-docs.github.io/guides/react-guide#accessibility",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#n6ymk8",
+      "name": "Accessible Component Patterns",
+      "x": -32,
+      "y": 424,
+      "link": "https://claude-docs.github.io/guides/react-guide#accessible-component-patterns",
+      "bgColor": "#ddf2de",
+      "parent": "#rif9di"
+    },
+    {
+      "@id": "#dpa2dm",
+      "name": "Styling Patterns",
+      "x": -117,
+      "y": 181,
+      "link": "https://claude-docs.github.io/guides/react-guide#styling-patterns",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#2msnzv",
+      "name": "CSS-in-JS with Tailwind Variants",
+      "x": -235,
+      "y": 375,
+      "link": "https://claude-docs.github.io/guides/react-guide#css-in-js-with-tailwind-variants",
+      "bgColor": "#d1f3f4",
+      "parent": "#dpa2dm"
+    },
+    {
+      "@id": "#2mrvpu",
+      "name": "Next.js Integration",
+      "x": -194,
+      "y": 134,
+      "link": "https://claude-docs.github.io/guides/react-guide#nextjs-integration",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#dbzu2p",
+      "name": "Server Components Pattern",
+      "x": -388,
+      "y": 268,
+      "link": "https://claude-docs.github.io/guides/react-guide#server-components-pattern",
+      "bgColor": "#daeeff",
+      "parent": "#2mrvpu"
+    },
+    {
+      "@id": "#gg8mxz",
+      "name": "Form Handling",
+      "x": -232,
+      "y": 79,
+      "link": "https://claude-docs.github.io/guides/react-guide#form-handling",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wu3svp",
+      "name": "← Language Guides",
+      "x": -248,
+      "y": 28,
+      "link": "./language-guides.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 5,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 9,
+      "end": 10
+    },
+    {
+      "start": 9,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 12,
+      "end": 13
+    },
+    {
+      "start": 12,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 15,
+      "end": 16
+    },
+    {
+      "start": 15,
+      "end": 17
+    },
+    {
+      "start": 0,
+      "end": 18
+    },
+    {
+      "start": 18,
+      "end": 19
+    },
+    {
+      "start": 0,
+      "end": 20
+    },
+    {
+      "start": 20,
+      "end": 21
+    },
+    {
+      "start": 0,
+      "end": 22
+    },
+    {
+      "start": 22,
+      "end": 23
+    },
+    {
+      "start": 0,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

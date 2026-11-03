@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Essential MCP Servers",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#2qq2fn",
+      "name": "What is MCP?",
+      "x": -248,
+      "y": -26,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#what-is-mcp",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ri2pzw",
+      "name": "Setting Up Your First MCP Server",
+      "x": -149,
+      "y": -171,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#setting-up-your-first-mcp-server",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qbizrq",
+      "name": "Step 1: Configure MCP in Claude Code",
+      "x": -422,
+      "y": -228,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#step-1-configure-mcp-in-claude-code",
+      "bgColor": "#efe6ff",
+      "parent": "#ri2pzw"
+    },
+    {
+      "@id": "#yyfuzg",
+      "name": "Step 2: Add a Server Configuration",
+      "x": -363,
+      "y": -416,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#step-2-add-a-server-configuration",
+      "bgColor": "#efe6ff",
+      "parent": "#ri2pzw"
+    },
+    {
+      "@id": "#xet7zf",
+      "name": "Step 3: Restart Claude Code",
+      "x": -94,
+      "y": -414,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#step-3-restart-claude-code",
+      "bgColor": "#efe6ff",
+      "parent": "#ri2pzw"
+    },
+    {
+      "@id": "#wjzwqw",
+      "name": "Essential MCP Servers",
+      "x": 159,
+      "y": -164,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#essential-mcp-servers",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cpmgtf",
+      "name": "Filesystem Server",
+      "x": 125,
+      "y": -410,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#1-filesystem-server",
+      "bgColor": "#ffe2ed",
+      "parent": "#wjzwqw"
+    },
+    {
+      "@id": "#a85fzz",
+      "name": "GitHub Server",
+      "x": 279,
+      "y": -444,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#2-github-server",
+      "bgColor": "#ffe2ed",
+      "parent": "#wjzwqw"
+    },
+    {
+      "@id": "#eitj67",
+      "name": "PostgreSQL Server",
+      "x": 318,
+      "y": -325,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#3-postgresql-server",
+      "bgColor": "#ffe2ed",
+      "parent": "#wjzwqw"
+    },
+    {
+      "@id": "#bpmjzd",
+      "name": "SQLite Server",
+      "x": 472,
+      "y": -305,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#4-sqlite-server",
+      "bgColor": "#ffe2ed",
+      "parent": "#wjzwqw"
+    },
+    {
+      "@id": "#r8aetn",
+      "name": "Memory Server",
+      "x": 451,
+      "y": -184,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#5-memory-server",
+      "bgColor": "#ffe2ed",
+      "parent": "#wjzwqw"
+    },
+    {
+      "@id": "#j3rh5f",
+      "name": "Community MCP Servers",
+      "x": 248,
+      "y": 29,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#community-mcp-servers",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#mhgzj7",
+      "name": "Context7",
+      "x": 498,
+      "y": -34,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#context7---documentation-fetcher",
+      "bgColor": "#ffe4d9",
+      "parent": "#j3rh5f"
+    },
+    {
+      "@id": "#67qhwk",
+      "name": "Desktop Commander",
+      "x": 585,
+      "y": 68,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#desktop-commander",
+      "bgColor": "#ffe4d9",
+      "parent": "#j3rh5f"
+    },
+    {
+      "@id": "#s9du6c",
+      "name": "Brave Search",
+      "x": 469,
+      "y": 147,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#brave-search",
+      "bgColor": "#ffe4d9",
+      "parent": "#j3rh5f"
+    },
+    {
+      "@id": "#tjeu4p",
+      "name": "Full Configuration Example",
+      "x": 190,
+      "y": 138,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#full-configuration-example",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#x9rczq",
+      "name": "Using MCP Tools",
+      "x": 46,
+      "y": 209,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#using-mcp-tools",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#48j6uy",
+      "name": "Discovering Available Tools",
+      "x": 208,
+      "y": 386,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#discovering-available-tools",
+      "bgColor": "#ddf2de",
+      "parent": "#x9rczq"
+    },
+    {
+      "@id": "#9kbx2m",
+      "name": "Tool-Specific Commands",
+      "x": 73,
+      "y": 498,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#tool-specific-commands",
+      "bgColor": "#ddf2de",
+      "parent": "#x9rczq"
+    },
+    {
+      "@id": "#9gbbfy",
+      "name": "Combining Tools",
+      "x": -60,
+      "y": 422,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#combining-tools",
+      "bgColor": "#ddf2de",
+      "parent": "#x9rczq"
+    },
+    {
+      "@id": "#kue24d",
+      "name": "Troubleshooting",
+      "x": -182,
+      "y": 146,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#troubleshooting",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ezqvf7",
+      "name": "Server Won't Start",
+      "x": -231,
+      "y": 372,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#server-wont-start",
+      "bgColor": "#d1f3f4",
+      "parent": "#kue24d"
+    },
+    {
+      "@id": "#4c22a7",
+      "name": "Permission Errors",
+      "x": -404,
+      "y": 371,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#permission-errors",
+      "bgColor": "#d1f3f4",
+      "parent": "#kue24d"
+    },
+    {
+      "@id": "#zpagjg",
+      "name": "Environment Variables Not Loading",
+      "x": -433,
+      "y": 212,
+      "link": "https://claude-docs.github.io/tutorials/mcp-setup#environment-variables-not-loading",
+      "bgColor": "#d1f3f4",
+      "parent": "#kue24d"
+    },
+    {
+      "@id": "#sptvks",
+      "name": "← Tutorials",
+      "x": -248,
+      "y": 26,
+      "link": "./tutorials.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 2,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 6,
+      "end": 7
+    },
+    {
+      "start": 6,
+      "end": 8
+    },
+    {
+      "start": 6,
+      "end": 9
+    },
+    {
+      "start": 6,
+      "end": 10
+    },
+    {
+      "start": 6,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 12,
+      "end": 13
+    },
+    {
+      "start": 12,
+      "end": 14
+    },
+    {
+      "start": 12,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    },
+    {
+      "start": 17,
+      "end": 18
+    },
+    {
+      "start": 17,
+      "end": 19
+    },
+    {
+      "start": 17,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 21,
+      "end": 22
+    },
+    {
+      "start": 21,
+      "end": 23
+    },
+    {
+      "start": 21,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

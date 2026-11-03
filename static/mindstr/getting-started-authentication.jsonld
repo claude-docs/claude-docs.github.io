@@ -1,0 +1,246 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Authentication",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/getting-started/authentication",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#rfby2g",
+      "name": "Subscription Options",
+      "x": -242,
+      "y": -52,
+      "link": "https://claude-docs.github.io/getting-started/authentication#subscription-options",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#arxjt8",
+      "name": "Authentication Methods",
+      "x": -72,
+      "y": -204,
+      "link": "https://claude-docs.github.io/getting-started/authentication#authentication-methods",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#jtyjdw",
+      "name": "Claude Account",
+      "x": -355,
+      "y": -299,
+      "link": "https://claude-docs.github.io/getting-started/authentication#1-claude-account-recommended",
+      "bgColor": "#efe6ff",
+      "parent": "#arxjt8"
+    },
+    {
+      "@id": "#dtqx4z",
+      "name": "API Key",
+      "x": -264,
+      "y": -448,
+      "link": "https://claude-docs.github.io/getting-started/authentication#2-api-key",
+      "bgColor": "#efe6ff",
+      "parent": "#arxjt8"
+    },
+    {
+      "@id": "#u2s2vv",
+      "name": "Amazon Bedrock",
+      "x": -69,
+      "y": -421,
+      "link": "https://claude-docs.github.io/getting-started/authentication#3-amazon-bedrock",
+      "bgColor": "#efe6ff",
+      "parent": "#arxjt8"
+    },
+    {
+      "@id": "#vx2z65",
+      "name": "Google Vertex AI",
+      "x": 116,
+      "y": -492,
+      "link": "https://claude-docs.github.io/getting-started/authentication#4-google-vertex-ai",
+      "bgColor": "#efe6ff",
+      "parent": "#arxjt8"
+    },
+    {
+      "@id": "#xwei9g",
+      "name": "Verifying Authentication",
+      "x": 176,
+      "y": -151,
+      "link": "https://claude-docs.github.io/getting-started/authentication#verifying-authentication",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#6bzs4i",
+      "name": "Session Management",
+      "x": 248,
+      "y": 28,
+      "link": "https://claude-docs.github.io/getting-started/authentication#session-management",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#fkywkd",
+      "name": "View Current Session",
+      "x": 490,
+      "y": -83,
+      "link": "https://claude-docs.github.io/getting-started/authentication#view-current-session",
+      "bgColor": "#ffe4d9",
+      "parent": "#6bzs4i"
+    },
+    {
+      "@id": "#j8deiz",
+      "name": "Sign Out",
+      "x": 581,
+      "y": 86,
+      "link": "https://claude-docs.github.io/getting-started/authentication#sign-out",
+      "bgColor": "#ffe4d9",
+      "parent": "#6bzs4i"
+    },
+    {
+      "@id": "#aya9s9",
+      "name": "Switch Accounts",
+      "x": 438,
+      "y": 204,
+      "link": "https://claude-docs.github.io/getting-started/authentication#switch-accounts",
+      "bgColor": "#ffe4d9",
+      "parent": "#6bzs4i"
+    },
+    {
+      "@id": "#vn2imx",
+      "name": "Environment Variables",
+      "x": 130,
+      "y": 182,
+      "link": "https://claude-docs.github.io/getting-started/authentication#environment-variables",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#2tznvh",
+      "name": "Troubleshooting",
+      "x": -103,
+      "y": 194,
+      "link": "https://claude-docs.github.io/getting-started/authentication#troubleshooting",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cnh2fk",
+      "name": "\"Authentication failed\"",
+      "x": -27,
+      "y": 424,
+      "link": "https://claude-docs.github.io/getting-started/authentication#authentication-failed",
+      "bgColor": "#ddf2de",
+      "parent": "#2tznvh"
+    },
+    {
+      "@id": "#dk76uz",
+      "name": "\"Rate limited\"",
+      "x": -255,
+      "y": 452,
+      "link": "https://claude-docs.github.io/getting-started/authentication#rate-limited",
+      "bgColor": "#ddf2de",
+      "parent": "#2tznvh"
+    },
+    {
+      "@id": "#5aggpq",
+      "name": "Browser doesn't open",
+      "x": -365,
+      "y": 291,
+      "link": "https://claude-docs.github.io/getting-started/authentication#browser-doesnt-open",
+      "bgColor": "#ddf2de",
+      "parent": "#2tznvh"
+    },
+    {
+      "@id": "#eqmaaw",
+      "name": "← Getting Started",
+      "x": -244,
+      "y": 46,
+      "link": "./getting-started.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 2,
+      "end": 5
+    },
+    {
+      "start": 2,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 8,
+      "end": 9
+    },
+    {
+      "start": 8,
+      "end": 10
+    },
+    {
+      "start": 8,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 13,
+      "end": 14
+    },
+    {
+      "start": 13,
+      "end": 15
+    },
+    {
+      "start": 13,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    }
+  ],
+  "selectedNode": 0
+}

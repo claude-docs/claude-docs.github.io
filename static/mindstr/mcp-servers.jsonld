@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Available Servers",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/mcp/servers",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#hjxwny",
+      "name": "Official Servers",
+      "x": -157,
+      "y": -166,
+      "link": "https://claude-docs.github.io/mcp/servers#official-servers",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#u49sh5",
+      "name": "Filesystem",
+      "x": -482,
+      "y": -113,
+      "link": "https://claude-docs.github.io/mcp/servers#filesystem",
+      "bgColor": "#daeeff",
+      "parent": "#hjxwny"
+    },
+    {
+      "@id": "#xdk3d5",
+      "name": "GitHub",
+      "x": -513,
+      "y": -248,
+      "link": "https://claude-docs.github.io/mcp/servers#github",
+      "bgColor": "#daeeff",
+      "parent": "#hjxwny"
+    },
+    {
+      "@id": "#f4wxnt",
+      "name": "PostgreSQL",
+      "x": -360,
+      "y": -295,
+      "link": "https://claude-docs.github.io/mcp/servers#postgresql",
+      "bgColor": "#daeeff",
+      "parent": "#hjxwny"
+    },
+    {
+      "@id": "#izya3w",
+      "name": "SQLite",
+      "x": -310,
+      "y": -427,
+      "link": "https://claude-docs.github.io/mcp/servers#sqlite",
+      "bgColor": "#daeeff",
+      "parent": "#hjxwny"
+    },
+    {
+      "@id": "#wpzfj8",
+      "name": "Fetch",
+      "x": -149,
+      "y": -406,
+      "link": "https://claude-docs.github.io/mcp/servers#fetch",
+      "bgColor": "#daeeff",
+      "parent": "#hjxwny"
+    },
+    {
+      "@id": "#fdyzb2",
+      "name": "Git",
+      "x": -31,
+      "y": -501,
+      "link": "https://claude-docs.github.io/mcp/servers#git",
+      "bgColor": "#daeeff",
+      "parent": "#hjxwny"
+    },
+    {
+      "@id": "#wdpbcx",
+      "name": "Database Servers",
+      "x": 154,
+      "y": -168,
+      "link": "https://claude-docs.github.io/mcp/servers#database-servers",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#fjs37a",
+      "name": "MongoDB",
+      "x": 200,
+      "y": -389,
+      "link": "https://claude-docs.github.io/mcp/servers#mongodb",
+      "bgColor": "#efe6ff",
+      "parent": "#wdpbcx"
+    },
+    {
+      "@id": "#yxptnb",
+      "name": "Redis",
+      "x": 363,
+      "y": -395,
+      "link": "https://claude-docs.github.io/mcp/servers#redis",
+      "bgColor": "#efe6ff",
+      "parent": "#wdpbcx"
+    },
+    {
+      "@id": "#96tbf9",
+      "name": "MySQL",
+      "x": 396,
+      "y": -260,
+      "link": "https://claude-docs.github.io/mcp/servers#mysql",
+      "bgColor": "#efe6ff",
+      "parent": "#wdpbcx"
+    },
+    {
+      "@id": "#f2gvzm",
+      "name": "Productivity Servers",
+      "x": 250,
+      "y": -3,
+      "link": "https://claude-docs.github.io/mcp/servers#productivity-servers",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#2y862s",
+      "name": "Slack",
+      "x": 483,
+      "y": -111,
+      "link": "https://claude-docs.github.io/mcp/servers#slack",
+      "bgColor": "#ffe2ed",
+      "parent": "#f2gvzm"
+    },
+    {
+      "@id": "#8x5xg4",
+      "name": "Notion",
+      "x": 590,
+      "y": -7,
+      "link": "https://claude-docs.github.io/mcp/servers#notion",
+      "bgColor": "#ffe2ed",
+      "parent": "#f2gvzm"
+    },
+    {
+      "@id": "#4qhe86",
+      "name": "Linear",
+      "x": 486,
+      "y": 99,
+      "link": "https://claude-docs.github.io/mcp/servers#linear",
+      "bgColor": "#ffe2ed",
+      "parent": "#f2gvzm"
+    },
+    {
+      "@id": "#z2x7bd",
+      "name": "Development Servers",
+      "x": 160,
+      "y": 164,
+      "link": "https://claude-docs.github.io/mcp/servers#development-servers",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#a22mzd",
+      "name": "Docker",
+      "x": 405,
+      "y": 250,
+      "link": "https://claude-docs.github.io/mcp/servers#docker",
+      "bgColor": "#ffe4d9",
+      "parent": "#z2x7bd"
+    },
+    {
+      "@id": "#duad9x",
+      "name": "Kubernetes",
+      "x": 377,
+      "y": 386,
+      "link": "https://claude-docs.github.io/mcp/servers#kubernetes",
+      "bgColor": "#ffe4d9",
+      "parent": "#z2x7bd"
+    },
+    {
+      "@id": "#m37qt3",
+      "name": "AWS",
+      "x": 214,
+      "y": 384,
+      "link": "https://claude-docs.github.io/mcp/servers#aws",
+      "bgColor": "#ffe4d9",
+      "parent": "#z2x7bd"
+    },
+    {
+      "@id": "#k5nh46",
+      "name": "Finding More Servers",
+      "x": -58,
+      "y": 207,
+      "link": "https://claude-docs.github.io/mcp/servers#finding-more-servers",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#rqeata",
+      "name": "Official Registries",
+      "x": 8,
+      "y": 425,
+      "link": "https://claude-docs.github.io/mcp/servers#official-registries",
+      "bgColor": "#f2ecd2",
+      "parent": "#k5nh46"
+    },
+    {
+      "@id": "#hk4piu",
+      "name": "Search npm",
+      "x": -152,
+      "y": 485,
+      "link": "https://claude-docs.github.io/mcp/servers#search-npm",
+      "bgColor": "#f2ecd2",
+      "parent": "#k5nh46"
+    },
+    {
+      "@id": "#k8arpb",
+      "name": "Docker Hub",
+      "x": -244,
+      "y": 371,
+      "link": "https://claude-docs.github.io/mcp/servers#docker-hub",
+      "bgColor": "#f2ecd2",
+      "parent": "#k5nh46"
+    },
+    {
+      "@id": "#jqh9fh",
+      "name": "Security Considerations",
+      "x": -199,
+      "y": 128,
+      "link": "https://claude-docs.github.io/mcp/servers#security-considerations",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#t4du3j",
+      "name": "← Model Context Protocol",
+      "x": -244,
+      "y": 46,
+      "link": "./model-context-protocol.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 1,
+      "end": 5
+    },
+    {
+      "start": 1,
+      "end": 6
+    },
+    {
+      "start": 1,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 8,
+      "end": 9
+    },
+    {
+      "start": 8,
+      "end": 10
+    },
+    {
+      "start": 8,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 12,
+      "end": 13
+    },
+    {
+      "start": 12,
+      "end": 14
+    },
+    {
+      "start": 12,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 16,
+      "end": 17
+    },
+    {
+      "start": 16,
+      "end": 18
+    },
+    {
+      "start": 16,
+      "end": 19
+    },
+    {
+      "start": 0,
+      "end": 20
+    },
+    {
+      "start": 20,
+      "end": 21
+    },
+    {
+      "start": 20,
+      "end": 22
+    },
+    {
+      "start": 20,
+      "end": 23
+    },
+    {
+      "start": 0,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

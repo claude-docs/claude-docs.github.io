@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Scripting Guide",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/guides/scripting",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#nnd9yr",
+      "name": "Bash Scripts with Claude",
+      "x": -142,
+      "y": -175,
+      "link": "https://claude-docs.github.io/guides/scripting#bash-scripts-with-claude",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#fkirgi",
+      "name": "Basic Script Structure",
+      "x": -476,
+      "y": -131,
+      "link": "https://claude-docs.github.io/guides/scripting#basic-script-structure",
+      "bgColor": "#daeeff",
+      "parent": "#nnd9yr"
+    },
+    {
+      "@id": "#7tsipb",
+      "name": "Capturing Output",
+      "x": -490,
+      "y": -281,
+      "link": "https://claude-docs.github.io/guides/scripting#capturing-output",
+      "bgColor": "#daeeff",
+      "parent": "#nnd9yr"
+    },
+    {
+      "@id": "#smmx55",
+      "name": "Error Handling",
+      "x": -336,
+      "y": -314,
+      "link": "https://claude-docs.github.io/guides/scripting#error-handling",
+      "bgColor": "#daeeff",
+      "parent": "#nnd9yr"
+    },
+    {
+      "@id": "#hk5zkj",
+      "name": "Working with Files",
+      "x": -283,
+      "y": -443,
+      "link": "https://claude-docs.github.io/guides/scripting#working-with-files",
+      "bgColor": "#daeeff",
+      "parent": "#nnd9yr"
+    },
+    {
+      "@id": "#htz9xa",
+      "name": "Interactive Scripts",
+      "x": -103,
+      "y": -415,
+      "link": "https://claude-docs.github.io/guides/scripting#interactive-scripts",
+      "bgColor": "#daeeff",
+      "parent": "#nnd9yr"
+    },
+    {
+      "@id": "#py3qgc",
+      "name": "Parallel Processing",
+      "x": 40,
+      "y": -500,
+      "link": "https://claude-docs.github.io/guides/scripting#parallel-processing",
+      "bgColor": "#daeeff",
+      "parent": "#nnd9yr"
+    },
+    {
+      "@id": "#u6vh45",
+      "name": "Python Automation Scripts",
+      "x": 197,
+      "y": -131,
+      "link": "https://claude-docs.github.io/guides/scripting#python-automation-scripts",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#7kh7bf",
+      "name": "Basic Python Integration",
+      "x": 290,
+      "y": -346,
+      "link": "https://claude-docs.github.io/guides/scripting#basic-python-integration",
+      "bgColor": "#efe6ff",
+      "parent": "#u6vh45"
+    },
+    {
+      "@id": "#j5fqtr",
+      "name": "Async Python Integration",
+      "x": 483,
+      "y": -288,
+      "link": "https://claude-docs.github.io/guides/scripting#async-python-integration",
+      "bgColor": "#efe6ff",
+      "parent": "#u6vh45"
+    },
+    {
+      "@id": "#nk72rv",
+      "name": "Python CLI Tool",
+      "x": 474,
+      "y": -136,
+      "link": "https://claude-docs.github.io/guides/scripting#python-cli-tool",
+      "bgColor": "#efe6ff",
+      "parent": "#u6vh45"
+    },
+    {
+      "@id": "#xxeimz",
+      "name": "Node.js Automation",
+      "x": 227,
+      "y": 88,
+      "link": "https://claude-docs.github.io/guides/scripting#nodejs-automation",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ks9th6",
+      "name": "Basic Node.js Integration",
+      "x": 495,
+      "y": 60,
+      "link": "https://claude-docs.github.io/guides/scripting#basic-nodejs-integration",
+      "bgColor": "#ffe2ed",
+      "parent": "#xxeimz"
+    },
+    {
+      "@id": "#22n8p2",
+      "name": "TypeScript Integration",
+      "x": 525,
+      "y": 229,
+      "link": "https://claude-docs.github.io/guides/scripting#typescript-integration",
+      "bgColor": "#ffe2ed",
+      "parent": "#xxeimz"
+    },
+    {
+      "@id": "#kygvg2",
+      "name": "Streaming Handler",
+      "x": 362,
+      "y": 293,
+      "link": "https://claude-docs.github.io/guides/scripting#streaming-handler",
+      "bgColor": "#ffe2ed",
+      "parent": "#xxeimz"
+    },
+    {
+      "@id": "#saejth",
+      "name": "Makefile Integration",
+      "x": 110,
+      "y": 203,
+      "link": "https://claude-docs.github.io/guides/scripting#makefile-integration",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#8s2rit",
+      "name": "Basic Makefile",
+      "x": 209,
+      "y": 386,
+      "link": "https://claude-docs.github.io/guides/scripting#basic-makefile",
+      "bgColor": "#ffe4d9",
+      "parent": "#saejth"
+    },
+    {
+      "@id": "#vkbm2r",
+      "name": "Advanced Makefile",
+      "x": 109,
+      "y": 493,
+      "link": "https://claude-docs.github.io/guides/scripting#advanced-makefile",
+      "bgColor": "#ffe4d9",
+      "parent": "#saejth"
+    },
+    {
+      "@id": "#eiwvqd",
+      "name": "npm Scripts Integration",
+      "x": -93,
+      "y": 203,
+      "link": "https://claude-docs.github.io/guides/scripting#npm-scripts-integration",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#74zije",
+      "name": "package.json Scripts",
+      "x": -88,
+      "y": 418,
+      "link": "https://claude-docs.github.io/guides/scripting#packagejson-scripts",
+      "bgColor": "#f2ecd2",
+      "parent": "#eiwvqd"
+    },
+    {
+      "@id": "#g6ce66",
+      "name": "Usage Examples",
+      "x": -257,
+      "y": 452,
+      "link": "https://claude-docs.github.io/guides/scripting#usage-examples",
+      "bgColor": "#f2ecd2",
+      "parent": "#eiwvqd"
+    },
+    {
+      "@id": "#yv5py3",
+      "name": "Just Task Runner",
+      "x": -170,
+      "y": 155,
+      "link": "https://claude-docs.github.io/guides/scripting#just-task-runner",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#de8s6g",
+      "name": "Justfile",
+      "x": -341,
+      "y": 311,
+      "link": "https://claude-docs.github.io/guides/scripting#justfile",
+      "bgColor": "#ddf2de",
+      "parent": "#yv5py3"
+    },
+    {
+      "@id": "#7inqcq",
+      "name": "Scheduled Tasks",
+      "x": -214,
+      "y": 110,
+      "link": "https://claude-docs.github.io/guides/scripting#scheduled-tasks",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#5ig44b",
+      "name": "← Workflows & Automation",
+      "x": -245,
+      "y": 43,
+      "link": "./workflows-automation.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 1,
+      "end": 5
+    },
+    {
+      "start": 1,
+      "end": 6
+    },
+    {
+      "start": 1,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 8,
+      "end": 9
+    },
+    {
+      "start": 8,
+      "end": 10
+    },
+    {
+      "start": 8,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 12,
+      "end": 13
+    },
+    {
+      "start": 12,
+      "end": 14
+    },
+    {
+      "start": 12,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 16,
+      "end": 17
+    },
+    {
+      "start": 16,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 19,
+      "end": 20
+    },
+    {
+      "start": 19,
+      "end": 21
+    },
+    {
+      "start": 0,
+      "end": 22
+    },
+    {
+      "start": 22,
+      "end": 23
+    },
+    {
+      "start": 0,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Advanced Patterns",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#n6njdt",
+      "name": "Server Composition",
+      "x": -232,
+      "y": -80,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#server-composition",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#we24ey",
+      "name": "Multi-Server Architecture",
+      "x": -488,
+      "y": -94,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#multi-server-architecture",
+      "bgColor": "#daeeff",
+      "parent": "#n6njdt"
+    },
+    {
+      "@id": "#9e76te",
+      "name": "Server Aggregator Pattern",
+      "x": -504,
+      "y": -261,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#server-aggregator-pattern",
+      "bgColor": "#daeeff",
+      "parent": "#n6njdt"
+    },
+    {
+      "@id": "#z9jayy",
+      "name": "Caching Strategies",
+      "x": -111,
+      "y": -190,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#caching-strategies",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#7c6syt",
+      "name": "In-Memory Cache",
+      "x": -297,
+      "y": -342,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#in-memory-cache",
+      "bgColor": "#efe6ff",
+      "parent": "#z9jayy"
+    },
+    {
+      "@id": "#attg7q",
+      "name": "Distributed Cache with Redis",
+      "x": -203,
+      "y": -471,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#distributed-cache-with-redis",
+      "bgColor": "#efe6ff",
+      "parent": "#z9jayy"
+    },
+    {
+      "@id": "#rf2fdu",
+      "name": "Rate Limiting",
+      "x": 54,
+      "y": -208,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#rate-limiting",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#rfrezv",
+      "name": "Token Bucket Algorithm",
+      "x": 40,
+      "y": -424,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#token-bucket-algorithm",
+      "bgColor": "#ffe2ed",
+      "parent": "#rf2fdu"
+    },
+    {
+      "@id": "#wjrmez",
+      "name": "Per-Tool Rate Limits",
+      "x": 209,
+      "y": -469,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#per-tool-rate-limits",
+      "bgColor": "#ffe2ed",
+      "parent": "#rf2fdu"
+    },
+    {
+      "@id": "#8f9s7w",
+      "name": "Connection Pooling",
+      "x": 195,
+      "y": -132,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#connection-pooling",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#xdptk7",
+      "name": "Database Connection Pool",
+      "x": 345,
+      "y": -307,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#database-connection-pool",
+      "bgColor": "#ffe4d9",
+      "parent": "#8f9s7w"
+    },
+    {
+      "@id": "#x4i3m8",
+      "name": "HTTP Connection Pool",
+      "x": 513,
+      "y": -248,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#http-connection-pool",
+      "bgColor": "#ffe4d9",
+      "parent": "#8f9s7w"
+    },
+    {
+      "@id": "#2dm2gz",
+      "name": "Health Checks",
+      "x": 248,
+      "y": 29,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#health-checks",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#gmpnfq",
+      "name": "Comprehensive Health Check System",
+      "x": 499,
+      "y": -20,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#comprehensive-health-check-system",
+      "bgColor": "#f2ecd2",
+      "parent": "#2dm2gz"
+    },
+    {
+      "@id": "#4hwtf3",
+      "name": "Liveness and Readiness Probes",
+      "x": 556,
+      "y": 167,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#liveness-and-readiness-probes",
+      "bgColor": "#f2ecd2",
+      "parent": "#2dm2gz"
+    },
+    {
+      "@id": "#w4qstn",
+      "name": "Graceful Degradation",
+      "x": 149,
+      "y": 171,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#graceful-degradation",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#8q2ipi",
+      "name": "Circuit Breaker Pattern",
+      "x": 348,
+      "y": 305,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#circuit-breaker-pattern",
+      "bgColor": "#ddf2de",
+      "parent": "#w4qstn"
+    },
+    {
+      "@id": "#u48jbf",
+      "name": "Fallback Strategies",
+      "x": 277,
+      "y": 443,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#fallback-strategies",
+      "bgColor": "#ddf2de",
+      "parent": "#w4qstn"
+    },
+    {
+      "@id": "#tq7qua",
+      "name": "Security Hardening",
+      "x": -58,
+      "y": 207,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#security-hardening",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vws4ar",
+      "name": "Input Validation",
+      "x": 52,
+      "y": 423,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#input-validation",
+      "bgColor": "#d1f3f4",
+      "parent": "#tq7qua"
+    },
+    {
+      "@id": "#e4dfcy",
+      "name": "Secrets Management",
+      "x": -79,
+      "y": 497,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#secrets-management",
+      "bgColor": "#d1f3f4",
+      "parent": "#tq7qua"
+    },
+    {
+      "@id": "#4w8knq",
+      "name": "Audit Logging",
+      "x": -178,
+      "y": 397,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#audit-logging",
+      "bgColor": "#d1f3f4",
+      "parent": "#tq7qua"
+    },
+    {
+      "@id": "#7bushy",
+      "name": "Request Signing",
+      "x": -323,
+      "y": 419,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#request-signing",
+      "bgColor": "#d1f3f4",
+      "parent": "#tq7qua"
+    },
+    {
+      "@id": "#9uzi5i",
+      "name": "Monitoring and Observability",
+      "x": -209,
+      "y": 117,
+      "link": "https://claude-docs.github.io/mcp/advanced-patterns#monitoring-and-observability",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#stqn7y",
+      "name": "← Model Context Protocol",
+      "x": -246,
+      "y": 39,
+      "link": "./model-context-protocol.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 4,
+      "end": 5
+    },
+    {
+      "start": 4,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 7,
+      "end": 8
+    },
+    {
+      "start": 7,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 13,
+      "end": 14
+    },
+    {
+      "start": 13,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 16,
+      "end": 17
+    },
+    {
+      "start": 16,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 19,
+      "end": 20
+    },
+    {
+      "start": 19,
+      "end": 21
+    },
+    {
+      "start": 19,
+      "end": 22
+    },
+    {
+      "start": 19,
+      "end": 23
+    },
+    {
+      "start": 0,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

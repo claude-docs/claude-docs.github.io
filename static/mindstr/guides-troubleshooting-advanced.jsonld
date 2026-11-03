@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Advanced Troubleshooting",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#rxdtku",
+      "name": "Claude Code Internal Debugging",
+      "x": -204,
+      "y": -123,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#claude-code-internal-debugging",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#s4in3g",
+      "name": "Verbose Mode",
+      "x": -490,
+      "y": -86,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#verbose-mode",
+      "bgColor": "#daeeff",
+      "parent": "#rxdtku"
+    },
+    {
+      "@id": "#v7f2kn",
+      "name": "MCP Debug Mode",
+      "x": -540,
+      "y": -202,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#mcp-debug-mode",
+      "bgColor": "#daeeff",
+      "parent": "#rxdtku"
+    },
+    {
+      "@id": "#7r45rc",
+      "name": "Debug Flag Combinations",
+      "x": -392,
+      "y": -263,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#debug-flag-combinations",
+      "bgColor": "#daeeff",
+      "parent": "#rxdtku"
+    },
+    {
+      "@id": "#t7ndyc",
+      "name": "Interpreting Debug Output",
+      "x": -330,
+      "y": -416,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#interpreting-debug-output",
+      "bgColor": "#daeeff",
+      "parent": "#rxdtku"
+    },
+    {
+      "@id": "#v3vibk",
+      "name": "Context Issues Diagnosis",
+      "x": 35,
+      "y": -210,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#context-issues-diagnosis",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#mk48yq",
+      "name": "Context Size Problems",
+      "x": -60,
+      "y": -422,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#context-size-problems",
+      "bgColor": "#efe6ff",
+      "parent": "#v3vibk"
+    },
+    {
+      "@id": "#tk7dda",
+      "name": "Context Quality Issues",
+      "x": 95,
+      "y": -495,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#context-quality-issues",
+      "bgColor": "#efe6ff",
+      "parent": "#v3vibk"
+    },
+    {
+      "@id": "#xrf973",
+      "name": "Context Pollution",
+      "x": 205,
+      "y": -388,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#context-pollution",
+      "bgColor": "#efe6ff",
+      "parent": "#v3vibk"
+    },
+    {
+      "@id": "#8acu9d",
+      "name": "MCP Server Debugging",
+      "x": 237,
+      "y": -67,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#mcp-server-debugging",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#tvm7kd",
+      "name": "Server Connection Issues",
+      "x": 383,
+      "y": -273,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#server-connection-issues",
+      "bgColor": "#ffe2ed",
+      "parent": "#8acu9d"
+    },
+    {
+      "@id": "#8uj59x",
+      "name": "Configuration Validation",
+      "x": 546,
+      "y": -190,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#configuration-validation",
+      "bgColor": "#ffe2ed",
+      "parent": "#8acu9d"
+    },
+    {
+      "@id": "#gtamjy",
+      "name": "Common MCP Issues",
+      "x": 497,
+      "y": -50,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#common-mcp-issues",
+      "bgColor": "#ffe2ed",
+      "parent": "#8acu9d"
+    },
+    {
+      "@id": "#jed74s",
+      "name": "MCP Server Logs",
+      "x": 587,
+      "y": 53,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#mcp-server-logs",
+      "bgColor": "#ffe2ed",
+      "parent": "#8acu9d"
+    },
+    {
+      "@id": "#kjxmr7",
+      "name": "IDE Integration Issues",
+      "x": 178,
+      "y": 149,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#ide-integration-issues",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#s36it5",
+      "name": "VS Code Integration",
+      "x": 435,
+      "y": 210,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#vs-code-integration",
+      "bgColor": "#ffe4d9",
+      "parent": "#kjxmr7"
+    },
+    {
+      "@id": "#uks4nz",
+      "name": "JetBrains Integration",
+      "x": 432,
+      "y": 354,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#jetbrains-integration",
+      "bgColor": "#ffe4d9",
+      "parent": "#kjxmr7"
+    },
+    {
+      "@id": "#rpuy2i",
+      "name": "Neovim Integration",
+      "x": 244,
+      "y": 368,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#neovim-integration",
+      "bgColor": "#ffe4d9",
+      "parent": "#kjxmr7"
+    },
+    {
+      "@id": "#n8n52e",
+      "name": "Performance Optimization",
+      "x": -87,
+      "y": 199,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#performance-optimization",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#mpqzyq",
+      "name": "Slow Response Diagnosis",
+      "x": 35,
+      "y": 424,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#slow-response-diagnosis",
+      "bgColor": "#f2ecd2",
+      "parent": "#n8n52e"
+    },
+    {
+      "@id": "#xcxq6b",
+      "name": "Optimizing Context Usage",
+      "x": -136,
+      "y": 488,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#optimizing-context-usage",
+      "bgColor": "#f2ecd2",
+      "parent": "#n8n52e"
+    },
+    {
+      "@id": "#rfg6ba",
+      "name": "Model Selection for Speed",
+      "x": -245,
+      "y": 363,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#model-selection-for-speed",
+      "bgColor": "#f2ecd2",
+      "parent": "#n8n52e"
+    },
+    {
+      "@id": "#prduee",
+      "name": "Batch Operations",
+      "x": -439,
+      "y": 343,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#batch-operations",
+      "bgColor": "#f2ecd2",
+      "parent": "#n8n52e"
+    },
+    {
+      "@id": "#hktf2t",
+      "name": "Memory Management",
+      "x": -231,
+      "y": 81,
+      "link": "https://claude-docs.github.io/guides/troubleshooting-advanced#memory-management",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#fm7jcg",
+      "name": "← Reference",
+      "x": -248,
+      "y": 27,
+      "link": "./reference.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 1,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 6,
+      "end": 7
+    },
+    {
+      "start": 6,
+      "end": 8
+    },
+    {
+      "start": 6,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 10,
+      "end": 13
+    },
+    {
+      "start": 10,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 15,
+      "end": 16
+    },
+    {
+      "start": 15,
+      "end": 17
+    },
+    {
+      "start": 15,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 19,
+      "end": 20
+    },
+    {
+      "start": 19,
+      "end": 21
+    },
+    {
+      "start": 19,
+      "end": 22
+    },
+    {
+      "start": 19,
+      "end": 23
+    },
+    {
+      "start": 0,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

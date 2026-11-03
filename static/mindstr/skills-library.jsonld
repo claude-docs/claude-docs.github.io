@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Skill Library",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/skills/library",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#dibcyy",
+      "name": "Development Skills",
+      "x": -247,
+      "y": -34,
+      "link": "https://claude-docs.github.io/skills/library#development-skills",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#aegh9f",
+      "name": "Code Review Skill",
+      "x": -494,
+      "y": -68,
+      "link": "https://claude-docs.github.io/skills/library#code-review-skill",
+      "bgColor": "#daeeff",
+      "parent": "#dibcyy"
+    },
+    {
+      "@id": "#z2gtj9",
+      "name": "Summary",
+      "x": -224,
+      "y": -83,
+      "link": "https://claude-docs.github.io/skills/library#summary",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#5afjj7",
+      "name": "Critical Issues",
+      "x": -182,
+      "y": -129,
+      "link": "https://claude-docs.github.io/skills/library#critical-issues-must-fix",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qg4mjn",
+      "name": "Recommendations",
+      "x": -125,
+      "y": -174,
+      "link": "https://claude-docs.github.io/skills/library#recommendations-should-fix",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#5heztm",
+      "name": "Minor Suggestions",
+      "x": -89,
+      "y": -219,
+      "link": "https://claude-docs.github.io/skills/library#minor-suggestions-nice-to-have",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wb696p",
+      "name": "Positive Observations",
+      "x": 94,
+      "y": -203,
+      "link": "https://claude-docs.github.io/skills/library#positive-observations",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#47aizi",
+      "name": "Test Generation Skill",
+      "x": 76,
+      "y": -420,
+      "link": "https://claude-docs.github.io/skills/library#test-generation-skill",
+      "bgColor": "#ddf2de",
+      "parent": "#wb696p"
+    },
+    {
+      "@id": "#9j6hei",
+      "name": "Documentation Skill",
+      "x": 266,
+      "y": -449,
+      "link": "https://claude-docs.github.io/skills/library#documentation-skill",
+      "bgColor": "#ddf2de",
+      "parent": "#wb696p"
+    },
+    {
+      "@id": "#espuc3",
+      "name": "Features",
+      "x": 181,
+      "y": -146,
+      "link": "https://claude-docs.github.io/skills/library#features",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#auikny",
+      "name": "Installation",
+      "x": 223,
+      "y": -96,
+      "link": "https://claude-docs.github.io/skills/library#installation",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vkn9ke",
+      "name": "Quick Start",
+      "x": 246,
+      "y": -39,
+      "link": "https://claude-docs.github.io/skills/library#quick-start",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#q2zjub",
+      "name": "Configuration",
+      "x": 249,
+      "y": 22,
+      "link": "https://claude-docs.github.io/skills/library#configuration",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#6p8j2c",
+      "name": "API Reference",
+      "x": 231,
+      "y": 81,
+      "link": "https://claude-docs.github.io/skills/library#api-reference",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#2e3bf7",
+      "name": "Client",
+      "x": 462,
+      "y": 162,
+      "link": "https://claude-docs.github.io/skills/library#client",
+      "bgColor": "#ffe4d9",
+      "parent": "#6p8j2c"
+    },
+    {
+      "@id": "#4vgvse",
+      "name": "Contributing",
+      "x": 195,
+      "y": 131,
+      "link": "https://claude-docs.github.io/skills/library#contributing",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#i68n7t",
+      "name": "License",
+      "x": 143,
+      "y": 176,
+      "link": "https://claude-docs.github.io/skills/library#license",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#64akma",
+      "name": "Endpoints",
+      "x": -6,
+      "y": 212,
+      "link": "https://claude-docs.github.io/skills/library#endpoints",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#pa7vig",
+      "name": "Create User",
+      "x": 131,
+      "y": 410,
+      "link": "https://claude-docs.github.io/skills/library#create-user",
+      "bgColor": "#d1f3f4",
+      "parent": "#64akma"
+    },
+    {
+      "@id": "#7jhy3x",
+      "name": "Refactoring Skill",
+      "x": 6,
+      "y": 501,
+      "link": "https://claude-docs.github.io/skills/library#refactoring-skill",
+      "bgColor": "#d1f3f4",
+      "parent": "#64akma"
+    },
+    {
+      "@id": "#y3292y",
+      "name": "Security Audit Skill",
+      "x": -137,
+      "y": 409,
+      "link": "https://claude-docs.github.io/skills/library#security-audit-skill",
+      "bgColor": "#d1f3f4",
+      "parent": "#64akma"
+    },
+    {
+      "@id": "#jbw4mz",
+      "name": "Executive Summary",
+      "x": -155,
+      "y": 167,
+      "link": "https://claude-docs.github.io/skills/library#executive-summary",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#kx9emz",
+      "name": "Critical Findings",
+      "x": -214,
+      "y": 110,
+      "link": "https://claude-docs.github.io/skills/library#critical-findings",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#2gg6te",
+      "name": "SEC-001: SQL Injection",
+      "x": -427,
+      "y": 221,
+      "link": "https://claude-docs.github.io/skills/library#sec-001-sql-injection",
+      "bgColor": "#efe6ff",
+      "parent": "#kx9emz"
+    },
+    {
+      "@id": "#qc7art",
+      "name": "← Skills & Commands",
+      "x": -246,
+      "y": 37,
+      "link": "./skills-commands.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 0,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 7,
+      "end": 8
+    },
+    {
+      "start": 7,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 14,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    },
+    {
+      "start": 0,
+      "end": 18
+    },
+    {
+      "start": 18,
+      "end": 19
+    },
+    {
+      "start": 18,
+      "end": 20
+    },
+    {
+      "start": 18,
+      "end": 21
+    },
+    {
+      "start": 0,
+      "end": 22
+    },
+    {
+      "start": 0,
+      "end": 23
+    },
+    {
+      "start": 23,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

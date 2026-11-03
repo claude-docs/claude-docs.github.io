@@ -1,0 +1,259 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Hooks Overview",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/hooks/overview",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#p9zyk4",
+      "name": "What are Hooks?",
+      "x": -245,
+      "y": -42,
+      "link": "https://claude-docs.github.io/hooks/overview#what-are-hooks",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wunehi",
+      "name": "Available Hook Events",
+      "x": -199,
+      "y": -128,
+      "link": "https://claude-docs.github.io/hooks/overview#available-hook-events",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#zr8yui",
+      "name": "Quick Example",
+      "x": -114,
+      "y": -189,
+      "link": "https://claude-docs.github.io/hooks/overview#quick-example",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#dvsh9t",
+      "name": "Configuration",
+      "x": 99,
+      "y": -195,
+      "link": "https://claude-docs.github.io/hooks/overview#configuration",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#jq2vs3",
+      "name": "In settings.json",
+      "x": 1,
+      "y": -425,
+      "link": "https://claude-docs.github.io/hooks/overview#in-settingsjson",
+      "bgColor": "#ffe4d9",
+      "parent": "#dvsh9t"
+    },
+    {
+      "@id": "#auzx23",
+      "name": "Via /hooks Command",
+      "x": 211,
+      "y": -468,
+      "link": "https://claude-docs.github.io/hooks/overview#via-hooks-command",
+      "bgColor": "#ffe4d9",
+      "parent": "#dvsh9t"
+    },
+    {
+      "@id": "#u57q53",
+      "name": "View Configured Hooks",
+      "x": 348,
+      "y": -305,
+      "link": "https://claude-docs.github.io/hooks/overview#view-configured-hooks",
+      "bgColor": "#ffe4d9",
+      "parent": "#dvsh9t"
+    },
+    {
+      "@id": "#fjdbrf",
+      "name": "Hook Properties",
+      "x": 240,
+      "y": -59,
+      "link": "https://claude-docs.github.io/hooks/overview#hook-properties",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ug2k68",
+      "name": "Environment Variables",
+      "x": 246,
+      "y": 36,
+      "link": "https://claude-docs.github.io/hooks/overview#environment-variables",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qtfx3g",
+      "name": "Security",
+      "x": 172,
+      "y": 154,
+      "link": "https://claude-docs.github.io/hooks/overview#security",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#pycadp",
+      "name": "Timeout",
+      "x": 398,
+      "y": 257,
+      "link": "https://claude-docs.github.io/hooks/overview#timeout",
+      "bgColor": "#d1f3f4",
+      "parent": "#qtfx3g"
+    },
+    {
+      "@id": "#2b2cdb",
+      "name": "Safe Practices",
+      "x": 331,
+      "y": 415,
+      "link": "https://claude-docs.github.io/hooks/overview#safe-practices",
+      "bgColor": "#d1f3f4",
+      "parent": "#qtfx3g"
+    },
+    {
+      "@id": "#5qr52t",
+      "name": "Use Cases",
+      "x": -99,
+      "y": 195,
+      "link": "https://claude-docs.github.io/hooks/overview#use-cases",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ig7wy5",
+      "name": "Code Quality",
+      "x": 42,
+      "y": 424,
+      "link": "https://claude-docs.github.io/hooks/overview#code-quality",
+      "bgColor": "#daeeff",
+      "parent": "#5qr52t"
+    },
+    {
+      "@id": "#7beyry",
+      "name": "Notifications",
+      "x": -141,
+      "y": 487,
+      "link": "https://claude-docs.github.io/hooks/overview#notifications",
+      "bgColor": "#daeeff",
+      "parent": "#5qr52t"
+    },
+    {
+      "@id": "#2timf4",
+      "name": "Logging",
+      "x": -268,
+      "y": 359,
+      "link": "https://claude-docs.github.io/hooks/overview#logging",
+      "bgColor": "#daeeff",
+      "parent": "#5qr52t"
+    },
+    {
+      "@id": "#zjgg8z",
+      "name": "File Protection",
+      "x": -460,
+      "y": 314,
+      "link": "https://claude-docs.github.io/hooks/overview#file-protection",
+      "bgColor": "#daeeff",
+      "parent": "#5qr52t"
+    },
+    {
+      "@id": "#cc9dvv",
+      "name": "← Hooks System",
+      "x": -245,
+      "y": 41,
+      "link": "./hooks-system.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 4,
+      "end": 5
+    },
+    {
+      "start": 4,
+      "end": 6
+    },
+    {
+      "start": 4,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 13,
+      "end": 14
+    },
+    {
+      "start": 13,
+      "end": 15
+    },
+    {
+      "start": 13,
+      "end": 16
+    },
+    {
+      "start": 13,
+      "end": 17
+    },
+    {
+      "start": 0,
+      "end": 18
+    }
+  ],
+  "selectedNode": 0
+}

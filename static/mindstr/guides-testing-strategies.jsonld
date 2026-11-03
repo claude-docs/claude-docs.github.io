@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Testing Strategies",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/guides/testing-strategies",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#ubyfia",
+      "name": "Test Generation Overview",
+      "x": -246,
+      "y": -36,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#test-generation-overview",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#y3qzbz",
+      "name": "Basic Test Generation",
+      "x": -493,
+      "y": -72,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#basic-test-generation",
+      "bgColor": "#daeeff",
+      "parent": "#ubyfia"
+    },
+    {
+      "@id": "#jbnfg3",
+      "name": "Unit Test Patterns",
+      "x": -181,
+      "y": -147,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#unit-test-patterns",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ixxrfg",
+      "name": "Function Testing",
+      "x": -432,
+      "y": -214,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#function-testing",
+      "bgColor": "#efe6ff",
+      "parent": "#jbnfg3"
+    },
+    {
+      "@id": "#p3ufd5",
+      "name": "Class Testing",
+      "x": -432,
+      "y": -343,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#class-testing",
+      "bgColor": "#efe6ff",
+      "parent": "#jbnfg3"
+    },
+    {
+      "@id": "#7wjdud",
+      "name": "Testing Async Code",
+      "x": -274,
+      "y": -355,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#testing-async-code",
+      "bgColor": "#efe6ff",
+      "parent": "#jbnfg3"
+    },
+    {
+      "@id": "#hiz6s8",
+      "name": "Integration Test Patterns",
+      "x": -3,
+      "y": -212,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#integration-test-patterns",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#giqb45",
+      "name": "API Integration Tests",
+      "x": -91,
+      "y": -418,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#api-integration-tests",
+      "bgColor": "#ffe2ed",
+      "parent": "#hiz6s8"
+    },
+    {
+      "@id": "#b2t6ad",
+      "name": "Database Integration Tests",
+      "x": 78,
+      "y": -497,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#database-integration-tests",
+      "bgColor": "#ffe2ed",
+      "parent": "#hiz6s8"
+    },
+    {
+      "@id": "#fs9a6q",
+      "name": "E2E Test Automation",
+      "x": 166,
+      "y": -159,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#e2e-test-automation",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#grzrcy",
+      "name": "Playwright E2E Tests",
+      "x": 265,
+      "y": -367,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#playwright-e2e-tests",
+      "bgColor": "#ffe4d9",
+      "parent": "#fs9a6q"
+    },
+    {
+      "@id": "#92eda3",
+      "name": "Visual Regression Testing",
+      "x": 449,
+      "y": -323,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#visual-regression-testing",
+      "bgColor": "#ffe4d9",
+      "parent": "#fs9a6q"
+    },
+    {
+      "@id": "#gf9353",
+      "name": "Test Coverage Improvement",
+      "x": 247,
+      "y": 35,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#test-coverage-improvement",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#w3kv5h",
+      "name": "Coverage Analysis Script",
+      "x": 488,
+      "y": -92,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#coverage-analysis-script",
+      "bgColor": "#f2ecd2",
+      "parent": "#gf9353"
+    },
+    {
+      "@id": "#335yww",
+      "name": "Coverage Improvement Prompts",
+      "x": 586,
+      "y": 62,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#coverage-improvement-prompts",
+      "bgColor": "#f2ecd2",
+      "parent": "#gf9353"
+    },
+    {
+      "@id": "#q9ne5i",
+      "name": "Automated Coverage Gap Detection",
+      "x": 437,
+      "y": 207,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#automated-coverage-gap-detection",
+      "bgColor": "#f2ecd2",
+      "parent": "#gf9353"
+    },
+    {
+      "@id": "#ckzen2",
+      "name": "TDD Workflow with Claude",
+      "x": 58,
+      "y": 207,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#tdd-workflow-with-claude",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#bkbqhs",
+      "name": "Red-Green-Refactor Cycle",
+      "x": 244,
+      "y": 371,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#red-green-refactor-cycle",
+      "bgColor": "#ddf2de",
+      "parent": "#ckzen2"
+    },
+    {
+      "@id": "#aukyc8",
+      "name": "TDD Session Script",
+      "x": 130,
+      "y": 489,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#tdd-session-script",
+      "bgColor": "#ddf2de",
+      "parent": "#ckzen2"
+    },
+    {
+      "@id": "#d2uwxu",
+      "name": "Test-First Development",
+      "x": -27,
+      "y": 424,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#test-first-development",
+      "bgColor": "#ddf2de",
+      "parent": "#ckzen2"
+    },
+    {
+      "@id": "#9fns9g",
+      "name": "Mocking Strategies",
+      "x": -179,
+      "y": 148,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#mocking-strategies",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#663fzf",
+      "name": "Module Mocking",
+      "x": -219,
+      "y": 377,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#module-mocking",
+      "bgColor": "#d1f3f4",
+      "parent": "#9fns9g"
+    },
+    {
+      "@id": "#j5fe38",
+      "name": "Dependency Injection Mocking",
+      "x": -418,
+      "y": 360,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#dependency-injection-mocking",
+      "bgColor": "#d1f3f4",
+      "parent": "#9fns9g"
+    },
+    {
+      "@id": "#ddht39",
+      "name": "API Mocking with MSW",
+      "x": -443,
+      "y": 196,
+      "link": "https://claude-docs.github.io/guides/testing-strategies#api-mocking-with-msw",
+      "bgColor": "#d1f3f4",
+      "parent": "#9fns9g"
+    },
+    {
+      "@id": "#p9r7ih",
+      "name": "← Development",
+      "x": -248,
+      "y": 28,
+      "link": "./development.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 0,
+      "end": 3
+    },
+    {
+      "start": 3,
+      "end": 4
+    },
+    {
+      "start": 3,
+      "end": 5
+    },
+    {
+      "start": 3,
+      "end": 6
+    },
+    {
+      "start": 0,
+      "end": 7
+    },
+    {
+      "start": 7,
+      "end": 8
+    },
+    {
+      "start": 7,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 13,
+      "end": 14
+    },
+    {
+      "start": 13,
+      "end": 15
+    },
+    {
+      "start": 13,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    },
+    {
+      "start": 17,
+      "end": 18
+    },
+    {
+      "start": 17,
+      "end": 19
+    },
+    {
+      "start": 17,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 21,
+      "end": 22
+    },
+    {
+      "start": 21,
+      "end": 23
+    },
+    {
+      "start": 21,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

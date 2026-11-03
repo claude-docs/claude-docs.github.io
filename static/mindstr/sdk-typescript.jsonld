@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "TypeScript SDK",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/sdk/typescript",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#gbn8c4",
+      "name": "Installation",
+      "x": -247,
+      "y": -32,
+      "link": "https://claude-docs.github.io/sdk/typescript#installation",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#sfmbqd",
+      "name": "Basic Usage",
+      "x": -202,
+      "y": -125,
+      "link": "https://claude-docs.github.io/sdk/typescript#basic-usage",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#k6gbtk",
+      "name": "Simple Agent",
+      "x": -443,
+      "y": -197,
+      "link": "https://claude-docs.github.io/sdk/typescript#simple-agent",
+      "bgColor": "#efe6ff",
+      "parent": "#sfmbqd"
+    },
+    {
+      "@id": "#bsvecc",
+      "name": "With Configuration",
+      "x": -429,
+      "y": -344,
+      "link": "https://claude-docs.github.io/sdk/typescript#with-configuration",
+      "bgColor": "#efe6ff",
+      "parent": "#sfmbqd"
+    },
+    {
+      "@id": "#nqwhp5",
+      "name": "Agent Methods",
+      "x": -40,
+      "y": -210,
+      "link": "https://claude-docs.github.io/sdk/typescript#agent-methods",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#4ddtfz",
+      "name": "run",
+      "x": -202,
+      "y": -389,
+      "link": "https://claude-docs.github.io/sdk/typescript#run",
+      "bgColor": "#ffe2ed",
+      "parent": "#nqwhp5"
+    },
+    {
+      "@id": "#kg5gyc",
+      "name": "stream",
+      "x": -95,
+      "y": -495,
+      "link": "https://claude-docs.github.io/sdk/typescript#stream",
+      "bgColor": "#ffe2ed",
+      "parent": "#nqwhp5"
+    },
+    {
+      "@id": "#wm3jqn",
+      "name": "chat",
+      "x": 46,
+      "y": -423,
+      "link": "https://claude-docs.github.io/sdk/typescript#chat",
+      "bgColor": "#ffe2ed",
+      "parent": "#nqwhp5"
+    },
+    {
+      "@id": "#dk3qrv",
+      "name": "Tool Control",
+      "x": 170,
+      "y": -156,
+      "link": "https://claude-docs.github.io/sdk/typescript#tool-control",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#42e9f9",
+      "name": "Allowing Tools",
+      "x": 236,
+      "y": -375,
+      "link": "https://claude-docs.github.io/sdk/typescript#allowing-tools",
+      "bgColor": "#ffe4d9",
+      "parent": "#dk3qrv"
+    },
+    {
+      "@id": "#67im5f",
+      "name": "Denying Tools",
+      "x": 400,
+      "y": -369,
+      "link": "https://claude-docs.github.io/sdk/typescript#denying-tools",
+      "bgColor": "#ffe4d9",
+      "parent": "#dk3qrv"
+    },
+    {
+      "@id": "#2s3p2q",
+      "name": "Custom Tools",
+      "x": 420,
+      "y": -230,
+      "link": "https://claude-docs.github.io/sdk/typescript#custom-tools",
+      "bgColor": "#ffe4d9",
+      "parent": "#dk3qrv"
+    },
+    {
+      "@id": "#3iptbx",
+      "name": "Sandboxing",
+      "x": 248,
+      "y": 26,
+      "link": "https://claude-docs.github.io/sdk/typescript#sandboxing",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#t582wt",
+      "name": "Basic Sandbox",
+      "x": 493,
+      "y": -70,
+      "link": "https://claude-docs.github.io/sdk/typescript#basic-sandbox",
+      "bgColor": "#f2ecd2",
+      "parent": "#3iptbx"
+    },
+    {
+      "@id": "#8feax3",
+      "name": "Network Restrictions",
+      "x": 586,
+      "y": 61,
+      "link": "https://claude-docs.github.io/sdk/typescript#network-restrictions",
+      "bgColor": "#f2ecd2",
+      "parent": "#3iptbx"
+    },
+    {
+      "@id": "#86megc",
+      "name": "Resource Limits",
+      "x": 458,
+      "y": 170,
+      "link": "https://claude-docs.github.io/sdk/typescript#resource-limits",
+      "bgColor": "#f2ecd2",
+      "parent": "#3iptbx"
+    },
+    {
+      "@id": "#jzaxer",
+      "name": "Error Handling",
+      "x": 179,
+      "y": 131,
+      "link": "https://claude-docs.github.io/sdk/typescript#error-handling",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#9mz5yc",
+      "name": "Context Management",
+      "x": 114,
+      "y": 177,
+      "link": "https://claude-docs.github.io/sdk/typescript#context-management",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#2vy2cx",
+      "name": "Output Parsing",
+      "x": 70,
+      "y": 222,
+      "link": "https://claude-docs.github.io/sdk/typescript#output-parsing",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#vih7v4",
+      "name": "Callbacks",
+      "x": -58,
+      "y": 210,
+      "link": "https://claude-docs.github.io/sdk/typescript#callbacks",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wmzib5",
+      "name": "Examples",
+      "x": -177,
+      "y": 150,
+      "link": "https://claude-docs.github.io/sdk/typescript#examples",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#5ypcqw",
+      "name": "Code Review Bot",
+      "x": -245,
+      "y": 370,
+      "link": "https://claude-docs.github.io/sdk/typescript#code-review-bot",
+      "bgColor": "#ffe2ed",
+      "parent": "#wmzib5"
+    },
+    {
+      "@id": "#7dsgy2",
+      "name": "Test Generator",
+      "x": -410,
+      "y": 360,
+      "link": "https://claude-docs.github.io/sdk/typescript#test-generator",
+      "bgColor": "#ffe2ed",
+      "parent": "#wmzib5"
+    },
+    {
+      "@id": "#7vxdhv",
+      "name": "Express Middleware",
+      "x": -432,
+      "y": 214,
+      "link": "https://claude-docs.github.io/sdk/typescript#express-middleware",
+      "bgColor": "#ffe2ed",
+      "parent": "#wmzib5"
+    },
+    {
+      "@id": "#3kphhf",
+      "name": "← Agent SDK",
+      "x": -247,
+      "y": 32,
+      "link": "./agent-sdk.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 0,
+      "end": 2
+    },
+    {
+      "start": 2,
+      "end": 3
+    },
+    {
+      "start": 2,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 5,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 9,
+      "end": 10
+    },
+    {
+      "start": 9,
+      "end": 11
+    },
+    {
+      "start": 9,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 13,
+      "end": 14
+    },
+    {
+      "start": 13,
+      "end": 15
+    },
+    {
+      "start": 13,
+      "end": 16
+    },
+    {
+      "start": 0,
+      "end": 17
+    },
+    {
+      "start": 0,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 0,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 21,
+      "end": 22
+    },
+    {
+      "start": 21,
+      "end": 23
+    },
+    {
+      "start": 21,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

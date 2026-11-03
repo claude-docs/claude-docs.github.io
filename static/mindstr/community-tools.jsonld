@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Community Tools",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/community/tools",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#tfxm5r",
+      "name": "Desktop GUIs",
+      "x": -239,
+      "y": -63,
+      "link": "https://claude-docs.github.io/community/tools#desktop-guis",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#du95bz",
+      "name": "Claudia",
+      "x": -492,
+      "y": -74,
+      "link": "https://claude-docs.github.io/community/tools#claudia",
+      "bgColor": "#daeeff",
+      "parent": "#tfxm5r"
+    },
+    {
+      "@id": "#ddu3gn",
+      "name": "opcode",
+      "x": -537,
+      "y": -207,
+      "link": "https://claude-docs.github.io/community/tools#opcode",
+      "bgColor": "#daeeff",
+      "parent": "#tfxm5r"
+    },
+    {
+      "@id": "#uee6pt",
+      "name": "Web Interfaces",
+      "x": -39,
+      "y": -210,
+      "link": "https://claude-docs.github.io/community/tools#web-interfaces",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ydmenp",
+      "name": "claude-code-templates",
+      "x": -312,
+      "y": -332,
+      "link": "https://claude-docs.github.io/community/tools#claude-code-templates",
+      "bgColor": "#efe6ff",
+      "parent": "#uee6pt"
+    },
+    {
+      "@id": "#fekbej",
+      "name": "claude-code-webui",
+      "x": -212,
+      "y": -468,
+      "link": "https://claude-docs.github.io/community/tools#claude-code-webui",
+      "bgColor": "#efe6ff",
+      "parent": "#uee6pt"
+    },
+    {
+      "@id": "#86dsj7",
+      "name": "CloudCLI",
+      "x": -50,
+      "y": -423,
+      "link": "https://claude-docs.github.io/community/tools#cloudcli-claude-code-ui",
+      "bgColor": "#efe6ff",
+      "parent": "#uee6pt"
+    },
+    {
+      "@id": "#5q63vn",
+      "name": "claude-run",
+      "x": 89,
+      "y": -496,
+      "link": "https://claude-docs.github.io/community/tools#claude-run",
+      "bgColor": "#efe6ff",
+      "parent": "#uee6pt"
+    },
+    {
+      "@id": "#qxcwrk",
+      "name": "Claudeman",
+      "x": 196,
+      "y": -391,
+      "link": "https://claude-docs.github.io/community/tools#claudeman",
+      "bgColor": "#efe6ff",
+      "parent": "#uee6pt"
+    },
+    {
+      "@id": "#tjzg78",
+      "name": "Model Routing",
+      "x": 208,
+      "y": -117,
+      "link": "https://claude-docs.github.io/community/tools#model-routing",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#v5ac9d",
+      "name": "Ollama",
+      "x": 372,
+      "y": -284,
+      "link": "https://claude-docs.github.io/community/tools#ollama",
+      "bgColor": "#ffe2ed",
+      "parent": "#tjzg78"
+    },
+    {
+      "@id": "#z6ts7c",
+      "name": "claude-code-router",
+      "x": 529,
+      "y": -222,
+      "link": "https://claude-docs.github.io/community/tools#claude-code-router",
+      "bgColor": "#ffe2ed",
+      "parent": "#tjzg78"
+    },
+    {
+      "@id": "#rm5nhw",
+      "name": "Usage Monitoring",
+      "x": 249,
+      "y": -21,
+      "link": "https://claude-docs.github.io/community/tools#usage-monitoring",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#2etdmg",
+      "name": "Multi-Agent Orchestration",
+      "x": 218,
+      "y": 104,
+      "link": "https://claude-docs.github.io/community/tools#multi-agent-orchestration",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#imttbq",
+      "name": "Claude Squad",
+      "x": 483,
+      "y": 109,
+      "link": "https://claude-docs.github.io/community/tools#claude-squad",
+      "bgColor": "#f2ecd2",
+      "parent": "#2etdmg"
+    },
+    {
+      "@id": "#56srmr",
+      "name": "Claude-Flow",
+      "x": 515,
+      "y": 245,
+      "link": "https://claude-docs.github.io/community/tools#claude-flow",
+      "bgColor": "#f2ecd2",
+      "parent": "#2etdmg"
+    },
+    {
+      "@id": "#d62mn2",
+      "name": "wshobson/agents",
+      "x": 361,
+      "y": 294,
+      "link": "https://claude-docs.github.io/community/tools#wshobsonagents",
+      "bgColor": "#f2ecd2",
+      "parent": "#2etdmg"
+    },
+    {
+      "@id": "#kgr56f",
+      "name": "Skills Directories",
+      "x": 60,
+      "y": 206,
+      "link": "https://claude-docs.github.io/community/tools#skills-directories",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cs37xj",
+      "name": "skills.sh",
+      "x": 204,
+      "y": 388,
+      "link": "https://claude-docs.github.io/community/tools#skillssh",
+      "bgColor": "#ddf2de",
+      "parent": "#kgr56f"
+    },
+    {
+      "@id": "#zz3yij",
+      "name": "Alternative Directories",
+      "x": 69,
+      "y": 498,
+      "link": "https://claude-docs.github.io/community/tools#alternative-directories",
+      "bgColor": "#ddf2de",
+      "parent": "#kgr56f"
+    },
+    {
+      "@id": "#en6pcd",
+      "name": "Skills & Subagents",
+      "x": -160,
+      "y": 163,
+      "link": "https://claude-docs.github.io/community/tools#skills-subagents",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#6ykmwd",
+      "name": "Awesome Claude Code Subagents",
+      "x": -205,
+      "y": 387,
+      "link": "https://claude-docs.github.io/community/tools#awesome-claude-code-subagents",
+      "bgColor": "#d1f3f4",
+      "parent": "#en6pcd"
+    },
+    {
+      "@id": "#yizi9m",
+      "name": "Build With Claude",
+      "x": -419,
+      "y": 355,
+      "link": "https://claude-docs.github.io/community/tools#build-with-claude",
+      "bgColor": "#d1f3f4",
+      "parent": "#en6pcd"
+    },
+    {
+      "@id": "#qncngx",
+      "name": "claude-skills",
+      "x": -434,
+      "y": 211,
+      "link": "https://claude-docs.github.io/community/tools#claude-skills",
+      "bgColor": "#d1f3f4",
+      "parent": "#en6pcd"
+    },
+    {
+      "@id": "#f2gs7j",
+      "name": "← Community",
+      "x": -247,
+      "y": 32,
+      "link": "./community.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 4,
+      "end": 5
+    },
+    {
+      "start": 4,
+      "end": 6
+    },
+    {
+      "start": 4,
+      "end": 7
+    },
+    {
+      "start": 4,
+      "end": 8
+    },
+    {
+      "start": 4,
+      "end": 9
+    },
+    {
+      "start": 0,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 11
+    },
+    {
+      "start": 10,
+      "end": 12
+    },
+    {
+      "start": 0,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 14,
+      "end": 15
+    },
+    {
+      "start": 14,
+      "end": 16
+    },
+    {
+      "start": 14,
+      "end": 17
+    },
+    {
+      "start": 0,
+      "end": 18
+    },
+    {
+      "start": 18,
+      "end": 19
+    },
+    {
+      "start": 18,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 21,
+      "end": 22
+    },
+    {
+      "start": 21,
+      "end": 23
+    },
+    {
+      "start": 21,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

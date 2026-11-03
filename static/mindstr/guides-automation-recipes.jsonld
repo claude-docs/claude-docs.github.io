@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Automation Recipes",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/guides/automation-recipes",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#vejtej",
+      "name": "Daily Standup Generator",
+      "x": -235,
+      "y": -72,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#daily-standup-generator",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#8h7shp",
+      "name": "Automated Git Summary",
+      "x": -492,
+      "y": -78,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#automated-git-summary",
+      "bgColor": "#daeeff",
+      "parent": "#vejtej"
+    },
+    {
+      "@id": "#84zdwj",
+      "name": "GitHub Actions Daily Standup",
+      "x": -525,
+      "y": -229,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#github-actions-daily-standup",
+      "bgColor": "#daeeff",
+      "parent": "#vejtej"
+    },
+    {
+      "@id": "#j3a89x",
+      "name": "Changelog Automation",
+      "x": -65,
+      "y": -205,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#changelog-automation",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#7pgmcp",
+      "name": "Generate Changelog from Commits",
+      "x": -283,
+      "y": -350,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#generate-changelog-from-commits",
+      "bgColor": "#efe6ff",
+      "parent": "#j3a89x"
+    },
+    {
+      "@id": "#m6cj8g",
+      "name": "Automated CHANGELOG.md Update",
+      "x": -150,
+      "y": -485,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#automated-changelogmd-update",
+      "bgColor": "#efe6ff",
+      "parent": "#j3a89x"
+    },
+    {
+      "@id": "#j5t7kb",
+      "name": "GitHub Release Notes Generator",
+      "x": 41,
+      "y": -424,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#github-release-notes-generator",
+      "bgColor": "#efe6ff",
+      "parent": "#j3a89x"
+    },
+    {
+      "@id": "#ft8nku",
+      "name": "Release Management",
+      "x": 155,
+      "y": -166,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#release-management",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#acwqfq",
+      "name": "Semantic Version Bump",
+      "x": 231,
+      "y": -366,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#semantic-version-bump",
+      "bgColor": "#ffe2ed",
+      "parent": "#ft8nku"
+    },
+    {
+      "@id": "#3353ig",
+      "name": "Complete Release Script",
+      "x": 436,
+      "y": -350,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#complete-release-script",
+      "bgColor": "#ffe2ed",
+      "parent": "#ft8nku"
+    },
+    {
+      "@id": "#3yd94p",
+      "name": "Dependency Updates",
+      "x": 250,
+      "y": 3,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#dependency-updates",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#n73upd",
+      "name": "Analyze Outdated Dependencies",
+      "x": 475,
+      "y": -133,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#analyze-outdated-dependencies",
+      "bgColor": "#ffe4d9",
+      "parent": "#3yd94p"
+    },
+    {
+      "@id": "#e8wyip",
+      "name": "Automated Dependency PR",
+      "x": 590,
+      "y": -7,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#automated-dependency-pr",
+      "bgColor": "#ffe4d9",
+      "parent": "#3yd94p"
+    },
+    {
+      "@id": "#vxqc57",
+      "name": "Security Audit with Recommendations",
+      "x": 474,
+      "y": 134,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#security-audit-with-recommendations",
+      "bgColor": "#ffe4d9",
+      "parent": "#3yd94p"
+    },
+    {
+      "@id": "#b24p5h",
+      "name": "Code Migration Scripts",
+      "x": 117,
+      "y": 188,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#code-migration-scripts",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#e6s4ny",
+      "name": "API Migration Helper",
+      "x": 344,
+      "y": 309,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#api-migration-helper",
+      "bgColor": "#f2ecd2",
+      "parent": "#b24p5h"
+    },
+    {
+      "@id": "#t4fcfx",
+      "name": "TypeScript Migration",
+      "x": 325,
+      "y": 437,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#typescript-migration",
+      "bgColor": "#f2ecd2",
+      "parent": "#b24p5h"
+    },
+    {
+      "@id": "#zu8nzk",
+      "name": "Database Schema Migration",
+      "x": 114,
+      "y": 413,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#database-schema-migration",
+      "bgColor": "#f2ecd2",
+      "parent": "#b24p5h"
+    },
+    {
+      "@id": "#m4e6ys",
+      "name": "Batch Refactoring",
+      "x": -110,
+      "y": 191,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#batch-refactoring",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#cdbijn",
+      "name": "Rename Across Codebase",
+      "x": -103,
+      "y": 411,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#rename-across-codebase",
+      "bgColor": "#ddf2de",
+      "parent": "#m4e6ys"
+    },
+    {
+      "@id": "#psrjf8",
+      "name": "Extract Common Code",
+      "x": -254,
+      "y": 456,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#extract-common-code",
+      "bgColor": "#ddf2de",
+      "parent": "#m4e6ys"
+    },
+    {
+      "@id": "#qfcya8",
+      "name": "Update Import Statements",
+      "x": -324,
+      "y": 323,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#update-import-statements",
+      "bgColor": "#ddf2de",
+      "parent": "#m4e6ys"
+    },
+    {
+      "@id": "#a9txyz",
+      "name": "Documentation Sync",
+      "x": -220,
+      "y": 101,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#documentation-sync",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#7ts43d",
+      "name": "Sync README with Code",
+      "x": -440,
+      "y": 201,
+      "link": "https://claude-docs.github.io/guides/automation-recipes#sync-readme-with-code",
+      "bgColor": "#d1f3f4",
+      "parent": "#a9txyz"
+    },
+    {
+      "@id": "#7zhtxj",
+      "name": "← Workflows & Automation",
+      "x": -246,
+      "y": 36,
+      "link": "./workflows-automation.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 0,
+      "end": 4
+    },
+    {
+      "start": 4,
+      "end": 5
+    },
+    {
+      "start": 4,
+      "end": 6
+    },
+    {
+      "start": 4,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 8,
+      "end": 9
+    },
+    {
+      "start": 8,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 11,
+      "end": 12
+    },
+    {
+      "start": 11,
+      "end": 13
+    },
+    {
+      "start": 11,
+      "end": 14
+    },
+    {
+      "start": 0,
+      "end": 15
+    },
+    {
+      "start": 15,
+      "end": 16
+    },
+    {
+      "start": 15,
+      "end": 17
+    },
+    {
+      "start": 15,
+      "end": 18
+    },
+    {
+      "start": 0,
+      "end": 19
+    },
+    {
+      "start": 19,
+      "end": 20
+    },
+    {
+      "start": 19,
+      "end": 21
+    },
+    {
+      "start": 19,
+      "end": 22
+    },
+    {
+      "start": 0,
+      "end": 23
+    },
+    {
+      "start": 23,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}

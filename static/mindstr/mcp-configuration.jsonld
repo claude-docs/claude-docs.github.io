@@ -1,0 +1,337 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Configuration",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/mcp/configuration",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#dxtxsr",
+      "name": "Configuration Files",
+      "x": -212,
+      "y": -113,
+      "link": "https://claude-docs.github.io/mcp/configuration#configuration-files",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#nmjv76",
+      "name": "Project Configuration",
+      "x": -482,
+      "y": -112,
+      "link": "https://claude-docs.github.io/mcp/configuration#project-configuration",
+      "bgColor": "#daeeff",
+      "parent": "#dxtxsr"
+    },
+    {
+      "@id": "#mjdvee",
+      "name": "User Configuration",
+      "x": -486,
+      "y": -284,
+      "link": "https://claude-docs.github.io/mcp/configuration#user-configuration",
+      "bgColor": "#daeeff",
+      "parent": "#dxtxsr"
+    },
+    {
+      "@id": "#d6tkb9",
+      "name": "Standalone File",
+      "x": -313,
+      "y": -332,
+      "link": "https://claude-docs.github.io/mcp/configuration#standalone-file",
+      "bgColor": "#daeeff",
+      "parent": "#dxtxsr"
+    },
+    {
+      "@id": "#tefhrg",
+      "name": "Configuration Options",
+      "x": -29,
+      "y": -220,
+      "link": "https://claude-docs.github.io/mcp/configuration#configuration-options",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#qmxg97",
+      "name": "Basic Options",
+      "x": -129,
+      "y": -411,
+      "link": "https://claude-docs.github.io/mcp/configuration#basic-options",
+      "bgColor": "#efe6ff",
+      "parent": "#tefhrg"
+    },
+    {
+      "@id": "#g4d8c6",
+      "name": "Advanced Options",
+      "x": 10,
+      "y": -501,
+      "link": "https://claude-docs.github.io/mcp/configuration#advanced-options",
+      "bgColor": "#efe6ff",
+      "parent": "#tefhrg"
+    },
+    {
+      "@id": "#yzue8k",
+      "name": "Environment Variables",
+      "x": 132,
+      "y": -176,
+      "link": "https://claude-docs.github.io/mcp/configuration#environment-variables",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#7jcj9y",
+      "name": "Using Variables",
+      "x": 197,
+      "y": -391,
+      "link": "https://claude-docs.github.io/mcp/configuration#using-variables",
+      "bgColor": "#ffe2ed",
+      "parent": "#yzue8k"
+    },
+    {
+      "@id": "#a69dfq",
+      "name": "Setting Variables",
+      "x": 377,
+      "y": -386,
+      "link": "https://claude-docs.github.io/mcp/configuration#setting-variables",
+      "bgColor": "#ffe2ed",
+      "parent": "#yzue8k"
+    },
+    {
+      "@id": "#sfg4qv",
+      "name": "Multiple Servers",
+      "x": 219,
+      "y": -102,
+      "link": "https://claude-docs.github.io/mcp/configuration#multiple-servers",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#xww8q9",
+      "name": "Server Lifecycle",
+      "x": 247,
+      "y": 32,
+      "link": "https://claude-docs.github.io/mcp/configuration#server-lifecycle",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#yv5i54",
+      "name": "Startup",
+      "x": 496,
+      "y": -51,
+      "link": "https://claude-docs.github.io/mcp/configuration#startup",
+      "bgColor": "#f2ecd2",
+      "parent": "#xww8q9"
+    },
+    {
+      "@id": "#cfextr",
+      "name": "Runtime",
+      "x": 583,
+      "y": 75,
+      "link": "https://claude-docs.github.io/mcp/configuration#runtime",
+      "bgColor": "#f2ecd2",
+      "parent": "#xww8q9"
+    },
+    {
+      "@id": "#n4bn2e",
+      "name": "Shutdown",
+      "x": 457,
+      "y": 173,
+      "link": "https://claude-docs.github.io/mcp/configuration#shutdown",
+      "bgColor": "#f2ecd2",
+      "parent": "#xww8q9"
+    },
+    {
+      "@id": "#eud79w",
+      "name": "Troubleshooting",
+      "x": 111,
+      "y": 190,
+      "link": "https://claude-docs.github.io/mcp/configuration#troubleshooting",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#wn4gws",
+      "name": "Debug Mode",
+      "x": 333,
+      "y": 317,
+      "link": "https://claude-docs.github.io/mcp/configuration#debug-mode",
+      "bgColor": "#ddf2de",
+      "parent": "#eud79w"
+    },
+    {
+      "@id": "#7urzyg",
+      "name": "Common Issues",
+      "x": 262,
+      "y": 449,
+      "link": "https://claude-docs.github.io/mcp/configuration#common-issues",
+      "bgColor": "#ddf2de",
+      "parent": "#eud79w"
+    },
+    {
+      "@id": "#fcdibk",
+      "name": "Logs",
+      "x": 95,
+      "y": 417,
+      "link": "https://claude-docs.github.io/mcp/configuration#logs",
+      "bgColor": "#ddf2de",
+      "parent": "#eud79w"
+    },
+    {
+      "@id": "#tmtxc2",
+      "name": "Best Practices",
+      "x": -45,
+      "y": 209,
+      "link": "https://claude-docs.github.io/mcp/configuration#best-practices",
+      "bgColor": "#95e1e3",
+      "parent": "#this"
+    },
+    {
+      "@id": "#f5mzxc",
+      "name": "Example Configurations",
+      "x": -165,
+      "y": 160,
+      "link": "https://claude-docs.github.io/mcp/configuration#example-configurations",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#assz83",
+      "name": "Full-Stack Development",
+      "x": -277,
+      "y": 354,
+      "link": "https://claude-docs.github.io/mcp/configuration#full-stack-development",
+      "bgColor": "#daeeff",
+      "parent": "#f5mzxc"
+    },
+    {
+      "@id": "#ef2zi4",
+      "name": "DevOps",
+      "x": -464,
+      "y": 310,
+      "link": "https://claude-docs.github.io/mcp/configuration#devops",
+      "bgColor": "#daeeff",
+      "parent": "#f5mzxc"
+    },
+    {
+      "@id": "#mmiwv8",
+      "name": "← Model Context Protocol",
+      "x": -243,
+      "y": 49,
+      "link": "./model-context-protocol.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 0,
+      "end": 8
+    },
+    {
+      "start": 8,
+      "end": 9
+    },
+    {
+      "start": 8,
+      "end": 10
+    },
+    {
+      "start": 0,
+      "end": 11
+    },
+    {
+      "start": 0,
+      "end": 12
+    },
+    {
+      "start": 12,
+      "end": 13
+    },
+    {
+      "start": 12,
+      "end": 14
+    },
+    {
+      "start": 12,
+      "end": 15
+    },
+    {
+      "start": 0,
+      "end": 16
+    },
+    {
+      "start": 16,
+      "end": 17
+    },
+    {
+      "start": 16,
+      "end": 18
+    },
+    {
+      "start": 16,
+      "end": 19
+    },
+    {
+      "start": 0,
+      "end": 20
+    },
+    {
+      "start": 0,
+      "end": 21
+    },
+    {
+      "start": 21,
+      "end": 22
+    },
+    {
+      "start": 21,
+      "end": 23
+    },
+    {
+      "start": 0,
+      "end": 24
+    }
+  ],
+  "selectedNode": 0
+}

@@ -1,0 +1,350 @@
+{
+  "@context": {
+    "@vocab": "https://mindstr.org/ns#",
+    "link": {
+      "@type": "@id"
+    },
+    "parent": {
+      "@type": "@id"
+    }
+  },
+  "version": "0.2",
+  "nodes": [
+    {
+      "@id": "#this",
+      "name": "Advanced Skills",
+      "x": 0,
+      "y": 0,
+      "link": "https://claude-docs.github.io/skills/advanced",
+      "bgColor": "#ebc573"
+    },
+    {
+      "@id": "#is4r8e",
+      "name": "Skill Architecture Deep Dive",
+      "x": -220,
+      "y": -101,
+      "link": "https://claude-docs.github.io/skills/advanced#skill-architecture-deep-dive",
+      "bgColor": "#acd5ff",
+      "parent": "#this"
+    },
+    {
+      "@id": "#kkzds3",
+      "name": "File System Structure",
+      "x": -487,
+      "y": -96,
+      "link": "https://claude-docs.github.io/skills/advanced#file-system-structure",
+      "bgColor": "#daeeff",
+      "parent": "#is4r8e"
+    },
+    {
+      "@id": "#vzavfv",
+      "name": "Skill Loading Order",
+      "x": -514,
+      "y": -246,
+      "link": "https://claude-docs.github.io/skills/advanced#skill-loading-order",
+      "bgColor": "#daeeff",
+      "parent": "#is4r8e"
+    },
+    {
+      "@id": "#cpenrd",
+      "name": "Memory and Context",
+      "x": -355,
+      "y": -299,
+      "link": "https://claude-docs.github.io/skills/advanced#memory-and-context",
+      "bgColor": "#daeeff",
+      "parent": "#is4r8e"
+    },
+    {
+      "@id": "#dic9kt",
+      "name": "Multi-File Skills",
+      "x": -23,
+      "y": -212,
+      "link": "https://claude-docs.github.io/skills/advanced#multi-file-skills",
+      "bgColor": "#d9c6fb",
+      "parent": "#this"
+    },
+    {
+      "@id": "#ctfstm",
+      "name": "Splitting Large Skills",
+      "x": -170,
+      "y": -400,
+      "link": "https://claude-docs.github.io/skills/advanced#splitting-large-skills",
+      "bgColor": "#efe6ff",
+      "parent": "#dic9kt"
+    },
+    {
+      "@id": "#qtathz",
+      "name": "Include Syntax",
+      "x": -48,
+      "y": -500,
+      "link": "https://claude-docs.github.io/skills/advanced#include-syntax",
+      "bgColor": "#efe6ff",
+      "parent": "#dic9kt"
+    },
+    {
+      "@id": "#acvh67",
+      "name": "Conditional Includes",
+      "x": 86,
+      "y": -419,
+      "link": "https://claude-docs.github.io/skills/advanced#conditional-includes",
+      "bgColor": "#efe6ff",
+      "parent": "#dic9kt"
+    },
+    {
+      "@id": "#er8sen",
+      "name": "Skill Dependencies",
+      "x": 218,
+      "y": -104,
+      "link": "https://claude-docs.github.io/skills/advanced#skill-dependencies",
+      "bgColor": "#f9bdd5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#rwcfts",
+      "name": "Declaring Dependencies",
+      "x": 294,
+      "y": -337,
+      "link": "https://claude-docs.github.io/skills/advanced#declaring-dependencies",
+      "bgColor": "#ffe2ed",
+      "parent": "#er8sen"
+    },
+    {
+      "@id": "#agt8wh",
+      "name": "Dependency Chain",
+      "x": 478,
+      "y": -301,
+      "link": "https://claude-docs.github.io/skills/advanced#dependency-chain",
+      "bgColor": "#ffe2ed",
+      "parent": "#er8sen"
+    },
+    {
+      "@id": "#8mzvwe",
+      "name": "Optional Dependencies",
+      "x": 465,
+      "y": -155,
+      "link": "https://claude-docs.github.io/skills/advanced#optional-dependencies",
+      "bgColor": "#ffe2ed",
+      "parent": "#er8sen"
+    },
+    {
+      "@id": "#3xzq87",
+      "name": "Conflict Resolution",
+      "x": 588,
+      "y": -45,
+      "link": "https://claude-docs.github.io/skills/advanced#conflict-resolution",
+      "bgColor": "#ffe2ed",
+      "parent": "#er8sen"
+    },
+    {
+      "@id": "#7atuzz",
+      "name": "Conditional Instructions",
+      "x": 192,
+      "y": 136,
+      "link": "https://claude-docs.github.io/skills/advanced#conditional-instructions",
+      "bgColor": "#fcc2a9",
+      "parent": "#this"
+    },
+    {
+      "@id": "#5nz75v",
+      "name": "Environment Detection",
+      "x": 463,
+      "y": 161,
+      "link": "https://claude-docs.github.io/skills/advanced#environment-detection",
+      "bgColor": "#ffe4d9",
+      "parent": "#7atuzz"
+    },
+    {
+      "@id": "#vaxtt7",
+      "name": "Project Type Detection",
+      "x": 455,
+      "y": 314,
+      "link": "https://claude-docs.github.io/skills/advanced#project-type-detection",
+      "bgColor": "#ffe4d9",
+      "parent": "#7atuzz"
+    },
+    {
+      "@id": "#c3vt69",
+      "name": "Feature Flag Detection",
+      "x": 271,
+      "y": 360,
+      "link": "https://claude-docs.github.io/skills/advanced#feature-flag-detection",
+      "bgColor": "#ffe4d9",
+      "parent": "#7atuzz"
+    },
+    {
+      "@id": "#kaeiiw",
+      "name": "Dynamic Content",
+      "x": -36,
+      "y": 210,
+      "link": "https://claude-docs.github.io/skills/advanced#dynamic-content",
+      "bgColor": "#e0d199",
+      "parent": "#this"
+    },
+    {
+      "@id": "#k69edx",
+      "name": "Template Variables",
+      "x": 62,
+      "y": 422,
+      "link": "https://claude-docs.github.io/skills/advanced#template-variables",
+      "bgColor": "#f2ecd2",
+      "parent": "#kaeiiw"
+    },
+    {
+      "@id": "#c2psew",
+      "name": "File Content Injection",
+      "x": -95,
+      "y": 495,
+      "link": "https://claude-docs.github.io/skills/advanced#file-content-injection",
+      "bgColor": "#f2ecd2",
+      "parent": "#kaeiiw"
+    },
+    {
+      "@id": "#hr7gru",
+      "name": "Runtime Context",
+      "x": -208,
+      "y": 386,
+      "link": "https://claude-docs.github.io/skills/advanced#runtime-context",
+      "bgColor": "#f2ecd2",
+      "parent": "#kaeiiw"
+    },
+    {
+      "@id": "#ex7p2z",
+      "name": "Skill Testing",
+      "x": -201,
+      "y": 127,
+      "link": "https://claude-docs.github.io/skills/advanced#skill-testing",
+      "bgColor": "#b1dfb5",
+      "parent": "#this"
+    },
+    {
+      "@id": "#9yhxzb",
+      "name": "Test Case Format",
+      "x": -355,
+      "y": 299,
+      "link": "https://claude-docs.github.io/skills/advanced#test-case-format",
+      "bgColor": "#ddf2de",
+      "parent": "#ex7p2z"
+    },
+    {
+      "@id": "#iq2kxk",
+      "name": "Automated Validation",
+      "x": -512,
+      "y": 249,
+      "link": "https://claude-docs.github.io/skills/advanced#automated-validation",
+      "bgColor": "#ddf2de",
+      "parent": "#ex7p2z"
+    },
+    {
+      "@id": "#9f6x5c",
+      "name": "← Skills & Commands",
+      "x": -247,
+      "y": 34,
+      "link": "./skills-commands.jsonld",
+      "bgColor": "#ececec",
+      "parent": "#this"
+    }
+  ],
+  "connections": [
+    {
+      "start": 0,
+      "end": 1
+    },
+    {
+      "start": 1,
+      "end": 2
+    },
+    {
+      "start": 1,
+      "end": 3
+    },
+    {
+      "start": 1,
+      "end": 4
+    },
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 6
+    },
+    {
+      "start": 5,
+      "end": 7
+    },
+    {
+      "start": 5,
+      "end": 8
+    },
+    {
+      "start": 0,
+      "end": 9
+    },
+    {
+      "start": 9,
+      "end": 10
+    },
+    {
+      "start": 9,
+      "end": 11
+    },
+    {
+      "start": 9,
+      "end": 12
+    },
+    {
+      "start": 9,
+      "end": 13
+    },
+    {
+      "start": 0,
+      "end": 14
+    },
+    {
+      "start": 14,
+      "end": 15
+    },
+    {
+      "start": 14,
+      "end": 16
+    },
+    {
+      "start": 14,
+      "end": 17
+    },
+    {
+      "start": 0,
+      "end": 18
+    },
+    {
+      "start": 18,
+      "end": 19
+    },
+    {
+      "start": 18,
+      "end": 20
+    },
+    {
+      "start": 18,
+      "end": 21
+    },
+    {
+      "start": 0,
+      "end": 22
+    },
+    {
+      "start": 22,
+      "end": 23
+    },
+    {
+      "start": 22,
+      "end": 24
+    },
+    {
+      "start": 0,
+      "end": 25
+    }
+  ],
+  "selectedNode": 0
+}
